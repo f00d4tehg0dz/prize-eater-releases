@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Prize Eater isn't working
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Prize Eater version
+      description: Shown in Windows Settings → Apps, or the release you downloaded.
+      placeholder: v0.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which chat were you using?
+      options: [Twitch, Kick, Both, Not connected / Demo]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Logged in with Twitch
+        2. Started a draw with the Wheel animation
+        3. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or error messages
+      description: Paste or drag images here. Never include passwords or license keys.

@@ -1,0 +1,14 @@
+name: Feature idea
+description: Suggest something for Prize Eater
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Prize Eater to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help your stream?
