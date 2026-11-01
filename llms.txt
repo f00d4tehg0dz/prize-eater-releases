@@ -1,0 +1,33 @@
+# Prize Eater
+
+> Prize Eater is a free desktop app for Windows, macOS and Linux for running Twitch and Kick giveaways on stream. Viewers enter by typing a command in chat, an animated draw picks the winner (by default a worm eats names until one is left), and the winner must send a chat message before a timer runs out (the "bot check") to claim the prize. If they don't, the worm eats their name on stream and the streamer rerolls.
+
+Key facts:
+- Price: free. No account, subscription, watermark or entry cap. Optional one-time Prize Eater Pro upgrade ($4.99) adds Bot shield (skip new Twitch accounts, blocklist), an entry timer that closes entries on its own with an on-stream countdown, multi-winner draws (up to 10), a brand kit (logo, accent color, stage background), saved giveaway presets, and the Monster pack (the Mimic, the Kraken and the Shark).
+- Platforms: Twitch and Kick, at the same time, feeding one entry list. Any channel's chat can also be read without logging in.
+- System: Windows 10 and 11 (installer or portable .exe), macOS 12 or later on Apple Silicon and Intel (.dmg), 64-bit Linux (AppImage or .deb).
+- Login: in the user's browser on Twitch's or Kick's own site; Prize Eater never sees the password. Tokens are stored locally, encrypted by the system: DPAPI on Windows, the Keychain on macOS, GNOME Keyring or KWallet on Linux.
+- Entries: custom chat command or any chatter; everyone, subscribers only, or mods and VIPs only; manual adds; Twitch import of current viewers, subscribers and moderators.
+- Odds: subscriber ticket multiplier x1, x2, x3 or x5; optional skip of past winners; winners picked with crypto.getRandomValues using unbiased sampling.
+- Draw animations: Prize Eater (default; the worm eats names until one is left), Reel, Wheel, Pull-in, Marble race, Battle royale, Claw machine.
+- Bot check: the winner must chat before a timer runs out. It can run with the Prize Eater monster or as a plain countdown.
+- Docs: https://prizeeater.app/#docs
+- Giveaway types: raffle; First to type (a code word appears on stream and the first viewer to type it in chat wins); Guess the number (viewers guess in chat, the closest guess wins, ties go to the earliest guess). The worm has a cartoon look and a scary look; Pro adds the Mimic, Kraken and Shark monsters.
+- Bot check: 5–600 second timer; custom on-stage message; auto-claims when the winner chats; manual "mark claimed".
+- Music: original built-in music for each scene (entry screen, draw, Prize Eater, winner), composed by the app so it is safe to play on stream; on/off with M; separate music and effects levels; custom royalty-free tracks supported.
+- Demo: one button runs a full fake giveaway (entries, draw, bot check) and restores the real entry list afterwards.
+- OBS: full-window stage for Window Capture, optional green screen; animations keep running in the background.
+- Hotkeys: D draw, R reroll, B bot check, E entry screen, F full window, M music.
+- Winner card: 1600x900 PNG export.
+- Not affiliated with Twitch or Kick.
+
+## Links
+
+- [Website](https://prizeeater.app/): overview, features, Pro and FAQ
+- [Download the latest Windows installer](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Setup.exe)
+- [Download the latest portable .exe](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Portable.exe)
+- [Download for Mac with Apple Silicon](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-mac-arm64.dmg)
+- [Download for Mac with Intel](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-mac-x64.dmg)
+- [Download the Linux AppImage](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-linux-x64.AppImage)
+- [Download the Linux .deb](https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-linux-x64.deb)
+- [All releases](https://github.com/f00d4tehg0dz/prize-eater-releases/releases)

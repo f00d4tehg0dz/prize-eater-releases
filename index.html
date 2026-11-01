@@ -1,0 +1,2389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prize Eater: Free Twitch &amp; Kick Giveaway App for Streamers</title>
+<meta name="description" content="Prize Eater is a free giveaway app for Twitch and Kick on Windows, Mac and Linux. Viewers enter from chat, a worm eats names until one winner is left, and the winner has to chat before it eats theirs too.">
+<link rel="canonical" href="https://prizeeater.app/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#191b1e">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prize Eater">
+<meta property="og:title" content="Prize Eater: giveaways your chat has to fight for">
+<meta property="og:description" content="Free giveaway app for Twitch and Kick on Windows, Mac and Linux. Chat entries, a worm that eats names until one winner is left, and a bot check where the winner blasts it to claim the prize.">
+<meta property="og:url" content="https://prizeeater.app/">
+<meta property="og:image" content="https://prizeeater.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Prize Eater: a toothy worm lunging at a gift box hanging from two ropes">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Prize Eater: giveaways your chat has to fight for">
+<meta name="twitter:description" content="Free giveaway app for Twitch and Kick on Windows, Mac and Linux, with a bot check boss fight.">
+<meta name="twitter:image" content="https://prizeeater.app/og.jpg">
+<link rel="preload" as="image" href="hero.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&family=Big+Shoulders+Display:wght@800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://prizeeater.app/#app",
+      "name": "Prize Eater",
+      "alternateName": "Prize Eater giveaway app",
+      "description": "Prize Eater is a free desktop app for Windows, macOS and Linux for running Twitch and Kick giveaways on stream. Viewers enter by typing a command in chat, an animated draw picks the winner, and the winner must send a chat message before a timer runs out to prove they are a real person and claim the prize.",
+      "applicationCategory": "MultimediaApplication",
+      "applicationSubCategory": "Livestream giveaway tool",
+      "operatingSystem": "Windows 10, Windows 11, macOS 12 or later, Linux",
+      "url": "https://prizeeater.app/",
+      "downloadUrl": "https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest",
+      "installUrl": "https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest",
+      "image": "https://prizeeater.app/og.jpg",
+      "screenshot": "https://prizeeater.app/hero.jpg",
+      "isAccessibleForFree": true,
+      "offers": [
+        { "@type": "Offer", "name": "Prize Eater", "price": "0", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Prize Eater Pro (optional one-time upgrade)", "price": "4.99", "priceCurrency": "USD" }
+      ],
+      "author": { "@type": "Person", "name": "f00d4tehg0dz" },
+      "featureList": [
+        "Viewers enter from Twitch and Kick chat with a custom command, or by chatting",
+        "Twitch and Kick at the same time, one shared entry list",
+        "Subscriber-only or mods-and-VIPs-only giveaways",
+        "Extra tickets for subscribers (x1, x2, x3 or x5)",
+        "Import Twitch viewers, subscribers and moderators",
+        "Seven draw animations: Prize Eater, Reel, Wheel, Pull-in, Marble race, Battle royale and Claw machine",
+        "Giveaway types: raffle, First to type and Guess the number",
+        "Prize Eater worm in a cartoon look or a scary look",
+        "Pro Monster pack: Mimic, Kraken and Shark",
+        "Pro entry timer that closes entries on its own",
+        "Pro multi-winner draws (up to 10 winners)",
+        "Pro brand kit: logo, accent color and stage background",
+        "Pro giveaway presets",
+        "Original built-in music for each scene, safe to play on stream",
+        "Cryptographically random draws",
+        "Bot check: the winner must chat before the timer ends",
+        "Demo mode that runs a full fake giveaway",
+        "Full-window stage and green screen for OBS",
+        "1600x900 winner card PNG export",
+        "Keyboard shortcuts for draw, reroll, bot check and music"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://prizeeater.app/#site",
+      "url": "https://prizeeater.app/",
+      "name": "Prize Eater"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://prizeeater.app/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is Prize Eater?", "acceptedAnswer": { "@type": "Answer", "text": "Prize Eater is a free app for Windows, macOS and Linux for running giveaways on Twitch and Kick. Viewers enter from chat, an animated draw picks a winner on stream, and the winner has to send a chat message before the timer runs out to claim the prize." } },
+        { "@type": "Question", "name": "Is Prize Eater free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Prize Eater is free to download and use, with no subscription, no entry cap and no watermark. Prize Eater Pro is an optional one-time upgrade for $4.99 with extras like an entry timer, multi-winner draws, a brand kit and more monsters." } },
+        { "@type": "Question", "name": "Does Prize Eater work with Kick?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Log in with Kick and Prize Eater reads your Kick chat. You can be logged in to Twitch and Kick at the same time, and entries from both chats go into one draw." } },
+        { "@type": "Question", "name": "Is the music safe to play on stream?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The built-in music is original and composed by Prize Eater itself, so there is nothing to claim a copyright strike on. Each scene has its own track, M turns music on and off, and you can swap in your own royalty-free tracks." } },
+        { "@type": "Question", "name": "How do I show Prize Eater on stream in OBS?", "acceptedAnswer": { "@type": "Answer", "text": "Press Full window in Prize Eater, then add a Window Capture source in OBS and pick the Prize Eater window. Set the stage background to Green screen and add a Chroma Key filter if you want it over your scene. Animations keep running while the window is behind OBS." } },
+        { "@type": "Question", "name": "Can I test a giveaway without going live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Press Demo and Prize Eater runs a full fake giveaway: fake viewers enter, the draw runs and the bot check plays out. Your real entry list comes back when it ends." } },
+        { "@type": "Question", "name": "Are Prize Eater draws actually random?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Winners are picked with a cryptographic random number generator (crypto.getRandomValues) using unbiased sampling. Subscriber ticket multipliers are the only weighting, and they are shown next to each entry." } },
+        { "@type": "Question", "name": "Do I have to give Prize Eater my Twitch or Kick password?", "acceptedAnswer": { "@type": "Answer", "text": "No. You log in on Twitch's or Kick's own website in your browser, and Prize Eater receives a token. Tokens are stored on your computer, encrypted by your system (DPAPI on Windows, the Keychain on macOS, GNOME Keyring or KWallet on Linux), and you can log out at any time." } },
+        { "@type": "Question", "name": "What does Prize Eater Pro add?", "acceptedAnswer": { "@type": "Answer", "text": "Pro is an optional one-time upgrade for $4.99. It adds Bot shield, which skips new Twitch accounts and blocklisted names; an entry timer that closes entries on its own with a countdown on stream; several winners in one draw; a brand kit with your logo, accent color and stage background; saved giveaway presets; and the Monster pack: the Mimic, the Kraken and the Shark." } },
+        { "@type": "Question", "name": "Does Prize Eater run on Mac or Linux?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Prize Eater runs on Windows 10 and 11, on macOS 12 or later (Apple Silicon and Intel Macs), and on 64-bit Linux as an AppImage or a .deb package." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+/* Layout: console-themed product page. Rack header, hero split (copy | program monitor with key art),
+   run of show, draw animations, interactive bot check, spec sheet, Pro, FAQ.
+   Same identity as the app: gunmetal hardware, amber keys, red on-air tally, bone label tape. */
+:root{
+  --chassis:#191b1e; --plate:#222529; --plate-hi:#2c3035; --well:#0f1113; --edge:#363b41; --edge-lo:#0a0b0d; --row:#1d2023;
+  --ink:#ebe5d6; --dim:#9298a0; --faint:#5c6168; --tape:#ece4cf; --tape-ink:#16181b;
+  --tally:#ff3d2e; --tally-deep:#9e160c; --amber:#ffb020; --go:#46d17e;
+  --f-label:"Barlow Condensed","Arial Narrow",sans-serif; --f-body:"Barlow",system-ui,"Segoe UI",sans-serif;
+  --f-show:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif; --f-read:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--chassis);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--chassis);color:var(--ink);font:17px/1.6 var(--f-body)}
+a{color:var(--amber)}
+img{max-width:100%}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.label{font:700 12px/1 var(--f-label);letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
+.tape{display:inline-block;font:700 11px/1 var(--f-label);letter-spacing:.16em;text-transform:uppercase;background:var(--tape);color:var(--tape-ink);padding:5px 8px 4px;transform:rotate(-1.2deg)}
+.key{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:7px;border:1px solid var(--edge-lo);text-decoration:none;
+  background:linear-gradient(#363a3f,#2a2d31);color:var(--ink);font:700 15px/1 var(--f-label);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 3px 0 var(--edge-lo);transition:filter .12s}
+.key:hover{filter:brightness(1.12)}
+.key:active{transform:translateY(2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 1px 0 var(--edge-lo)}
+.key.amber{background:linear-gradient(#ffc650,#f0a000);color:#1c1405;border-color:#5e3d00;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 3px 0 #4d3200,0 0 26px rgba(255,176,32,.25)}
+.key.red{background:linear-gradient(#ff5e50,#df2618);color:#fff;border-color:#5c0b05;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 3px 0 #4f0904}
+.key.sm{min-height:36px;padding:0 14px;font-size:13px}
+kbd,code{font:500 .9em var(--f-read);background:var(--well);padding:1px 5px;border-radius:3px;color:var(--amber)}
+kbd{border:1px solid var(--edge-lo)}
+
+/* rack */
+.rack{position:sticky;top:0;z-index:20;background:linear-gradient(#272a2e,#1e2023);border-bottom:1px solid var(--edge-lo);box-shadow:0 6px 18px rgba(0,0,0,.35)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:#272a2e}
+.rack .wrap{display:flex;align-items:center;gap:20px;min-height:62px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);margin-right:auto}
+.brand img{width:30px;height:30px;display:block}
+.wordmark{font:italic 900 26px/1 var(--f-show);text-transform:uppercase}
+.rack nav{display:flex;gap:22px}
+.rack nav a{color:var(--dim);text-decoration:none;font:700 13px/1 var(--f-label);letter-spacing:.16em;text-transform:uppercase}
+.rack nav a:hover{color:var(--ink)}
+.rack nav a.donate{color:#062312;background:linear-gradient(#5fe39a,#22a85a);border:1px solid #0b4424;border-radius:6px;padding:7px 11px 6px;margin:-8px 0;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 0 #0a3a1f,0 0 16px rgba(70,209,126,.25)}
+.rack nav a.donate:hover{filter:brightness(1.08);color:#062312}
+
+/* hero */
+.hero{padding-block:60px 72px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr);gap:48px;align-items:center}
+.hero h1{margin:16px 0 0;font:italic 900 clamp(46px,6.2vw,82px)/.9 var(--f-show);text-transform:uppercase;text-wrap:balance}
+.hero h1 em{font-style:inherit;color:var(--amber)}
+.lede{margin:22px 0 0;font-size:19px;color:#d6d0c2;max-width:34em}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.fine{margin:14px 0 0;font:500 13px var(--f-read);color:var(--dim)}
+.monitor{background:linear-gradient(#2b2e33,#1e2023);border:1px solid var(--edge-lo);border-radius:14px;padding:10px 12px 14px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 24px 60px rgba(0,0,0,.5);min-width:0}
+.mon-head{display:flex;align-items:center;gap:10px;padding:2px 2px 10px}
+.tally{margin-left:auto;font:700 11px/1 var(--f-label);letter-spacing:.2em;text-transform:uppercase;padding:5px 10px;border-radius:3px;background:var(--tally);color:#fff;box-shadow:0 0 18px rgba(255,61,46,.5)}
+.screen{position:relative;aspect-ratio:16/9;border-radius:3px;overflow:hidden;container-type:inline-size;
+  background:repeating-linear-gradient(-62deg,rgba(255,255,255,.022) 0 2px,transparent 2px 15px),radial-gradient(90% 85% at 72% 18%,#2b3238 0%,#15181b 58%,#0b0c0e 100%);box-shadow:0 0 0 2px #050607,0 0 0 3px #33383d}
+.screen picture,.screen picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.screen.art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,9,10,0) 55%,rgba(8,9,10,.82) 100%);pointer-events:none}
+.eyebrow{display:inline-block;margin:0;font:italic 800 1.8cqw/1 var(--f-show);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--tally);padding:.6cqw 2.2cqw .55cqw 1.3cqw;clip-path:polygon(0 0,100% 0,calc(100% - 1.3cqw) 100%,0 100%)}
+.lower{position:absolute;left:4cqw;bottom:4cqw;z-index:2;display:flex;flex-direction:column;align-items:flex-start;gap:1cqw}
+.howto{display:flex;font:italic 800 2.5cqw/1 var(--f-show);text-transform:uppercase}
+.howto .l{background:var(--tape);color:var(--tape-ink);padding:1.1cqw 1.6cqw}
+.howto .c{background:var(--amber);color:#1c1405;padding:1.1cqw 3cqw 1.1cqw 1.6cqw;clip-path:polygon(0 0,100% 0,calc(100% - 1.5cqw) 100%,0 100%);text-transform:none}
+.count{position:absolute;right:4cqw;bottom:3.6cqw;z-index:2;text-align:right;line-height:1;text-shadow:0 .4cqw 1.6cqw rgba(0,0,0,.8)}
+.count b{display:block;font:900 9cqw/.82 var(--f-show);font-variant-numeric:tabular-nums}
+.count span{display:block;margin-top:.6cqw;font:700 1.4cqw var(--f-label);letter-spacing:.32em;text-transform:uppercase;color:#c9ccd0}
+.drop{position:absolute;z-index:2;font:italic 800 1.9cqw/1 var(--f-show);text-transform:uppercase;white-space:nowrap;background:var(--tape);color:var(--tape-ink);padding:.7cqw 2cqw .7cqw 1.4cqw;clip-path:polygon(1cqw 0,100% 0,calc(100% - 1cqw) 100%,0 100%);animation:slidein 3.6s cubic-bezier(.2,.9,.25,1) forwards}
+.drop::before{content:"+1 ";color:var(--tally)}
+@keyframes slidein{0%{transform:translateX(-40cqw);opacity:0}12%{transform:none;opacity:1}84%{transform:none;opacity:1}100%{transform:translateY(-1.5cqw);opacity:0}}
+
+/* sections */
+section.band{padding-block:84px;border-top:1px solid var(--edge-lo);box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
+.sec-head{display:flex;flex-direction:column;gap:12px;margin-bottom:40px;max-width:44em}
+.sec-head h2{margin:0;font:italic 900 clamp(36px,4.6vw,58px)/.92 var(--f-show);text-transform:uppercase;text-wrap:balance}
+.sec-head p{margin:0;color:#cfc9bb}
+.grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;background:var(--edge-lo);border:1px solid var(--edge-lo);border-radius:12px;overflow:hidden}
+.grid li{background:var(--plate);padding:24px 22px 26px;display:flex;flex-direction:column;gap:10px}
+.grid h3{margin:0;font:italic 900 28px/1 var(--f-show);text-transform:uppercase}
+.grid p{margin:0;color:#cfc9bb;font-size:15.5px}
+.steps{counter-reset:s}
+.steps li{counter-increment:s}
+.steps li::before{content:"CUE " counter(s,decimal-leading-zero);font:500 12px var(--f-read);color:var(--amber)}
+.draws li{position:relative}
+.draws .tag{font:500 12px var(--f-read);color:var(--dim)}
+.draws li.def{background:linear-gradient(var(--plate-hi),var(--plate))}
+.draws li.def .tag{color:var(--amber)}
+.after{margin:18px 0 0;color:var(--dim);font-size:15px}
+
+.demo{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
+.demo .screen canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.demo .lower{gap:.9cqw}
+.demo .lower p{margin:0;font:italic 900 3.2cqw/.95 var(--f-show);text-transform:uppercase;text-shadow:0 .3cqw 1cqw rgba(0,0,0,.8)}
+.ring{position:absolute;right:3.5cqw;bottom:3.5cqw;width:13cqw;aspect-ratio:1;z-index:2;background:radial-gradient(circle,rgba(11,12,14,.85) 58%,transparent 60%)}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:9}
+.ring .track{stroke:rgba(255,255,255,.1)}
+.ring .prog{stroke:var(--amber);stroke-dasharray:326.73}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font:900 5.6cqw/1 var(--f-show);font-variant-numeric:tabular-nums}
+.ring.hot .prog{stroke:var(--tally)}.ring.hot b{color:var(--tally)}
+.ring.done .prog{stroke:var(--go)}.ring.done b{color:var(--go);font-size:3cqw}
+.result{position:absolute;left:0;right:0;top:5cqw;text-align:center;font:italic 900 6.5cqw/.9 var(--f-show);text-transform:uppercase;color:var(--amber);text-shadow:0 .5cqw 0 #3d2800;z-index:3}
+.result.bad{color:var(--tally);text-shadow:0 .5cqw 0 #4a0a05}
+.demo-copy{display:flex;flex-direction:column;gap:16px}
+.demo-copy p{margin:0;color:#cfc9bb}
+.chatbox{display:flex;gap:8px;background:var(--well);border:1px solid var(--edge-lo);border-radius:8px;padding:8px;box-shadow:inset 0 1px 4px rgba(0,0,0,.7)}
+.chatbox span{flex:1;align-self:center;padding-left:6px;font:500 14px var(--f-read);color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.seg{display:inline-flex;flex-wrap:wrap;align-self:flex-start;background:var(--well);border:1px solid var(--edge-lo);border-radius:8px;padding:4px;gap:4px}
+.seg button{min-height:34px;padding:0 16px;border:0;border-radius:5px;background:transparent;color:var(--dim);font:700 13px/1 var(--f-label);letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+.seg button i{font:500 10px var(--f-read);font-style:normal;letter-spacing:0;text-transform:none;color:#1c1405;background:var(--amber);padding:1px 4px;border-radius:2px;margin-left:4px;vertical-align:1px}
+.seg button[aria-pressed="true"]{background:linear-gradient(#363a3f,#2a2d31);color:var(--ink);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+
+.spec{width:100%;border-collapse:collapse;background:var(--plate);border:1px solid var(--edge-lo);border-radius:12px;overflow:hidden}
+.spec th,.spec td{text-align:left;vertical-align:top;padding:16px 22px;border-bottom:1px solid var(--row)}
+.spec tr:last-child th,.spec tr:last-child td{border-bottom:0}
+.spec th{width:220px;font:700 13px/1.5 var(--f-label);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.spec td{color:#e2dccd}
+.spec-wrap{overflow-x:auto}
+
+.pro{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:start}
+.price{background:linear-gradient(#2b2e33,#222529);border:1px solid var(--edge-lo);border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:14px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.price>b{font:900 72px/.85 var(--f-show);color:var(--amber)}
+.price>b small{font:700 15px var(--f-label);letter-spacing:.16em;color:var(--dim);margin-left:8px;text-transform:uppercase}
+.price p{margin:0;color:#cfc9bb;font-size:15.5px}
+
+.faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:var(--edge-lo);border:1px solid var(--edge-lo);border-radius:12px;overflow:hidden}
+.faq article{background:var(--plate);padding:24px 26px}
+.faq h3{margin:0 0 8px;font:italic 900 25px/1.05 var(--f-show);text-transform:uppercase}
+.faq p{margin:0;color:#cfc9bb;font-size:16px}
+.docs ol,.docs ul{margin:0;padding-left:20px;color:#cfc9bb;font-size:16px;display:flex;flex-direction:column;gap:6px}
+.docs p+p,.docs p+ul,.docs ul+p{margin-top:8px}
+.docs b{color:var(--ink);font-weight:600}
+.docs kbd{display:inline-block;min-width:22px;padding:1px 7px;margin:2px 3px 2px 8px;border:1px solid var(--edge-lo);border-radius:5px;background:#121417;color:var(--ink);font:600 13px ui-monospace,Consolas,monospace;text-align:center}
+.docs .keys kbd{margin-left:0}
+.docs .keys span{white-space:nowrap;margin-right:6px}
+.docs article:last-child:nth-child(odd){grid-column:1/-1}
+
+.cta-band .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(#2b2e33,#222529);border:1px solid var(--edge-lo);border-radius:14px;padding:34px 36px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.cta-band h2{margin:0;font:italic 900 clamp(32px,4vw,48px)/.95 var(--f-show);text-transform:uppercase}
+.cta-band p{margin:8px 0 0;color:var(--dim)}
+footer{padding-block:34px 44px;color:var(--dim);font-size:14px;border-top:1px solid var(--edge-lo)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:var(--ink)}
+
+/* draw demo: the app's own draw animations */
+.picks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:var(--edge-lo);border:1px solid var(--edge-lo);border-radius:12px;overflow:hidden}
+.pick{display:flex;flex-direction:column;gap:6px;text-align:left;background:var(--plate);border:0;padding:16px 16px 18px;color:#cfc9bb;font:15px/1.45 var(--f-body);cursor:pointer;position:relative}
+.pick b{font:italic 900 24px/1 var(--f-show);text-transform:uppercase;color:var(--ink)}
+.pick .tag{font:500 12px var(--f-read);color:var(--dim)}
+.pick:hover{background:var(--plate-hi)}
+.pick[aria-pressed="true"]{background:linear-gradient(var(--plate-hi),var(--plate));box-shadow:inset 0 3px 0 var(--amber)}
+.pick[aria-pressed="true"] .tag{color:var(--amber)}
+.picks .pick:last-child:nth-child(odd){grid-column:1/-1}
+#drawScene{position:absolute;inset:0;color:var(--ink)}
+#drawScreen .game{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 5cqw 8cqw}
+#drawScreen .game .p1{font-size:3.6cqw}
+#drawScreen .game .code{margin:2cqw 0 1.2cqw;font:italic 900 10cqw/.95 var(--f-show);letter-spacing:.03em;color:var(--tape-ink);background:var(--amber);padding:.6cqw 3.4cqw .4cqw;clip-path:polygon(1.5cqw 0,100% 0,calc(100% - 1.5cqw) 100%,0 100%)}
+#drawScreen .game .big{margin:1.6cqw 0 .8cqw;font:italic 900 10cqw/.95 var(--f-show);color:var(--amber)}
+#drawScreen .game .sub{margin:.4cqw 0 0;font:600 2.2cqw/1.3 var(--f-body);color:#c9ccd0}
+#drawScreen .game-count{position:absolute;left:5cqw;bottom:4cqw;text-align:left;line-height:1}
+#drawScreen .game-count b{display:block;font:italic 900 7cqw/.85 var(--f-show)}
+#drawScreen .game-count span{font:700 1.5cqw var(--f-label);letter-spacing:.3em;text-transform:uppercase;color:var(--dim)}
+#drawScreen .guess-feed{position:absolute;left:16cqw;right:16cqw;bottom:4.5cqw;display:flex;flex-wrap:wrap;justify-content:center;gap:.7cqw}
+#drawScreen .guess-feed span{font:italic 800 2.1cqw/1 var(--f-show);background:var(--tape);color:var(--tape-ink);padding:.5cqw 1.2cqw;clip-path:polygon(.6cqw 0,100% 0,calc(100% - .6cqw) 100%,0 100%)}
+#drawFx{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
+#drawScreen .p1{margin:1.1cqw 0 0;font:italic 900 6cqw/.9 var(--f-show);text-transform:uppercase;letter-spacing:.005em;text-wrap:balance;color:var(--ink);text-shadow:0 .35cqw 0 rgba(0,0,0,.45)}
+#drawScreen .p2{margin:.9cqw 0 0;font:600 2.1cqw/1.25 var(--f-body);color:#b7b9bd;text-wrap:balance}
+#drawScreen .top-left{position:absolute;left:5cqw;top:4.5cqw;right:5cqw;z-index:2}
+#drawScreen .top-left.center{text-align:center}
+#drawScreen .top-left .p1{font-size:3.8cqw}
+#drawScreen .reel-window{position:absolute;left:50%;top:60%;transform:translate(-50%,-50%);width:60cqw;height:28cqw;overflow:hidden;background:var(--well);box-shadow:0 0 0 .25cqw #30353a,0 1.5cqw 3cqw rgba(0,0,0,.55)}
+#drawScreen .reel-window::before,#drawScreen .reel-window::after{content:"";position:absolute;left:0;right:0;height:38%;z-index:2;pointer-events:none}
+#drawScreen .reel-window::before{top:0;background:linear-gradient(#0f1113 8%,rgba(15,17,19,0))}
+#drawScreen .reel-window::after{bottom:0;background:linear-gradient(rgba(15,17,19,0),#0f1113 92%)}
+#drawScreen .reel-strip{will-change:transform}
+#drawScreen .tile{height:7cqw;display:flex;align-items:center;justify-content:center;padding:0 2cqw;font:italic 900 4.2cqw/1 var(--f-show);color:#9aa0a7;border-bottom:1px solid #1c1f22;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#drawScreen .tile.hit{background:var(--amber);color:#1c1405;animation:dthunk .45s}
+@keyframes dthunk{30%{transform:scale(1.06)}}
+#drawScreen .reel-arrow{position:absolute;top:60%;width:0;height:0;border-top:2cqw solid transparent;border-bottom:2cqw solid transparent;transform:translateY(-50%);z-index:3}
+#drawScreen .reel-arrow.l{left:calc(50% - 33cqw);border-left:2.6cqw solid var(--tally)}
+#drawScreen .reel-arrow.r{right:calc(50% - 33cqw);border-right:2.6cqw solid var(--tally)}
+#drawScreen .wheel-wrap{position:absolute;top:5%;bottom:5%;right:5cqw;aspect-ratio:1;max-width:100%}
+#drawScreen .wheel-wrap canvas{width:100%;height:100%;display:block}
+#drawScreen .pointer{position:absolute;top:-1cqw;left:50%;transform:translateX(-50%);width:0;height:0;border-left:1.8cqw solid transparent;border-right:1.8cqw solid transparent;border-top:3.4cqw solid var(--tally);filter:drop-shadow(0 .4cqw 0 rgba(0,0,0,.5));z-index:2}
+#drawScreen .s-wheel .top-left{right:auto;width:38cqw;top:auto;bottom:6cqw}
+#drawScreen .s-wheel .top-left .p1{font-size:4.6cqw}
+#drawScreen .field-area{position:absolute;inset:0}
+#drawScreen .chip{position:absolute;left:0;top:0;transition:transform .85s cubic-bezier(.2,.85,.25,1)}
+#drawScreen .chip-in{display:block;font:italic 800 1.9cqw/1 var(--f-show);letter-spacing:.02em;background:var(--tape);color:var(--tape-ink);padding:.65cqw 1.5cqw;white-space:nowrap;clip-path:polygon(.7cqw 0,100% 0,calc(100% - .7cqw) 100%,0 100%);transition:transform .45s ease-in,opacity .45s ease-in,background .3s}
+#drawScreen .chip-in.out{transform:translateY(9cqw) rotate(16deg) scale(.6);opacity:0}
+#drawScreen .chip-in.win{transform:scale(2.7);background:var(--amber);transition:transform .9s cubic-bezier(.2,1.4,.3,1),background .3s}
+#drawScreen .reveal{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 5cqw}
+#drawScreen .wname{margin:1.2cqw 0 .8cqw;font:italic 900 10cqw/.9 var(--f-show);white-space:nowrap;color:var(--amber);text-shadow:0 .55cqw 0 #3d2800,0 0 5cqw rgba(255,176,32,.35)}
+#drawScreen .wname span{display:inline-block;animation:dpop .55s cubic-bezier(.2,1.4,.3,1) both}
+@keyframes dpop{0%{transform:translateY(55%) scale(.4);opacity:0}100%{transform:none;opacity:1}}
+#drawScreen .reveal .p1{font-size:3.4cqw}
+#drawScreen canvas.beast{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+@media (max-width:980px){
+  .hero .wrap,.demo,.pro{grid-template-columns:minmax(0,1fr)}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .faq{grid-template-columns:minmax(0,1fr)}
+  .rack nav{display:none}
+}
+@media (max-width:560px){
+  .grid{grid-template-columns:minmax(0,1fr)}
+  .spec th{width:auto}
+  .spec th,.spec td{display:block;padding:10px 18px}
+  .spec th{padding-bottom:0;border-bottom:0}
+  .rack .key{display:none}
+  .cta-band .inner{padding:26px 22px}
+}
+</style>
+</head>
+<body>
+<header class="rack">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Prize Eater home"><img src="favicon.svg" alt="" width="30" height="30"><span class="wordmark">Prize Eater</span></a>
+    <nav aria-label="Sections"><a href="#how">How it works</a><a href="#draws">Draws</a><a href="#bot-check">Bot check</a><a href="#features">Features</a><a href="#docs">Docs</a><a href="#faq">FAQ</a><!--kofi--><a class="donate" href="https://ko-fi.com/sosogames" rel="noopener"><span aria-hidden="true">♥</span> Donate</a><!--/kofi--></nav>
+    <a class="key amber sm" data-dl href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Setup.exe">Download</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="tape">Free giveaway app · Twitch + Kick</span>
+        <h1>Giveaways your chat has to <em>fight for</em></h1>
+        <p class="lede"><strong>Prize Eater</strong> is a free app for Windows, Mac and Linux for running Twitch and Kick giveaways on stream. Viewers enter from chat, a worm eats names until one winner is left, and the winner has to chat before it eats theirs too.</p>
+        <div class="ctas">
+          <a class="key amber" data-dl="label" href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Setup.exe">Download for Windows</a>
+          <a class="key" href="#bot-check">Try the bot check</a>
+        </div>
+        <p class="fine">Free, no account. Also for <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Setup.exe">Windows</a> · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-mac-arm64.dmg">Mac (Apple Silicon)</a> · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-mac-x64.dmg">Mac (Intel)</a> · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-linux-x64.AppImage">Linux AppImage</a> · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-linux-x64.deb">Linux .deb</a> · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest">all downloads</a></p>
+      </div>
+      <div class="monitor" aria-label="Prize Eater on stream">
+        <div class="mon-head"><span class="label">PGM · Program out</span><span class="tally">On air</span></div>
+        <div class="screen art">
+          <picture>
+            <source srcset="hero.webp" type="image/webp">
+            <img src="hero.jpg" width="1376" height="768" alt="The Prize Eater, a giant toothy worm, lunging at a gift box that hangs from two ropes" fetchpriority="high">
+          </picture>
+          <div class="lower">
+            <p class="eyebrow">Giveaway live</p>
+            <div class="howto"><span class="l">Type in chat</span><span class="c">!raffle</span></div>
+          </div>
+          <div class="count"><b id="heroCount">41</b><span>entries</span></div>
+          <div id="heroDrops"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Run of show</span>
+        <h2>How a Prize Eater giveaway runs</h2>
+        <p>Four cues, all from one window. Hotkeys cover the live parts, so you never alt-tab mid-draw.</p>
+      </div>
+      <ol class="grid steps">
+        <li><h3>Chat enters</h3><p>Viewers type your command, like <code>!raffle</code>, in Twitch or Kick chat. Limit it to subs or mods, and give subs extra tickets.</p></li>
+        <li><h3>Draw</h3><p>Press <kbd>D</kbd>. The Prize Eater eats names until one is left, or pick Reel, Wheel or Pull-in instead.</p></li>
+        <li><h3>Bot check</h3><p>Press <kbd>B</kbd>. The winner's name hangs from two ropes while the worm closes in. One chat message and it gets lasered.</p></li>
+        <li><h3>Winner card</h3><p>Export a 1600×900 PNG with the winner and prize for Discord, X or your next stream.</p></li>
+      </ol>
+      <p class="after">Not live yet? Press <b>Demo</b> in the app and it runs the whole thing with fake viewers, then puts your real list back.</p>
+    </div>
+  </section>
+
+  <section class="band" id="draws">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Draw animations</span>
+        <h2>Seven ways to pick a winner</h2>
+        <p>Every draw has its own sound and a confetti winner reveal, and there are two chat games for when you want something other than a raffle. Pick one to watch it run, and switch the monster: the cartoon and scary worms are free, and the Mimic, Kraken and Shark come with Pro.</p>
+      </div>
+      <div class="demo draw-demo">
+        <div class="monitor">
+          <div class="mon-head"><span class="label">PGM · Draw</span><span class="tally">On air</span></div>
+          <div class="screen" id="drawScreen"><div id="drawScene"></div><canvas id="drawFx" aria-hidden="true"></canvas></div>
+        </div>
+        <div class="demo-copy">
+          <div class="picks" role="group" aria-label="Draw animation">
+            <button type="button" class="pick" data-anim="eater" aria-pressed="true"><span class="tag">Default</span><b>Prize Eater</b><span>The worm eats names one by one until a single winner is left.</span></button>
+            <button type="button" class="pick" data-anim="reel" aria-pressed="false"><span class="tag">Classic</span><b>Reel</b><span>Names roll past like a slot reel and land on one.</span></button>
+            <button type="button" class="pick" data-anim="wheel" aria-pressed="false"><span class="tag">Classic</span><b>Wheel</b><span>A wheel of entrants ticks to a stop.</span></button>
+            <button type="button" class="pick" data-anim="pull" aria-pressed="false"><span class="tag">Classic</span><b>Pull-in</b><span>Names fly in and drop out until one stays.</span></button>
+            <button type="button" class="pick" data-anim="marble" aria-pressed="false"><span class="tag">New</span><b>Marble race</b><span>Glass marbles race down a new track every time.</span></button>
+            <button type="button" class="pick" data-anim="royale" aria-pressed="false"><span class="tag">New</span><b>Battle royale</b><span>Everyone drops onto an island and the storm closes in. Last one standing wins.</span></button>
+            <button type="button" class="pick" data-anim="claw" aria-pressed="false"><span class="tag">New</span><b>Claw machine</b><span>An arcade claw grabs the winning capsule out of the pile.</span></button>
+            <button type="button" class="pick" data-anim="first" aria-pressed="false"><span class="tag">Giveaway type</span><b>First to type</b><span>A code word appears on stream. First to type it in chat wins.</span></button>
+            <button type="button" class="pick" data-anim="guess" aria-pressed="false"><span class="tag">Giveaway type</span><b>Guess the number</b><span>Viewers guess in chat. The closest guess wins.</span></button>
+          </div>
+          <div class="seg looks" role="group" aria-label="Prize Eater look"><button type="button" data-look="cartoon" aria-pressed="true">Cartoon</button><button type="button" data-look="scary" aria-pressed="false">Scary</button><button type="button" data-look="mimic" aria-pressed="false">Mimic <i>Pro</i></button><button type="button" data-look="kraken" aria-pressed="false">Kraken <i>Pro</i></button><button type="button" data-look="shark" aria-pressed="false">Shark <i>Pro</i></button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="bot-check">
+    <div class="wrap demo">
+      <div class="monitor">
+        <div class="mon-head"><span class="label">PGM · Bot check</span><span class="tally">On air</span></div>
+        <div class="screen" id="demoScreen">
+          <canvas id="demoCanvas" role="img" aria-label="The winner's name hangs from two ropes while the Prize Eater worm closes in"></canvas>
+          <div class="lower"><span class="eyebrow">Bot check · prove you're real</span><p>Type anything in chat<br>to blast the Prize Eater!</p></div>
+          <div class="ring" id="demoRing"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="track" cx="60" cy="60" r="52"/><circle class="prog" id="demoProg" cx="60" cy="60" r="52"/></svg><b id="demoNum">15</b></div>
+          <div class="result" id="demoResult" hidden></div>
+        </div>
+      </div>
+      <div class="demo-copy">
+        <span class="label">Try it</span>
+        <div class="sec-head" style="margin:0"><h2>The bot check boss fight</h2></div>
+        <p>Giveaway bots and AFK viewers love free keys. Prize Eater makes the winner prove they are watching: they have to send any chat message before the timer runs out.</p>
+        <p>Answer in time and their name breaks free, fires a laser, and blows the worm apart on stream. Stay silent and the worm eats the name, so you reroll.</p>
+        <p>Want it simpler? Switch off the Prize Eater in the Bot check tab and the winner's name stays on screen with a plain countdown.</p>
+        <div class="seg looks" role="group" aria-label="Prize Eater look"><button type="button" data-look="cartoon" aria-pressed="true">Cartoon</button><button type="button" data-look="scary" aria-pressed="false">Scary</button><button type="button" data-look="mimic" aria-pressed="false">Mimic <i>Pro</i></button><button type="button" data-look="kraken" aria-pressed="false">Kraken <i>Pro</i></button><button type="button" data-look="shark" aria-pressed="false">Shark <i>Pro</i></button></div>
+        <div class="chatbox"><span>MossyOtter: here!!</span><button class="key red sm" id="demoSend" type="button">Send chat</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Spec sheet</span>
+        <h2>Prize Eater features</h2>
+      </div>
+      <div class="spec-wrap">
+        <table class="spec">
+          <tbody>
+            <tr><th scope="row">Platforms</th><td>Twitch and Kick, at the same time. Both chats feed one entry list.</td></tr>
+            <tr><th scope="row">Login</th><td>Log in with Twitch or Kick in your browser. Prize Eater never sees your password, and logins are stored encrypted on your PC. You can also read any channel's chat without logging in.</td></tr>
+            <tr><th scope="row">Entries</th><td>Custom chat command, or anyone who chats. Everyone, subscribers only, or mods and VIPs only. Add names by hand. On Twitch, add current viewers, subscribers or mods in one click.</td></tr>
+            <tr><th scope="row">Odds</th><td>Subscriber tickets ×1, ×2, ×3 or ×5. Skip past winners. Draws use <code>crypto.getRandomValues</code> with unbiased sampling.</td></tr>
+            <tr><th scope="row">Draw animations</th><td>Prize Eater, Reel, Wheel, Pull-in, Marble race, Battle royale and Claw machine. The worm comes in a cartoon look or a scary look, and Pro adds the Mimic, the Kraken and the Shark.</td></tr>
+            <tr><th scope="row">Giveaway types</th><td>Raffle, or two chat games: <b>First to type</b> (a code word appears on stream and the first viewer to type it wins) and <b>Guess the number</b> (closest guess wins, ties go to whoever guessed first).</td></tr>
+            <tr><th scope="row">Bot check</th><td>5 to 600 second timer and your own on-stage message. Claims automatically when the winner chats, or mark it claimed by hand.</td></tr>
+            <tr><th scope="row">Music</th><td>Original music for each scene (entry screen, draw, Prize Eater and winner), composed by the app so it's safe on stream. Separate music and effects levels. Swap in your own royalty-free tracks.</td></tr>
+            <tr><th scope="row">OBS</th><td>Full-window stage for Window Capture, optional green screen. Keeps animating when the window is in the background.</td></tr>
+            <tr><th scope="row">Hotkeys</th><td><kbd>D</kbd> draw · <kbd>R</kbd> reroll · <kbd>B</kbd> bot check · <kbd>E</kbd> entry screen · <kbd>F</kbd> full window · <kbd>M</kbd> music</td></tr>
+            <tr><th scope="row">Winner card</th><td>1600×900 PNG with the winner, prize and your own footer line.</td></tr>
+            <tr><th scope="row">Demo</th><td>One button runs a full fake giveaway: entries, draw and bot check. Your real list comes back after.</td></tr>
+            <tr><th scope="row">System</th><td>Windows 10 or 11 (installer or portable .exe), macOS 12 or later on Apple Silicon or Intel (.dmg), and 64-bit Linux (AppImage or .deb).</td></tr>
+            <tr><th scope="row">Price</th><td>Free. No account, no watermark, no entry cap. Optional one-time Pro upgrade.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="band" id="docs">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Docs</span>
+        <h2>How to use Prize Eater</h2>
+      </div>
+      <div class="faq docs">
+        <article>
+          <h3>Get started</h3>
+          <ol>
+            <li>Log in with Twitch or Kick in the top bar. To read a channel without logging in, open Setup and type the channel name.</li>
+            <li>Type your prize in the Draw tab.</li>
+            <li>Viewers enter by typing the chat command. The default is <b>!raffle</b>. Leave it blank and anyone who chats is entered.</li>
+            <li>Press <b>Draw</b>.</li>
+          </ol>
+        </article>
+        <article>
+          <h3>Install</h3>
+          <ul>
+            <li><b>Windows</b>: run PrizeEater-Setup.exe. If SmartScreen shows a notice, choose More info, then Run anyway. The portable .exe runs without installing.</li>
+            <li><b>Mac</b>: open the .dmg and drag Prize Eater into Applications. If macOS says it can't check the app, open System Settings, go to Privacy &amp; Security and choose Open Anyway.</li>
+            <li><b>Linux</b>: install the .deb on Ubuntu or Debian. On other distros, make the AppImage executable and run it.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Put it on stream</h3>
+          <p>Press <b>Full</b>. In OBS, add a Window Capture and pick the Prize Eater window. On a Mac, use macOS Screen Capture set to Window. To show it over your scene, set the stage to Green screen and add a Chroma Key filter in OBS. Press Esc to leave full window.</p>
+        </article>
+        <article>
+          <h3>Entries</h3>
+          <ul>
+            <li><b>Who can enter</b>: everyone, subscribers, or mods and VIPs.</li>
+            <li><b>Sub tickets</b> gives subs extra chances to win.</li>
+            <li><b>Add by name</b> adds people who aren't in chat. Separate names with commas.</li>
+            <li><b>Skip past winners</b> (Draw tab) stops the same person winning twice.</li>
+            <li><b>Subs only</b> and <b>Mods only</b> trim the list. <b>Clear all</b> empties it.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Giveaway types</h3>
+          <ul>
+            <li><b>Raffle</b>: a random entry wins, played out with the draw animation you pick.</li>
+            <li><b>First to type</b>: a code shows on stream. The first viewer to type it in chat wins. Press Stop to end it early.</li>
+            <li><b>Guess the number</b>: viewers type a number in chat and only their first guess counts. Press Reveal and the closest guess wins. A tie goes to whoever guessed first.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Draw animations</h3>
+          <p>Prize Eater, Reel, Wheel, Pull-in, Marble race, Battle royale and Claw machine. The winner is picked first with a secure random number. The animation only shows it, so it can't change who wins.</p>
+        </article>
+        <article>
+          <h3>Bot check</h3>
+          <p>After a draw, press <b>Bot check</b>. The winner has to send any chat message before the timer runs out. If they do, they're marked claimed. If not, press <b>Reroll</b> to draw someone else.</p>
+          <ul>
+            <li>Turn off <b>Prize Eater</b> in the Bot check tab for a plain countdown under the winner's name.</li>
+            <li><b>Mark claimed</b> confirms the winner yourself, for example if they answered on Discord.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Card, sound and log</h3>
+          <ul>
+            <li><b>Card</b>: preview and export a PNG of the winner to post after stream.</li>
+            <li><b>Sound</b>: music and effects levels. The built-in music is safe to play on stream. You can pick your own track for each scene.</li>
+            <li><b>Log</b>: every winner with their prize and status. <b>Copy list</b> copies it. You can run a bot check for any winner from here.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Hotkeys</h3>
+          <p class="keys"><span><kbd>D</kbd> Draw</span> <span><kbd>R</kbd> Reroll</span> <span><kbd>B</kbd> Bot check</span> <span><kbd>E</kbd> Entry screen</span> <span><kbd>F</kbd> Full window</span> <span><kbd>M</kbd> Music</span> <span><kbd>Esc</kbd> Leave full window</span></p>
+          <p>Hotkeys don't fire while you're typing in a text box.</p>
+        </article>
+        <article>
+          <h3>Try it first</h3>
+          <p><b>Demo</b> runs a full fake giveaway with pretend chat. Your real entries come back when it ends.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Questions</span>
+        <h2>Prize Eater FAQ</h2>
+      </div>
+      <div class="faq">
+        <article><h3>What is Prize Eater?</h3><p>Prize Eater is a free app for Windows, macOS and Linux for running giveaways on Twitch and Kick. Viewers enter from chat, an animated draw picks a winner on stream, and the winner has to send a chat message before the timer runs out to claim the prize.</p></article>
+        <article><h3>Is Prize Eater free?</h3><p>Yes. Prize Eater is free to download and use, with no subscription, no entry cap and no watermark. Prize Eater Pro is an optional one-time upgrade for $4.99 with extras like an entry timer, multi-winner draws, a brand kit and more monsters.</p></article>
+        <article><h3>Does Prize Eater work with Kick?</h3><p>Yes. Log in with Kick and Prize Eater reads your Kick chat. You can be logged in to Twitch and Kick at the same time, and entries from both chats go into one draw.</p></article>
+        <article><h3>Is the music safe to play on stream?</h3><p>Yes. The built-in music is original and composed by Prize Eater itself, so there is nothing to claim a copyright strike on. Each scene has its own track, <kbd>M</kbd> turns music on and off, and you can swap in your own royalty-free tracks.</p></article>
+        <article><h3>How do I show Prize Eater on stream in OBS?</h3><p>Press Full window in Prize Eater, then add a Window Capture source in OBS and pick the Prize Eater window. Set the stage background to Green screen and add a Chroma Key filter if you want it over your scene. Animations keep running while the window is behind OBS.</p></article>
+        <article><h3>Can I test a giveaway without going live?</h3><p>Yes. Press Demo and Prize Eater runs a full fake giveaway: fake viewers enter, the draw runs and the bot check plays out. Your real entry list comes back when it ends.</p></article>
+        <article><h3>Are Prize Eater draws actually random?</h3><p>Yes. Winners are picked with a cryptographic random number generator (<code>crypto.getRandomValues</code>) using unbiased sampling. Subscriber ticket multipliers are the only weighting, and they are shown next to each entry.</p></article>
+        <article><h3>Do I have to give Prize Eater my password?</h3><p>No. You log in on Twitch's or Kick's own website in your browser, and Prize Eater receives a token. Tokens are stored on your computer, encrypted by your system (DPAPI on Windows, the Keychain on macOS, GNOME Keyring or KWallet on Linux), and you can log out at any time.</p></article>
+        <article><h3>What does Prize Eater Pro add?</h3><p>Pro is an optional one-time upgrade for $4.99. It adds Bot shield, which skips new Twitch accounts and blocklisted names; an entry timer that closes entries on its own with a countdown on stream; several winners in one draw; a brand kit with your logo, accent color and stage background; saved giveaway presets; and the Monster pack: the Mimic, the Kraken and the Shark.</p></article>
+        <article><h3>Does Prize Eater run on Mac or Linux?</h3><p>Yes. Prize Eater runs on Windows 10 and 11, on macOS 12 or later (Apple Silicon and Intel Macs), and on 64-bit Linux as an AppImage or a .deb package.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band cta-band">
+    <div class="wrap">
+      <div class="inner">
+        <div><h2>Run your next giveaway with Prize Eater</h2><p>Free for Windows, macOS and Linux.</p></div>
+        <a class="key amber" data-dl="label" href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/PrizeEater-Setup.exe">Download for Windows</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Prize Eater by f00d4tehg0dz · <a href="https://github.com/f00d4tehg0dz/prize-eater-releases/releases">Releases</a><!--kofi--> · <a href="https://ko-fi.com/sosogames" rel="noopener">Donate on Ko-fi</a><!--/kofi--></span>
+    <span>Not affiliated with Twitch or Kick. Updated <time datetime="2026-11-01">2026-11-01</time>.</span>
+  </div>
+</footer>
+
+<script>
+// copy of src/core.js (the draw logic shared with the app and its unit tests)
+/* Prize Eater core logic: plain functions with no DOM, so the app, the website demo and the unit tests
+   (tests/core.test.js, run with `npm test`) all use the same code.
+   Draw animations never decide who wins: the winner is picked first with the cryptographic RNG, and
+   the plans below only choreograph an animation that ends on that winner. */
+(function (root) {
+  'use strict';
+  const clamp01 = t => Math.max(0, Math.min(1, t));
+
+  // ---------- random ----------
+  // Unbiased integer in [0, n) from a source of 32-bit values (crypto.getRandomValues in the app).
+  function makeRandInt(next32) {
+    return function randInt(n) {
+      n = Math.floor(n);
+      if (!(n > 1)) return 0;
+      const lim = Math.floor(4294967296 / n) * n;
+      let x; do { x = next32() >>> 0; } while (x >= lim);
+      return x % n;
+    };
+  }
+  // Weighted pick: weights are ticket counts. Returns an index, or -1 when nothing can be picked.
+  function pickWeighted(weights, randInt) {
+    let total = 0;
+    for (const w of weights) total += Math.max(0, Math.floor(w) || 0);
+    if (!total) return -1;
+    let r = randInt(total);
+    for (let i = 0; i < weights.length; i++) { r -= Math.max(0, Math.floor(weights[i]) || 0); if (r < 0) return i; }
+    return weights.length - 1;
+  }
+  // Small seeded generator for cosmetic randomness in animations (not for picking winners).
+  function seeded(seed) {
+    let s = (seed >>> 0) || 1;
+    return () => { s ^= s << 13; s >>>= 0; s ^= s >>> 17; s ^= s << 5; s >>>= 0; return s / 4294967296; };
+  }
+
+  // ---------- marble race ----------
+  // Each racer has a finish time; the winner's is the shortest, so it always crosses first. Progress
+  // wobbles around a straight line (leads change), and the winner hangs back mid-race before surging.
+  // The wobble is small enough that progress never goes backwards.
+  function marblePlan(count, winnerIndex, duration, rnd) {
+    const racers = [];
+    for (let i = 0; i < count; i++) {
+      const win = i === winnerIndex;
+      racers.push({
+        finish: win ? duration : duration * (1.04 + rnd() * .26),
+        a: win ? -.075 : -.02 + rnd() * .11,       // mid-race lead (+) or lag (-)
+        b: .015 + rnd() * .02,                       // wiggle size
+        k: 2 + Math.floor(rnd() * 2),                // wiggle frequency
+        ph: rnd() * Math.PI * 2,
+        lane: rnd()
+      });
+    }
+    return racers;
+  }
+  function marbleProgress(r, t) {
+    const u = clamp01(t / r.finish);
+    if (u >= 1) return 1;
+    const s = Math.sin(Math.PI * u);
+    return clamp01(u + r.a * s + r.b * s * Math.sin(r.k * Math.PI * u + r.ph));
+  }
+  // order of racers by progress at time t, leader first (finished racers by finish time)
+  function marbleOrder(plan, t) {
+    return plan.map((r, i) => ({ i, p: marbleProgress(r, t), f: r.finish }))
+      .sort((x, y) => (y.p >= 1 && x.p >= 1) ? x.f - y.f : y.p - x.p).map(o => o.i);
+  }
+
+  // ---------- battle royale ----------
+  // Players sit in a unit disc. The storm closes on the winner's spot, so players are knocked out from
+  // farthest to nearest and the winner is always last standing. Returns each player's knockout time
+  // (the winner's is Infinity), spread over the first 92% of the duration.
+  function royalePlan(count, winnerIndex, duration, rnd) {
+    const pos = [];
+    for (let i = 0; i < count; i++) {
+      // even-ish spread: sqrt for uniform area, golden angle for no clumps
+      const r = Math.sqrt((i + .5) / count) * .93, a = i * 2.39996 + rnd() * .5;
+      pos.push({ x: Math.cos(a) * r, y: Math.sin(a) * r });
+    }
+    // put the winner somewhere inside the inner half, swapping spots with whoever was there
+    const wi = winnerIndex, target = Math.floor(rnd() * Math.max(1, Math.floor(count * .4)));
+    [pos[wi], pos[target]] = [pos[target], pos[wi]];
+    const c = pos[wi], dist = pos.map(p => Math.hypot(p.x - c.x, p.y - c.y));
+    const order = pos.map((_, i) => i).filter(i => i !== wi).sort((i, j) => dist[j] - dist[i]);
+    const out = new Array(count).fill(Infinity);
+    order.forEach((i, k) => { out[i] = duration * .92 * Math.pow((k + 1) / order.length, .8); });
+    return { pos, center: { x: c.x, y: c.y }, out };
+  }
+  // storm radius (unit disc) at time t: wide open at the start, tight around the winner at the end
+  function royaleRadius(t, duration) { const e = clamp01(t / duration); return 1.35 * Math.pow(1 - e, 1.4) + .06; }
+
+  // ---------- claw machine ----------
+  // Timeline of the claw: phase names with start/end seconds. A decoy stop before the real grab.
+  const CLAW_PHASES = [['toDecoy', 1.2], ['tease', .5], ['toWinner', .8], ['drop', 1], ['grab', .45], ['lift', 1.1], ['toChute', 1.3], ['release', .5], ['done', .7]];
+  function clawTimeline(speed = 1) {
+    let t = 0; const out = [];
+    for (const [name, d] of CLAW_PHASES) { out.push({ name, start: t, end: t + d * speed }); t += d * speed; }
+    return out;
+  }
+  function clawPhase(timeline, t) {
+    for (const p of timeline) if (t < p.end) return { name: p.name, k: clamp01((t - p.start) / (p.end - p.start)) };
+    const last = timeline[timeline.length - 1]; return { name: last.name, k: 1 };
+  }
+
+  // ---------- first to type ----------
+  const CODE_WORDS = ['WORM', 'CHOMP', 'LOOT', 'PRIZE', 'JACKPOT', 'NOODLE', 'GOBLIN', 'TACO', 'PIXEL', 'COMET', 'MANGO', 'ROCKET', 'WAFFLE', 'PICKLE', 'OTTER', 'BANANA', 'TURBO', 'NINJA', 'GECKO', 'LASER'];
+  function makeCode(randInt) { return CODE_WORDS[randInt(CODE_WORDS.length)] + (10 + randInt(90)); }
+  const normCode = s => String(s ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+  // the message must be the code on its own (case and extra spaces don't matter)
+  function matchesCode(text, code) { const c = normCode(code); return !!c && normCode(text) === c; }
+
+  // ---------- guess the number ----------
+  // accepts "42", " 42 ", "!guess 42"; returns the number, or null when it isn't a guess in range
+  function parseGuess(text, min, max) {
+    const m = /^\s*(?:!guess\s+)?(-?\d{1,9})\s*$/i.exec(String(text ?? ''));
+    if (!m) return null;
+    const n = Number(m[1]);
+    return Number.isInteger(n) && n >= min && n <= max ? n : null;
+  }
+  // normalizes the range: whole numbers, min < max, at most a billion wide
+  function guessRange(min, max) {
+    const num = (v, d) => { if (v === '' || v == null) return d; const n = Math.round(Number(v)); return Number.isFinite(n) ? n : d; };
+    let a = num(min, 1), b = num(max, 100);
+    if (a > b) [a, b] = [b, a]; if (a === b) b = a + 1;
+    if (b - a > 1e9) b = a + 1e9;
+    return { min: a, max: b };
+  }
+  // secret: the streamer's number if it's valid and in range, otherwise random in range (inclusive)
+  function pickSecret(input, range, randInt) {
+    const s = String(input ?? '').trim();
+    if (/^-?\d+$/.test(s)) { const n = Number(s); if (n >= range.min && n <= range.max) return n; }
+    return range.min + randInt(range.max - range.min + 1);
+  }
+  // closest guess wins; a tie goes to whoever guessed first. guesses: [{ g, t, ... }]
+  function guessWinner(guesses, secret) {
+    let best = null;
+    for (const x of guesses) {
+      const d = Math.abs(x.g - secret);
+      if (!best || d < best.d || (d === best.d && x.t < best.t)) best = { ...x, d };
+    }
+    return best;
+  }
+
+  const api = { clamp01, makeRandInt, pickWeighted, seeded, marblePlan, marbleProgress, marbleOrder, royalePlan, royaleRadius,
+    CLAW_PHASES, clawTimeline, clawPhase, CODE_WORDS, makeCode, matchesCode, parseGuess, guessRange, pickSecret, guessWinner };
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.PECore = api;
+})(typeof window !== 'undefined' ? window : globalThis);
+</script>
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const NAMES = ['MossyOtter','pixelbadger_42','LagWizard','quietkettle','NeonTurnip','Captain_Crumb','velvetgoose','SirKnitsALot','frostbyte_tv','OrbitalPancake','tinyanvil','Dusk_Rider88','PaperCrane07','WobbleGecko','saltwaterjam','Gl1tchGoblin'];
+
+  // hero: entrants slide in at the top left, the counter ticks up
+  const drops = document.getElementById('heroDrops'), count = document.getElementById('heroCount');
+  let n = 41;
+  function drop() {
+    const el = document.createElement('span'); el.className = 'drop';
+    el.textContent = NAMES[Math.floor(Math.random() * NAMES.length)];
+    el.style.top = (5 + Math.random() * 22).toFixed(1) + '%'; el.style.left = (3 + Math.random() * 6).toFixed(1) + 'cqw';
+    el.addEventListener('animationend', () => el.remove());
+    drops.appendChild(el); count.textContent = ++n;
+    if (n > 140) n = 41;
+  }
+  if (!reduce) setInterval(() => { if (!document.hidden) drop(); }, 1600);
+
+  // ---- bot check demo: the same scene and worm drawing code the app uses ----
+  const lerp = (a, b, t) => a + (b - a) * t, clamp01 = t => Math.max(0, Math.min(1, t));
+  const easeQuart = t => 1 - Math.pow(1 - t, 4), easeIn = t => t * t;
+  let look = 'cartoon';
+  function drawRope(c, x1, y1, x2, y2, rw) {
+    c.save(); c.lineCap = 'round';
+    const line = (col, w, dash) => { c.setLineDash(dash || []); c.strokeStyle = col; c.lineWidth = w; c.beginPath(); c.moveTo(x1, y1); c.lineTo(x2, y2); c.stroke(); };
+    line('#2e2610', rw * 1.3); line('#b39a4f', rw); line('#7a6527', rw * .6, [rw * .55, rw * .55]);
+    c.restore();
+  }
+  function drawCoil(c, x, y, th, rw, fall) {
+    c.save(); c.lineCap = 'round';
+    for (let i = 0; i < 4; i++) {
+      const yy = y - th * .5 + i * th * .3 + fall;
+      [['#2e2610', rw * 1.15], ['#c4a75c', rw * .82]].forEach(([col, w]) => {
+        c.strokeStyle = col; c.lineWidth = w; c.beginPath(); c.moveTo(x - rw * 1.15, yy); c.quadraticCurveTo(x, yy + rw * .95, x + rw * 1.15, yy + rw * .45); c.stroke();
+      });
+    }
+    c.restore();
+  }
+  // Draws the monster picked with the look switch.
+  function drawWorm(c, W, hx, hy, R, mouth, ts, hurt) {
+    return MONSTERS[monsterId()].draw(c, W, hx, hy, R, mouth, ts, hurt);
+  }
+
+  // Scary look: an eyeless, wet, segmented lamprey-worm. The body follows the path the head
+  // took (a trail), so it slithers instead of sliding, and is drawn as one shaded tube.
+  const wormRand = i => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+  let scaryTrail = [];
+  const scaryArt = { skin: null, pattern: null };
+  (() => { const im = new Image(); im.onload = () => { scaryArt.skin = im; }; im.src = 'scary-skin.webp'; })();
+  // The body is a chain of points behind the head. Moving forward, each point follows the one in
+  // front of it, which rounds off corners so the tube can't kink. Moving backward, the body slides
+  // back along itself instead of folding over the mouth.
+  function scarySpine(hx, hy, L, step, R) {
+    const n = Math.ceil(L / step) + 1;
+    let C = scaryTrail;
+    if (C.length < 2 || Math.hypot(C[0].x - hx, C[0].y - hy) > R * 2.5) {
+      C = []; for (let i = 0; i < n; i++) C.push({ x: hx + i * step, y: hy });
+    } else {
+      let ux = C[1].x - C[0].x, uy = C[1].y - C[0].y; const ul = Math.hypot(ux, uy) || 1; ux /= ul; uy /= ul;
+      const back = (hx - C[0].x) * ux + (hy - C[0].y) * uy;
+      if (back > 0) {
+        // reversing: slide the body back along itself (drop `back` from the head end) ...
+        let acc = 0, j = 0;
+        while (j < C.length - 1) {
+          const sl = Math.hypot(C[j + 1].x - C[j].x, C[j + 1].y - C[j].y);
+          if (acc + sl >= back) { const k = (back - acc) / (sl || 1); C = [{ x: C[j].x + (C[j + 1].x - C[j].x) * k, y: C[j].y + (C[j + 1].y - C[j].y) * k }, ...C.slice(j + 1)]; break; }
+          acc += sl; j++;
+        }
+        if (j >= C.length - 1) C = [C[C.length - 1]];
+        // ... and shift the neck sideways with the head, fading out down the body, so it keeps its shape
+        const ox = hx - C[0].x, oy = hy - C[0].y, reach = R * 3;
+        C = C.map((q, i) => { const w = Math.max(0, 1 - i * step / reach); return { x: q.x + ox * w, y: q.y + oy * w }; });
+      } else {
+        // moving forward: each point follows the one in front (follow-the-leader cuts corners, so it can't kink)
+        C[0] = { x: hx, y: hy };
+        for (let i = 1; i < C.length; i++) {
+          let dx = C[i].x - C[i - 1].x, dy = C[i].y - C[i - 1].y, dl = Math.hypot(dx, dy);
+          if (dl < 1e-6) { dx = 1; dy = 0; dl = 1; }
+          dx /= dl; dy /= dl;
+          // far from the head, ease the body back toward the right edge so it doesn't drift into arches
+          const pull = .03 * clamp01((i * step - R * 2) / (R * 8));
+          if (pull) { dx = dx * (1 - pull) + pull; dy *= 1 - pull; const pl = Math.hypot(dx, dy) || 1; dx /= pl; dy /= pl; }
+          C[i] = { x: C[i - 1].x + dx * step, y: C[i - 1].y + dy * step };
+        }
+      }
+    }
+    // grow the tail so the body always reaches off screen, easing it toward the right
+    while (C.length < n) {
+      const a = C[C.length - 1], b = C.length > 1 ? C[C.length - 2] : { x: a.x - step, y: a.y };
+      let dx = a.x - b.x, dy = a.y - b.y; const l = Math.hypot(dx, dy) || 1;
+      dx = dx / l * .85 + .15; dy = dy / l * .85; const l2 = Math.hypot(dx, dy) || 1;
+      C.push({ x: a.x + dx / l2 * step, y: a.y + dy / l2 * step });
+    }
+    if (C.length > n + 4) C.length = n + 4;
+    scaryTrail = C;
+    return C.slice(0, n).map(q => ({ x: q.x, y: q.y }));
+  }
+  function drawWormScary(c, W, hx, hy, R, mouth, ts, hurt) {
+    const TAU = Math.PI * 2;
+    c.save();
+    if (hurt) c.translate((Math.random() - .5) * R * .14 * hurt, (Math.random() - .5) * R * .14 * hurt);
+    c.lineCap = 'round'; c.lineJoin = 'round';
+    const step = R * .08, L = Math.max(R * 3, W + R * 3 - Math.min(hx, W));
+    const raw = scarySpine(hx, hy, L, step, R);
+    // travelling wave on top of the trail, quiet at the head, stronger down the body
+    const P = raw.map((p, k) => ({ x: p.x, y: p.y, s: k * step }));
+    const n0 = P.length;
+    // smooth sharp turns so the tube never kinks
+    for (let pass = 0; pass < 6; pass++) {
+      for (let k = 1; k < n0 - 1; k++) { P[k].x = (P[k - 1].x + 2 * P[k].x + P[k + 1].x) / 4; P[k].y = (P[k - 1].y + 2 * P[k].y + P[k + 1].y) / 4; }
+    }
+    for (let k = 0; k < n0; k++) {
+      const a = P[Math.max(0, k - 1)], b = P[Math.min(n0 - 1, k + 1)];
+      let bx = b.x - a.x, by = b.y - a.y; const l = Math.hypot(bx, by) || 1; bx /= l; by /= l;
+      P[k].bx = bx; P[k].by = by; P[k].nx = by; P[k].ny = -bx;           // n points to the "top" side
+    }
+    for (const p of P) {
+      const w = R * .14 * Math.min(1, p.s / (R * 2.4)) * Math.sin(p.s / (R * 5.2) * TAU - ts * 2.3);
+      p.x += p.nx * w; p.y += p.ny * w;
+    }
+    // directions again, now that the wave has moved the points
+    for (let k = 0; k < n0; k++) {
+      const a = P[Math.max(0, k - 1)], b = P[Math.min(n0 - 1, k + 1)];
+      let bx = b.x - a.x, by = b.y - a.y; const l = Math.hypot(bx, by) || 1; bx /= l; by /= l;
+      P[k].bx = bx; P[k].by = by; P[k].nx = by; P[k].ny = -bx;
+    }
+    const tailAt = (n0 - 1) * step, rad = s => R * (1 + .06 * Math.sin(s / R * 2.2 - ts * 5)) * (s < R * .5 ? .84 + .16 * s / (R * .5) : 1)
+      * (s > tailAt - R * 2 ? .3 + .7 * Math.max(0, tailAt - s) / (R * 2) : 1); // tapered tail
+    // Half-width on each side of the spine. On the inside of a tight bend it is limited to the bend
+    // radius, so the outline can't fold over itself into a fan.
+    const RT = new Float32Array(n0), RB = new Float32Array(n0), R0 = new Float32Array(n0);
+    for (let k = 0; k < n0; k++) R0[k] = RT[k] = RB[k] = rad(P[k].s);
+    for (let k = 2; k < n0 - 2; k++) {
+      const a = P[k - 2], b = P[k + 2];
+      const ang = Math.abs(Math.atan2(a.bx * b.by - a.by * b.bx, a.bx * b.bx + a.by * b.by));
+      if (ang < 1e-3) continue;
+      const rho = Math.hypot(b.x - a.x, b.y - a.y) / ang * .9;
+      if ((b.bx - a.bx) * P[k].nx + (b.by - a.by) * P[k].ny > 0) RT[k] = Math.min(RT[k], rho); else RB[k] = Math.min(RB[k], rho);
+    }
+    for (let pass = 0; pass < 4; pass++) for (const A of [RT, RB]) for (let k = 1; k < n0 - 1; k++) A[k] = Math.min(R0[k], (A[k - 1] + 2 * A[k] + A[k + 1]) / 4);
+    const off = (k, f) => f >= 0 ? RT[k] * f : RB[k] * f;
+    const tubePath = (k0, k1, scale, lift) => {
+      c.beginPath();
+      for (let k = k0; k <= k1; k++) { const p = P[k], o = off(k, scale + lift); c[k > k0 ? 'lineTo' : 'moveTo'](p.x + p.nx * o, p.y + p.ny * o); }
+      for (let k = k1; k >= k0; k--) { const p = P[k], o = off(k, lift - scale); c.lineTo(p.x + p.nx * o, p.y + p.ny * o); }
+      c.closePath();
+    };
+    const tube = (k0, k1, scale, lift, fill) => { tubePath(k0, k1, scale, lift); c.fillStyle = fill; c.fill(); };
+    const shadeA = [62, 37, 38], shadeB = [236, 211, 201], layers = 18;
+    const shades = [];
+    for (let q = 0; q < layers; q++) {
+      const t = q / (layers - 1), e = t * t * (3 - 2 * t);
+      shades.push([1 - .92 * e, .7 * e, `rgb(${shadeA.map((v, i) => Math.round(v + (shadeB[i] - v) * Math.pow(t, 1.15))).join(',')})`]);
+    }
+    if (scaryArt.skin && !scaryArt.pattern) scaryArt.pattern = c.createPattern(scaryArt.skin, 'repeat');
+    if (scaryArt.pattern) scaryArt.pattern.setTransform(new DOMMatrix().translateSelf(hx, hy).scaleSelf(R / 128, R / 128));
+    const CW = c.canvas.width, CH = c.canvas.height, ringGap = R * .42, kv0 = Math.floor(R * .6 / step);
+
+    // soft contact shadow for the whole body
+    c.save(); c.shadowColor = 'rgba(0,0,0,.7)'; c.shadowBlur = R * .5; c.shadowOffsetY = R * .15; tube(0, n0 - 1, 1, 0, '#120809'); c.restore();
+
+    // The body is drawn in short sections from the tail to the head, so where the worm crosses
+    // itself the part nearer the head is always on top.
+    const SEC = 12;
+    for (let k1 = n0 - 1; k1 > 0; k1 -= SEC) {
+      const k0 = Math.max(0, k1 - SEC), kTop = Math.min(n0 - 1, k1 + 1);
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (let k = k0; k <= kTop; k++) { x0 = Math.min(x0, P[k].x); x1 = Math.max(x1, P[k].x); y0 = Math.min(y0, P[k].y); y1 = Math.max(y1, P[k].y); }
+      x0 -= R * 1.3; y0 -= R * 1.3; x1 += R * 1.3; y1 += R * 1.3;
+      if (x0 > CW || x1 < 0 || y0 > CH || y1 < 0) continue;
+      // outline, layered shading lit along the body, belly shade
+      tube(k0, kTop, 1.04, 0, '#120809');
+      for (const [sc, lf, col] of shades) tube(k0, kTop, sc, lf, col);
+      tube(k0, kTop, .32, -.68, 'rgba(25,10,12,.35)');
+      // optional generated skin texture (scary-skin.webp), blended into the shading
+      if (scaryArt.pattern) {
+        c.save(); tubePath(k0, kTop, 1, 0); c.clip();
+        c.globalCompositeOperation = 'soft-light'; c.globalAlpha = .9; c.fillStyle = scaryArt.pattern;
+        c.fillRect(x0, y0, x1 - x0, y1 - y0); c.restore();
+      }
+      // veins that ride with the body
+      if (kTop > kv0) {
+        c.lineWidth = R * .02; c.strokeStyle = 'rgba(105,16,34,.38)';
+        [[-.45, 0], [.1, 1.7], [.55, 3.1]].forEach(([o, ph]) => {
+          c.beginPath();
+          for (let k = Math.max(k0, kv0); k <= kTop; k++) {
+            const p = P[k], d = off(k, o) + Math.sin(p.s * .05 / R * 18 + ph) * R * .06 * Math.min(1, R0[k] / R);
+            c[k === Math.max(k0, kv0) ? 'moveTo' : 'lineTo'](p.x + p.nx * d, p.y + p.ny * d);
+          }
+          c.stroke();
+        });
+      }
+      // segment rings: dark crease plus a wet ridge behind it
+      for (let sR = Math.ceil(Math.max(k0 * step - R * .75, 0) / ringGap) * ringGap + R * .75; sR < (k1 + .5) * step && sR < L; sR += ringGap) {
+        const k = Math.min(n0 - 1, Math.round(sR / step)); if (k < k0) continue;
+        const p = P[k], rt = RT[k] * .97, rb = RB[k] * .97, rm = (rt + rb) / 2;
+        const tx = p.x + p.nx * rt, ty = p.y + p.ny * rt, bx2 = p.x - p.nx * rb, by2 = p.y - p.ny * rb;
+        const cx = p.x - p.bx * rm * .38, cy = p.y - p.by * rm * .38;
+        c.beginPath(); c.moveTo(tx, ty); c.quadraticCurveTo(cx, cy, bx2, by2); c.lineWidth = R * .045; c.strokeStyle = 'rgba(28,10,12,.5)'; c.stroke();
+        c.beginPath(); c.moveTo(tx + p.bx * R * .06, ty + p.by * R * .06); c.quadraticCurveTo(cx + p.bx * R * .06, cy + p.by * R * .06, bx2 + p.bx * R * .06, by2 + p.by * R * .06);
+        c.lineWidth = R * .022; c.strokeStyle = 'rgba(255,228,218,.16)'; c.stroke();
+      }
+      // bristles along the top and bottom
+      c.lineWidth = R * .014; c.strokeStyle = '#1e1011';
+      for (let b = Math.max(0, Math.ceil((k0 * step - R * .7) / (R * .21))); ; b++) {
+        const sB = R * .7 + b * R * .21; if (sB >= (k1 + .5) * step || sB >= L) break;
+        const k = Math.min(n0 - 1, Math.round(sB / step)); if (k < k0) continue;
+        const p = P[k], l = R * (.07 + wormRand(b) * .09) * Math.min(1, R0[k] / R);
+        [[1, RT[k]], [-1, RB[k]]].forEach(([sd, rr]) => {
+          const ex = p.x + p.nx * rr * sd, ey = p.y + p.ny * rr * sd;
+          c.beginPath(); c.moveTo(ex, ey); c.lineTo(ex + p.nx * l * sd + p.bx * l * .5, ey + p.ny * l * sd + p.by * l * .5); c.stroke();
+        });
+      }
+      // wet specular glints along the back
+      for (let g = Math.max(0, Math.ceil((k0 * step - R * 1.1) / (R * 1.05))); ; g++) {
+        const sG = R * 1.1 + g * R * 1.05; if (sG >= (k1 + .5) * step || sG >= L) break;
+        const k = Math.min(n0 - 1, Math.round(sG / step)); if (k < k0) continue;
+        const p = P[k], gw = Math.min(1, R0[k] / R);
+        c.save(); c.translate(p.x + p.nx * RT[k] * .62, p.y + p.ny * RT[k] * .62); c.rotate(Math.atan2(p.by, p.bx));
+        c.beginPath(); c.ellipse(0, 0, R * (.18 + wormRand(g) * .12) * gw, R * .035 * gw, 0, 0, TAU); c.fillStyle = 'rgba(255,245,240,.42)'; c.fill(); c.restore();
+      }
+    }
+
+    // ---- head: lamprey mouth disc, turned the way the head is moving ----
+    const h = P[0], ang = Math.atan2(-h.by, -h.bx) - Math.PI;
+    c.save(); c.translate(h.x, h.y); c.rotate(ang);
+    const r0 = rad(0), frx = R * .42, fry = r0 * 1.06;
+    const fg = c.createRadialGradient(-frx * .25, -fry * .35, R * .05, 0, 0, fry);
+    fg.addColorStop(0, '#c99e95'); fg.addColorStop(.55, '#8d625e'); fg.addColorStop(1, '#2e1a1b');
+    c.beginPath(); c.ellipse(0, 0, frx, fry, 0, 0, TAU); c.fillStyle = fg; c.fill();
+    c.lineWidth = R * .03; c.strokeStyle = 'rgba(18,8,9,.8)'; c.stroke();
+    const open = .22 + .78 * clamp01(mouth);
+    const mx = -R * .05, mrx = frx * .82 * (.5 + .5 * open), mry = fry * .84 * (.45 + .55 * open);
+    const lg = c.createRadialGradient(mx, 0, mry * .6, mx, 0, mry * 1.12);
+    lg.addColorStop(0, '#5a0d17'); lg.addColorStop(.7, '#9b3443'); lg.addColorStop(1, '#4a2526');
+    c.beginPath(); c.ellipse(mx, 0, mrx * 1.1, mry * 1.08, 0, 0, TAU); c.fillStyle = lg; c.fill();
+    const tg = c.createRadialGradient(mx + mrx * .2, 0, 0, mx, 0, mry);
+    tg.addColorStop(0, '#000'); tg.addColorStop(.55, '#140204'); tg.addColorStop(1, '#4a0a12');
+    c.beginPath(); c.ellipse(mx, 0, mrx, mry, 0, 0, TAU); c.fillStyle = tg; c.fill();
+    [[1, 18, '#e4d8b2', .2], [.74, 15, '#b9aa84', .17], [.5, 12, '#7f714f', .14]].forEach(([sc, n, col, len], ring) => {
+      for (let j = 0; j < n; j++) {
+        const a = (j + ring * .5) / n * TAU, w = Math.PI / n * .7;
+        const tip = sc - len * (.85 + wormRand(j + ring * 31) * .4);
+        c.beginPath();
+        c.moveTo(mx + Math.cos(a - w) * mrx * sc, Math.sin(a - w) * mry * sc);
+        c.quadraticCurveTo(mx + Math.cos(a - .1) * mrx * (sc - len * .35), Math.sin(a - .1) * mry * (sc - len * .35), mx + Math.cos(a + .12) * mrx * tip, Math.sin(a + .12) * mry * tip);
+        c.lineTo(mx + Math.cos(a + w) * mrx * sc, Math.sin(a + w) * mry * sc); c.closePath();
+        c.fillStyle = col; c.fill(); c.lineWidth = R * .01; c.strokeStyle = 'rgba(40,25,12,.8)'; c.stroke();
+      }
+    });
+    if (open > .45) {
+      c.lineWidth = R * .02; c.strokeStyle = 'rgba(214,226,206,.32)';
+      for (let k = 0; k < 3; k++) {
+        const ox = (k - 1) * mrx * .45, sag = mry * (.25 + .15 * Math.sin(ts * 2 + k));
+        c.beginPath(); c.moveTo(mx + ox, -mry * .85); c.quadraticCurveTo(mx + ox + mrx * .1, sag, mx + ox * .6, mry * .85); c.stroke();
+      }
+    }
+    c.beginPath(); c.ellipse(-frx * .35, -fry * .7, frx * .3, fry * .07, -.4, 0, TAU); c.fillStyle = 'rgba(255,240,235,.3)'; c.fill();
+    c.restore();
+    // drip from the lower lip (always falls straight down)
+    const dl = R * (.15 + (Math.sin(ts * 1.7) * .5 + .5) * .45), dx0 = h.x - R * .05, dy0 = h.y + fry * .9;
+    c.beginPath(); c.moveTo(dx0, dy0); c.lineTo(dx0, dy0 + dl); c.lineWidth = R * .04; c.strokeStyle = 'rgba(205,220,200,.5)'; c.stroke();
+    c.beginPath(); c.arc(dx0, dy0 + dl, R * .045, 0, TAU); c.fillStyle = 'rgba(205,220,200,.6)'; c.fill();
+    if (hurt) { c.globalAlpha = hurt * .5; c.beginPath(); c.arc(h.x, h.y, fry, 0, TAU); c.fillStyle = '#fff0c8'; c.fill(); c.globalAlpha = 1; }
+    c.restore();
+  }
+
+  function drawWormCartoon(c, W, hx, hy, R, mouth, ts, hurt) {
+    const TAU = Math.PI * 2, INK = '#0f1d17', OL = R * .07;
+    c.save();
+    if (hurt) c.translate((Math.random() - .5) * R * .14 * hurt, (Math.random() - .5) * R * .14 * hurt);
+    c.lineJoin = 'round'; c.lineCap = 'round';
+    const right = W + R * 3;
+    const yAt = x => hy + Math.sin(ts * 2.6 - (x - hx) / R * 1.1) * R * .09 * Math.min(1, Math.max(0, (x - hx) / (R * 1.5)));
+    const pts = []; for (let x = hx; x <= right; x += R * .2) pts.push([x, yAt(x)]);
+    const path = dy => { c.beginPath(); pts.forEach(([x, y], i) => i ? c.lineTo(x, y + dy) : c.moveTo(x, y + dy)); };
+
+    // back spikes (drawn first so the body overlaps their base)
+    for (let x = hx + R * .9, i = 0; x < right; x += R * .62, i++) {
+      const y = yAt(x) - R * .86, h = R * (i % 2 ? .42 : .55);
+      c.beginPath(); c.moveTo(x - R * .2, y + R * .1); c.quadraticCurveTo(x + R * .05, y - h * .5, x + R * .22, y - h); c.lineTo(x + R * .22, y + R * .12); c.closePath();
+      c.fillStyle = '#f1e7cd'; c.fill(); c.lineWidth = OL * .7; c.strokeStyle = INK; c.stroke();
+    }
+    // body tube: ink outline, body, belly, highlight
+    path(0); c.lineWidth = R * 2 + OL * 2; c.strokeStyle = INK; c.stroke();
+    path(0); c.lineWidth = R * 2; c.strokeStyle = '#5c9b6c'; c.stroke();
+    path(R * .5); c.lineWidth = R * .78; c.strokeStyle = '#c8dca0'; c.stroke();
+    path(R * .5); c.lineWidth = R * .78; c.setLineDash([R * .08, R * .42]); c.strokeStyle = 'rgba(15,29,23,.18)'; c.stroke(); c.setLineDash([]);
+    path(-R * .58); c.lineWidth = R * .2; c.strokeStyle = 'rgba(255,255,255,.2)'; c.stroke();
+    // ring creases and spots
+    for (let x = hx + R * 1.2, i = 0; x < right; x += R * .62, i++) {
+      const y = yAt(x);
+      c.beginPath(); c.ellipse(x, y, R * .2, R * .96, 0, Math.PI * .5, Math.PI * 1.5); c.lineWidth = OL * .6; c.strokeStyle = 'rgba(15,29,23,.45)'; c.stroke();
+      if (i % 2 === 0) { c.beginPath(); c.ellipse(x + R * .3, y - R * .35, R * .12, R * .08, -.3, 0, TAU); c.fillStyle = '#4a8058'; c.fill(); }
+    }
+
+    // head
+    const HR = R * 1.12;
+    c.beginPath(); c.arc(hx, hy, HR, 0, TAU); c.fillStyle = '#62a573'; c.fill(); c.lineWidth = OL; c.strokeStyle = INK; c.stroke();
+    c.beginPath(); c.ellipse(hx - HR * .1, hy + HR * .5, HR * .62, HR * .34, 0, 0, TAU); c.fillStyle = '#c8dca0'; c.fill();
+    c.beginPath(); c.ellipse(hx + HR * .15, hy - HR * .62, HR * .42, HR * .14, -.25, 0, TAU); c.fillStyle = 'rgba(255,255,255,.2)'; c.fill();
+
+    // mouth: lipped ring, dark throat, tongue, chunky teeth
+    const open = .25 + .75 * clamp01(mouth);
+    const mx = hx - HR * .38, my = hy + HR * .14, mrx = HR * .46 * (.6 + .4 * open), mry = HR * .62 * open + HR * .06;
+    c.beginPath(); c.ellipse(mx, my, mrx + R * .1, mry + R * .1, 0, 0, TAU); c.fillStyle = '#e0707a'; c.fill(); c.lineWidth = OL; c.strokeStyle = INK; c.stroke();
+    c.beginPath(); c.ellipse(mx, my, mrx, mry, 0, 0, TAU); c.fillStyle = '#3b0a14'; c.fill();
+    if (open > .45) { c.beginPath(); c.ellipse(mx + mrx * .1, my + mry * .55, mrx * .62, mry * .32, 0, 0, TAU); c.fillStyle = '#d6455a'; c.fill(); }
+    const teeth = 12;
+    for (let j = 0; j < teeth; j++) {
+      const a = j / teeth * TAU, a1 = a - Math.PI / teeth * .82, a2 = a + Math.PI / teeth * .82;
+      c.beginPath();
+      c.moveTo(mx + Math.cos(a1) * mrx, my + Math.sin(a1) * mry);
+      c.lineTo(mx + Math.cos(a) * mrx * .6, my + Math.sin(a) * mry * .6);
+      c.lineTo(mx + Math.cos(a2) * mrx, my + Math.sin(a2) * mry);
+      c.closePath(); c.fillStyle = '#f6efdc'; c.fill(); c.lineWidth = OL * .45; c.strokeStyle = INK; c.stroke();
+    }
+    // drool
+    const dl = R * (.18 + (Math.sin(ts * 2.3) * .5 + .5) * .3) * open;
+    c.beginPath(); c.moveTo(mx - mrx * .2, my + mry + R * .06); c.quadraticCurveTo(mx - mrx * .25, my + mry + dl * .7, mx - mrx * .2, my + mry + dl);
+    c.lineWidth = R * .07; c.strokeStyle = 'rgba(200,235,225,.75)'; c.stroke();
+    c.beginPath(); c.arc(mx - mrx * .2, my + mry + dl, R * .06, 0, TAU); c.fillStyle = 'rgba(200,235,225,.85)'; c.fill();
+
+    // bulging eyes with angry brows
+    const blink = !hurt && Math.abs(Math.sin(ts * .7)) > .988;
+    [[-.12, -.82, .34], [.36, -.7, .29]].forEach(([ox, oy, sr], k) => {
+      const ex = hx + HR * ox, ey = hy + HR * oy, er = HR * sr;
+      c.beginPath(); c.arc(ex, ey, er, 0, TAU); c.fillStyle = '#62a573'; c.fill(); c.lineWidth = OL; c.strokeStyle = INK; c.stroke();
+      c.beginPath(); c.arc(ex, ey, er * .8, 0, TAU); c.fillStyle = '#fbf7ec'; c.fill(); c.lineWidth = OL * .5; c.stroke();
+      if (hurt > .3) {
+        c.lineWidth = OL * .9; c.beginPath();
+        c.moveTo(ex - er * .4, ey - er * .4); c.lineTo(ex + er * .4, ey + er * .4); c.moveTo(ex + er * .4, ey - er * .4); c.lineTo(ex - er * .4, ey + er * .4); c.stroke();
+      } else if (blink) {
+        c.beginPath(); c.arc(ex, ey, er * .82, 0, TAU); c.fillStyle = '#62a573'; c.fill();
+        c.beginPath(); c.moveTo(ex - er * .7, ey); c.lineTo(ex + er * .7, ey); c.lineWidth = OL * .7; c.stroke();
+      } else {
+        const px = ex - er * .28, py = ey + er * .1;
+        c.beginPath(); c.arc(px, py, er * .42, 0, TAU); c.fillStyle = '#ff3d2e'; c.fill();
+        c.beginPath(); c.arc(px, py, er * .22, 0, TAU); c.fillStyle = '#120406'; c.fill();
+        c.beginPath(); c.arc(px - er * .14, py - er * .16, er * .1, 0, TAU); c.fillStyle = '#fff'; c.fill();
+      }
+      // brow: thick, slanted down toward the middle
+      const dir = k === 0 ? 1 : -1;
+      c.beginPath(); c.moveTo(ex - er * .95, ey - er * (k === 0 ? .78 : 1.12)); c.lineTo(ex + er * .95, ey - er * (k === 0 ? 1.12 : .78));
+      c.lineWidth = R * .13; c.strokeStyle = INK; c.stroke(); void dir;
+    });
+    if (hurt) { c.globalAlpha = hurt * .45; c.beginPath(); c.arc(hx, hy, HR, 0, TAU); c.fillStyle = '#fff0c8'; c.fill(); c.globalAlpha = 1; }
+    c.restore();
+  }
+
+  // ---- Monster pack (Pro): Mimic, Kraken and Shark ----
+  // Same call signature as the worms: the head (mouth) is at hx,hy, R is the size unit, mouth is 0..1,
+  // hurt is 0..1 while the laser hits. Each monster keeps a little motion state per canvas so it can
+  // face the way it's moving and trail its tentacles/tail behind.
+  const monMotion = new WeakMap();
+  function monsterMotion(c, hx, hy, R) {
+    let m = monMotion.get(c.canvas);
+    if (!m || Math.hypot(hx - m.x, hy - m.y) > R * 3) {
+      m = { x: hx, y: hy, vx: 0, vy: 0, face: 1, flip: 1 };
+      monMotion.set(c.canvas, m);
+    } else {
+      m.vx = m.vx * .85 + (hx - m.x) * .15; m.vy = m.vy * .85 + (hy - m.y) * .15; m.x = hx; m.y = hy;
+    }
+    // face = 1 means facing left (the default); turn around when clearly moving right
+    if (m.vx > R * .025) m.face = -1; else if (m.vx < -R * .025) m.face = 1;
+    m.flip += (m.face - m.flip) * .14;
+    return m;
+  }
+  const monInk = (c, w) => { c.lineJoin = 'round'; c.lineCap = 'round'; c.lineWidth = w; c.strokeStyle = '#140c0a'; };
+  function monHurt(c, R, hurt) { if (hurt) c.translate((Math.random() - .5) * R * .14 * hurt, (Math.random() - .5) * R * .14 * hurt); }
+  function monFlash(c, hurt, path) { if (!hurt) return; c.save(); c.globalAlpha = hurt * .3; path(); c.fillStyle = '#fff0c8'; c.fill(); c.restore(); }
+
+  /* Mimic: a treasure chest that hops after names, lid snapping, tongue out. Faces the viewer. */
+  function drawMimic(c, W, hx, hy, R0, mouth, ts, hurt) {
+    const TAU = Math.PI * 2, R = R0 * 1.3, m = monsterMotion(c, hx, hy, R);
+    const moving = Math.min(1, Math.hypot(m.vx, m.vy) / (R * .03));
+    const hopT = ts * 7, hop = Math.abs(Math.sin(hopT)) * (.35 + .65 * moving);
+    const open = .12 + .88 * clamp01(mouth), gap = open * R * .78;
+    const w = R * 2.3, bh = R * 1.02, lh = R * .66, OL = R * .065;
+    const lift = -hop * R * .28;
+    c.save();
+    // ground shadow stays on the floor while the chest hops
+    c.beginPath(); c.ellipse(hx, hy + R * .05 + bh + R * .1, w * (.52 - hop * .1), R * .14, 0, 0, TAU); c.fillStyle = 'rgba(0,0,0,.35)'; c.fill();
+    c.translate(hx, hy + lift); monHurt(c, R, hurt);
+    const lean = Math.max(-.12, Math.min(.12, m.vx / (R * .4)));
+    c.rotate(lean);
+    const sq = 1 + Math.sin(hopT * 2) * .04 * moving; c.scale(1 / sq, sq);
+    const g0 = R * .05;                // top of the base (lower lip)
+    const lidBot = g0 - gap, lidTop = lidBot - lh;
+    monInk(c, OL);
+    // stubby claw feet
+    [-.62, .62].forEach((fx, i) => {
+      const kick = Math.sin(hopT + i * Math.PI) * R * .08 * moving;
+      c.beginPath(); c.ellipse(w * fx * .62 + kick, g0 + bh + R * .02, R * .26, R * .14, 0, 0, TAU); c.fillStyle = '#5a2f18'; c.fill(); c.stroke();
+      for (let k = -1; k <= 1; k++) { c.beginPath(); c.moveTo(w * fx * .62 + kick + k * R * .1, g0 + bh + R * .1); c.lineTo(w * fx * .62 + kick + k * R * .12, g0 + bh + R * .2); c.lineWidth = OL * .7; c.stroke(); }
+      c.lineWidth = OL;
+    });
+    // mouth: dark inside between the lid and the base
+    if (gap > R * .04) {
+      c.beginPath(); c.rect(-w / 2 + OL, lidBot - R * .02, w - OL * 2, gap + R * .06);
+      const ig = c.createLinearGradient(0, lidBot, 0, g0); ig.addColorStop(0, '#1a0306'); ig.addColorStop(1, '#4a0a12'); c.fillStyle = ig; c.fill();
+      // glowing eyes deep inside
+      const ey = lidBot + gap * .42, er = Math.min(R * .17, gap * .32);
+      if (er > R * .03) [-.22, .22].forEach(ex => {
+        c.save(); c.shadowColor = '#ffd23a'; c.shadowBlur = R * .35;
+        c.beginPath(); c.ellipse(w * ex, ey, er * 1.2, er, ex < 0 ? .25 : -.25, 0, TAU); c.fillStyle = hurt > .3 ? '#fff' : '#ffd23a'; c.fill(); c.restore();
+        c.beginPath(); c.ellipse(w * ex, ey, er * .22, er * .8, 0, 0, TAU); c.fillStyle = '#1a0306'; c.fill();
+      });
+      // a glint of gold coins at the bottom
+      for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(-w * .3 + k * w * .12, g0 - R * .04, R * .1, R * .05, 0, 0, TAU); c.fillStyle = k % 2 ? '#e8b22a' : '#ffd25a'; c.fill(); }
+    }
+    // base (lower half of the chest)
+    const wood = (x, y, ww, hh, top) => {
+      c.beginPath(); c.rect(x, y, ww, hh);
+      const g = c.createLinearGradient(0, y, 0, y + hh); g.addColorStop(0, top ? '#a8612c' : '#9a5526'); g.addColorStop(1, top ? '#7a4019' : '#6a3514');
+      c.fillStyle = g; c.fill();
+      c.save(); c.clip(); c.lineWidth = R * .025; c.strokeStyle = 'rgba(40,18,6,.45)';
+      for (let yy = y + hh / 3; yy < y + hh - 1; yy += hh / 3) { c.beginPath(); c.moveTo(x, yy); c.lineTo(x + ww, yy); c.stroke(); }
+      for (let k = 0; k < 7; k++) { c.beginPath(); c.moveTo(x + ww * (.08 + k * .14), y + hh * (k % 3) / 3 + hh * .1); c.quadraticCurveTo(x + ww * (.12 + k * .14), y + hh * ((k % 3) + .5) / 3, x + ww * (.09 + k * .14), y + hh * ((k % 3) + .9) / 3); c.stroke(); }
+      c.restore();
+    };
+    wood(-w / 2, g0, w, bh, false);
+    c.beginPath(); c.rect(-w / 2, g0, w, bh); monInk(c, OL); c.stroke();
+    // metal bands and corners
+    const band = (x, y, ww, hh) => { c.beginPath(); c.rect(x, y, ww, hh); const g = c.createLinearGradient(x, 0, x + ww, 0); g.addColorStop(0, '#c9962b'); g.addColorStop(.5, '#ffe08a'); g.addColorStop(1, '#b07f1d'); c.fillStyle = g; c.fill(); c.lineWidth = OL * .6; c.stroke(); };
+    [-.36, .36].forEach(bx => band(w * bx - R * .1, g0, R * .2, bh));
+    band(-w / 2, g0 + bh - R * .16, w, R * .16);
+    // lock plate on the front
+    c.beginPath(); c.roundRect ? c.roundRect(-R * .2, g0 + R * .02, R * .4, R * .42, R * .06) : c.rect(-R * .2, g0 + R * .02, R * .4, R * .42);
+    c.fillStyle = '#e2b13c'; c.fill(); c.lineWidth = OL * .6; c.stroke();
+    c.beginPath(); c.arc(0, g0 + R * .17, R * .06, 0, TAU); c.moveTo(-R * .03, g0 + R * .2); c.lineTo(R * .03, g0 + R * .2); c.lineTo(R * .045, g0 + R * .33); c.lineTo(-R * .045, g0 + R * .33); c.closePath(); c.fillStyle = '#2a1606'; c.fill();
+    // lower teeth along the base rim
+    const teeth = (y, dir, n, len) => {
+      for (let k = 0; k < n; k++) {
+        const x0 = -w / 2 + OL + (k + .1) * (w - OL * 2) / n, x1 = x0 + (w - OL * 2) / n * .8, tl = len * (.75 + wormRand(k + (dir > 0 ? 9 : 31)) * .5);
+        c.beginPath(); c.moveTo(x0, y); c.lineTo((x0 + x1) / 2, y + dir * tl); c.lineTo(x1, y); c.closePath(); c.fillStyle = '#f4ead0'; c.fill(); c.lineWidth = OL * .45; c.stroke();
+      }
+    };
+    if (gap > R * .04) teeth(g0, -1, 9, Math.min(R * .24, gap * .45));
+    // tongue lolling over the front
+    if (open > .3) {
+      const tl = R * (.35 + .55 * open), sw = Math.sin(ts * 4) * R * .12;
+      c.beginPath(); c.moveTo(-R * .28, g0 - R * .02);
+      c.bezierCurveTo(-R * .3, g0 + tl * .5, sw - R * .25, g0 + tl * .9, sw, g0 + tl);
+      c.bezierCurveTo(sw + R * .25, g0 + tl * .9, R * .3, g0 + tl * .5, R * .28, g0 - R * .02); c.closePath();
+      c.fillStyle = '#d8455a'; c.fill(); monInk(c, OL * .8); c.stroke();
+      c.beginPath(); c.moveTo(0, g0 + R * .05); c.quadraticCurveTo(sw * .5, g0 + tl * .6, sw * .9, g0 + tl * .85); c.lineWidth = OL * .5; c.strokeStyle = 'rgba(90,10,25,.6)'; c.stroke();
+    }
+    // lid
+    c.save();
+    const lidPath = () => { c.beginPath(); c.moveTo(-w / 2, lidBot); c.lineTo(-w / 2, lidTop + lh * .45); c.quadraticCurveTo(-w / 2, lidTop, 0, lidTop); c.quadraticCurveTo(w / 2, lidTop, w / 2, lidTop + lh * .45); c.lineTo(w / 2, lidBot); c.closePath(); };
+    lidPath(); c.save(); c.clip(); wood(-w / 2, lidTop, w, lh, true); c.restore();
+    lidPath(); monInk(c, OL); c.stroke();
+    [-.36, .36].forEach(bx => { c.save(); lidPath(); c.clip(); band(w * bx - R * .1, lidTop - R * .1, R * .2, lh + R * .1); c.restore(); });
+    band(-w / 2, lidBot - R * .14, w, R * .14);
+    c.restore();
+    if (gap > R * .04) teeth(lidBot, 1, 9, Math.min(R * .26, gap * .5));
+    // eyes on the lid when shut, so it still has a face
+    if (gap <= R * .2) [-.25, .25].forEach(ex => { c.beginPath(); c.ellipse(w * ex, lidTop + lh * .55, R * .13, R * .09, 0, 0, TAU); c.fillStyle = '#ffd23a'; c.fill(); monInk(c, OL * .5); c.stroke(); c.beginPath(); c.ellipse(w * ex, lidTop + lh * .55, R * .03, R * .07, 0, 0, TAU); c.fillStyle = '#1a0306'; c.fill(); });
+    monFlash(c, hurt, () => { c.beginPath(); c.rect(-w / 2, lidTop, w, g0 + bh - lidTop); });
+    c.restore();
+  }
+  const MIMIC_CHUNKS = ['#9a5526', '#6a3514', '#e2b13c', '#ffd25a', '#d8455a', '#f4ead0'];
+
+  /* Kraken: a bulbous, spotted head with goat-pupil eyes and a beaked maw, tentacles trailing behind. */
+  function drawKraken(c, W, hx, hy, R, mouth, ts, hurt) {
+    const TAU = Math.PI * 2, m = monsterMotion(c, hx, hy, R);
+    const open = .2 + .8 * clamp01(mouth);
+    // tentacles trail opposite the vertical motion a little
+    const trail = Math.max(-.6, Math.min(.6, -m.vy / (R * .06)));
+    c.save(); c.translate(hx, hy); monHurt(c, R, hurt); c.scale(m.flip, 1);
+    const tentacle = (i, back) => {
+      const spread = back ? [-.55, -.1, .35][i] : [-.35, -.05, .25, .55, .85][i];
+      const ph = i * 1.7 + (back ? 3 : 0), len = R * (back ? 3.6 : 4.4) * (.85 + wormRand(i + (back ? 20 : 0)) * .3);
+      const N = 30, pts = [];
+      let x = R * .35 + Math.cos(spread) * R * .25, y = R * .3 + Math.sin(spread) * R * .2, a = spread * .8 + trail;
+      for (let k = 0; k <= N; k++) {
+        const s = k / N * len;
+        pts.push({ x, y, s });
+        a = spread * .8 + trail + .55 * Math.sin(s / R * 1.4 - ts * 3.4 + ph) * Math.min(1, s / R);
+        x += Math.cos(a) * len / N; y += Math.sin(a) * len / N;
+      }
+      for (let k = 0; k <= N; k++) { const p = pts[k], q = pts[Math.min(N, k + 1)], o = pts[Math.max(0, k - 1)]; let bx = q.x - o.x, by = q.y - o.y; const l = Math.hypot(bx, by) || 1; p.nx = by / l; p.ny = -bx / l; }
+      const wid = s => R * .25 * Math.pow(1 - s / len, .85) + R * .015;
+      const body = (scale, lift, fill) => {
+        c.beginPath();
+        pts.forEach((p, k) => { const r = wid(p.s); c[k ? 'lineTo' : 'moveTo'](p.x + p.nx * r * (lift + scale), p.y + p.ny * r * (lift + scale)); });
+        for (let k = N; k >= 0; k--) { const p = pts[k], r = wid(p.s); c.lineTo(p.x + p.nx * r * (lift - scale), p.y + p.ny * r * (lift - scale)); }
+        c.closePath(); c.fillStyle = fill; c.fill();
+      };
+      body(1.12, 0, '#140c0a');
+      body(1, 0, back ? '#4a1840' : '#6e2a62');
+      body(.55, .4, back ? '#5e2352' : '#8d3d7e');
+      body(.2, .7, back ? 'rgba(255,200,240,.12)' : 'rgba(255,210,245,.22)');
+      // suckers on the underside
+      for (let k = 3; k < N - 2; k += 2) {
+        const p = pts[k], r = wid(p.s), sx = p.x - p.nx * r * .55, sy = p.y - p.ny * r * .55;
+        c.beginPath(); c.arc(sx, sy, r * .32, 0, TAU); c.fillStyle = back ? '#a86a8e' : '#e2a7c4'; c.fill();
+        c.beginPath(); c.arc(sx, sy, r * .14, 0, TAU); c.fillStyle = '#5a1c4c'; c.fill();
+      }
+    };
+    for (let i = 0; i < 3; i++) tentacle(i, true);
+    // mantle (the big head), tilted back
+    const mx = R * .85, my = -R * .45;
+    const mantle = () => { c.beginPath(); c.ellipse(mx, my, R * 1.25, R * .98, -.35, 0, TAU); };
+    mantle(); const mg = c.createRadialGradient(mx - R * .4, my - R * .5, R * .1, mx, my, R * 1.3);
+    mg.addColorStop(0, '#b0559c'); mg.addColorStop(.6, '#7a2f6c'); mg.addColorStop(1, '#3d1236'); c.fillStyle = mg; c.fill(); monInk(c, R * .06); c.stroke();
+    c.save(); mantle(); c.clip();
+    for (let k = 0; k < 9; k++) { c.beginPath(); c.ellipse(mx + (wormRand(k) - .3) * R * 1.8, my + (wormRand(k + 40) - .5) * R * 1.4, R * (.07 + wormRand(k + 80) * .09), R * (.05 + wormRand(k + 90) * .06), wormRand(k + 7) * 3, 0, TAU); c.fillStyle = 'rgba(40,6,36,.45)'; c.fill(); }
+    c.beginPath(); c.ellipse(mx - R * .35, my - R * .55, R * .55, R * .16, -.5, 0, TAU); c.fillStyle = 'rgba(255,220,250,.22)'; c.fill();
+    c.restore();
+    // face: cheeks around the maw
+    c.beginPath(); c.ellipse(R * .1, R * .05, R * .78, R * .62, 0, 0, TAU); const fg = c.createRadialGradient(-R * .1, -R * .15, R * .05, R * .1, R * .05, R * .8);
+    fg.addColorStop(0, '#a54a92'); fg.addColorStop(1, '#5e2154'); c.fillStyle = fg; c.fill(); monInk(c, R * .06); c.stroke();
+    // maw: ring of hooked teeth around a dark throat, beak at the front
+    const mr = R * (.18 + .3 * open);
+    c.beginPath(); c.arc(-R * .12, R * .18, mr + R * .08, 0, TAU); c.fillStyle = '#c45a7e'; c.fill(); monInk(c, R * .04); c.stroke();
+    c.beginPath(); c.arc(-R * .12, R * .18, mr, 0, TAU); c.fillStyle = '#1a0308'; c.fill();
+    for (let k = 0; k < 12; k++) {
+      const a = k / 12 * TAU, a1 = a - .2, a2 = a + .2;
+      c.beginPath(); c.moveTo(-R * .12 + Math.cos(a1) * mr, R * .18 + Math.sin(a1) * mr); c.quadraticCurveTo(-R * .12 + Math.cos(a) * mr * .7, R * .18 + Math.sin(a) * mr * .7, -R * .12 + Math.cos(a + .25) * mr * .5, R * .18 + Math.sin(a + .25) * mr * .5);
+      c.lineTo(-R * .12 + Math.cos(a2) * mr, R * .18 + Math.sin(a2) * mr); c.closePath(); c.fillStyle = '#efe3c4'; c.fill();
+    }
+    // eyes: big, yellow, horizontal goat pupils, heavy lids
+    const blink = !hurt && Math.abs(Math.sin(ts * .6)) > .99;
+    [[-.18, -.52, .26], [.42, -.42, .22]].forEach(([ex, ey, er]) => {
+      const x = R * ex, y = R * ey, r = R * er;
+      c.beginPath(); c.arc(x, y, r * 1.18, 0, TAU); c.fillStyle = '#4a1840'; c.fill(); monInk(c, R * .05); c.stroke();
+      if (blink) { c.beginPath(); c.moveTo(x - r, y); c.lineTo(x + r, y); monInk(c, R * .06); c.stroke(); return; }
+      c.beginPath(); c.arc(x, y, r, 0, TAU); const eg = c.createRadialGradient(x - r * .3, y - r * .3, r * .1, x, y, r);
+      eg.addColorStop(0, '#fff3a0'); eg.addColorStop(1, '#e0a210'); c.fillStyle = hurt > .3 ? '#fff' : eg; c.fill();
+      if (hurt > .3) { c.beginPath(); c.moveTo(x - r * .5, y - r * .5); c.lineTo(x + r * .5, y + r * .5); c.moveTo(x + r * .5, y - r * .5); c.lineTo(x - r * .5, y + r * .5); monInk(c, R * .05); c.stroke(); }
+      else { c.beginPath(); c.ellipse(x - r * .12, y + r * .05, r * .55, r * .16, 0, 0, TAU); c.fillStyle = '#140308'; c.fill(); }
+      // heavy upper lid
+      c.beginPath(); c.moveTo(x - r * 1.15, y - r * .25); c.quadraticCurveTo(x, y - r * .75, x + r * 1.15, y - r * .45); c.lineTo(x + r * 1.15, y - r * 1.2); c.lineTo(x - r * 1.15, y - r * 1.2); c.closePath(); c.fillStyle = '#5e2154'; c.fill();
+      c.beginPath(); c.moveTo(x - r * 1.15, y - r * .25); c.quadraticCurveTo(x, y - r * .75, x + r * 1.15, y - r * .45); monInk(c, R * .05); c.stroke();
+    });
+    for (let i = 0; i < 5; i++) tentacle(i, false);
+    monFlash(c, hurt, () => { c.beginPath(); c.ellipse(R * .4, -R * .2, R * 1.5, R * 1.2, -.2, 0, TAU); });
+    c.restore();
+  }
+  const KRAKEN_CHUNKS = ['#6e2a62', '#8d3d7e', '#b0559c', '#e2a7c4', '#3d1236', '#efe3c4'];
+
+  /* Shark: side view, countershaded, dorsal fin, gills, and a lower jaw that drops open. */
+  function drawShark(c, W, hx, hy, R, mouth, ts, hurt) {
+    const TAU = Math.PI * 2, m = monsterMotion(c, hx, hy, R);
+    const open = clamp01(mouth), L = R * 5.6;
+    c.save(); c.translate(hx, hy); monHurt(c, R, hurt); c.scale(m.flip, 1);
+    const sway = x => Math.sin(x / R * .9 - ts * 6) * R * .14 * Math.pow(Math.max(0, x) / L, 1.6);
+    // half-heights of the body (top above the midline, belly below)
+    const top = x => { const t = x / L; return R * (t < .25 ? .25 + 3.4 * t - 6 * t * t : .95 * Math.pow(1 - (t - .25) / .75, 1.1) + .14); };
+    const bot = x => { const t = x / L; return R * (t < .25 ? .3 + 2.4 * t - 4 * t * t : .72 * Math.pow(1 - (t - .25) / .75, 1.25) + .1); };
+    const N = 40, X0 = -R * .45, X1 = L;
+    const outline = () => {
+      c.beginPath();
+      c.moveTo(X0, R * .05);
+      c.quadraticCurveTo(X0 - R * .05, -R * .3, X0 + R * .45, -top(X0 + R * .45) + sway(X0 + R * .45));
+      for (let k = 1; k <= N; k++) { const x = X0 + R * .45 + (X1 - X0 - R * .45) * k / N; c.lineTo(x, -top(x) + sway(x)); }
+      for (let k = N; k >= 0; k--) { const x = R * .9 + (X1 - R * .9) * k / N; c.lineTo(x, bot(x) + sway(x)); }
+      c.lineTo(R * .9, R * .38);           // jaw hinge
+      c.lineTo(X0 + R * .1, R * .16);      // upper jaw line back to the nose
+      c.closePath();
+    };
+    // tail fin (crescent)
+    const tx = L, ty = sway(L);
+    c.beginPath(); c.moveTo(tx - R * .2, ty - R * .12);
+    c.quadraticCurveTo(tx + R * .2, ty - R * .6, tx + R * .85, ty - R * 1.3); c.quadraticCurveTo(tx + R * .55, ty - R * .4, tx + R * .35, ty);
+    c.quadraticCurveTo(tx + R * .55, ty + R * .35, tx + R * .75, ty + R * .85); c.quadraticCurveTo(tx + R * .2, ty + R * .45, tx - R * .2, ty + R * .1); c.closePath();
+    c.fillStyle = '#4c6274'; c.fill(); monInk(c, R * .055); c.stroke();
+    // pectoral fin behind the body edge
+    const px = R * 1.7;
+    c.beginPath(); c.moveTo(px - R * .3, bot(px) * .6 + sway(px)); c.quadraticCurveTo(px + R * .3, bot(px) + R * .7 + sway(px), px + R * 1.1, bot(px) + R * .95 + sway(px));
+    c.quadraticCurveTo(px + R * .55, bot(px) + R * .25 + sway(px), px + R * .45, bot(px) * .5 + sway(px)); c.closePath(); c.fillStyle = '#556d80'; c.fill(); monInk(c, R * .05); c.stroke();
+    // dorsal fin
+    const dx = R * 2.1;
+    c.beginPath(); c.moveTo(dx - R * .45, -top(dx - R * .45) + sway(dx - R * .45) + R * .05); c.quadraticCurveTo(dx + R * .1, -top(dx) - R * .7, dx + R * .55, -top(dx) - R * 1.15 + sway(dx));
+    c.quadraticCurveTo(dx + R * .4, -top(dx) - R * .45, dx + R * .75, -top(dx + R * .75) + sway(dx + R * .75) + R * .05); c.closePath(); c.fillStyle = '#4c6274'; c.fill(); monInk(c, R * .055); c.stroke();
+    // body with countershading
+    outline(); const bg = c.createLinearGradient(0, -R, 0, R * .9); bg.addColorStop(0, '#6f8a9e'); bg.addColorStop(.45, '#5a7488'); bg.addColorStop(.5, '#dfe6ea'); bg.addColorStop(1, '#f3f6f7');
+    c.fillStyle = bg; c.fill();
+    c.save(); outline(); c.clip();
+    c.beginPath(); c.ellipse(R * 1.6, -R * .55, R * 1.6, R * .14, -.05, 0, TAU); c.fillStyle = 'rgba(255,255,255,.18)'; c.fill();
+    // gills
+    for (let k = 0; k < 4; k++) { const gx = R * (1.05 + k * .17); c.beginPath(); c.moveTo(gx, -R * .35 + sway(gx)); c.quadraticCurveTo(gx + R * .1, R * .05 + sway(gx), gx, R * .35 + sway(gx)); c.lineWidth = R * .035; c.strokeStyle = 'rgba(30,40,48,.55)'; c.stroke(); }
+    c.restore();
+    outline(); monInk(c, R * .06); c.stroke();
+    // mouth: the lower jaw swings down around a hinge at the back of the mouth
+    const ang = open * .7, HX = R * .9, HY = R * .38, NX = X0 + R * .1, NY = R * .16;
+    const rot = (x, y) => [HX + x * Math.cos(-ang) - y * Math.sin(-ang), HY + x * Math.sin(-ang) + y * Math.cos(-ang)];
+    const tip = rot(-R * 1.25, -R * .2);
+    if (open > .03) {
+      c.beginPath(); c.moveTo(HX, HY); c.lineTo(NX, NY); c.quadraticCurveTo((NX + tip[0]) / 2 - R * .1, (NY + tip[1]) / 2, tip[0], tip[1]); c.closePath();
+      const mg2 = c.createRadialGradient(HX - R * .2, HY, R * .05, HX - R * .5, HY, R * 1.2); mg2.addColorStop(0, '#120204'); mg2.addColorStop(1, '#7a1424'); c.fillStyle = mg2; c.fill();
+      // tongue
+      const tg = rot(-R * .55, -R * .06);
+      c.beginPath(); c.ellipse(tg[0], tg[1] - R * .04, R * .4, R * .1 + R * .06 * open, -ang * .7, 0, TAU); c.fillStyle = '#b8344a'; c.fill();
+    }
+    // upper teeth hanging from the upper jaw
+    for (let k = 0; k < 7; k++) {
+      const t0 = (k + .2) / 7, bx0 = NX + (HX - NX) * t0, by0 = NY + (HY - NY) * t0, bw = R * .15, tl = R * (.13 + .1 * open) * (1 - t0 * .35);
+      c.beginPath(); c.moveTo(bx0 - bw / 2, by0 - R * .01); c.lineTo(bx0, by0 + tl); c.lineTo(bx0 + bw / 2, by0 + R * .01); c.closePath(); c.fillStyle = '#f7f3e6'; c.fill(); monInk(c, R * .02); c.stroke();
+    }
+    // lower jaw
+    c.save(); c.translate(HX, HY); c.rotate(-ang);
+    c.beginPath(); c.moveTo(R * .05, -R * .02); c.lineTo(-R * 1.25, -R * .2); c.quadraticCurveTo(-R * 1.32, R * .12, -R * .9, R * .24); c.quadraticCurveTo(-R * .3, R * .32, R * .3, R * .22); c.closePath();
+    c.fillStyle = '#eef2f4'; c.fill(); monInk(c, R * .055); c.stroke();
+    for (let k = 0; k < 6; k++) {
+      const t0 = (k + .3) / 6, bx0 = -R * 1.2 + R * 1.15 * t0, by0 = -R * .19 + R * .15 * t0, bw = R * .15, tl = R * (.12 + .08 * open) * (1 - t0 * .35);
+      c.beginPath(); c.moveTo(bx0 - bw / 2, by0 + R * .01); c.lineTo(bx0, by0 - tl); c.lineTo(bx0 + bw / 2, by0 - R * .01); c.closePath(); c.fillStyle = '#f7f3e6'; c.fill(); monInk(c, R * .02); c.stroke();
+    }
+    c.restore();
+    // eye: small, black, cold
+    const ex = R * .2, ey = -R * .28;
+    c.beginPath(); c.arc(ex, ey, R * .13, 0, TAU); c.fillStyle = hurt > .3 ? '#fff' : '#0b0f12'; c.fill(); monInk(c, R * .03); c.stroke();
+    if (hurt > .3) { c.beginPath(); c.moveTo(ex - R * .08, ey - R * .08); c.lineTo(ex + R * .08, ey + R * .08); c.moveTo(ex + R * .08, ey - R * .08); c.lineTo(ex - R * .08, ey + R * .08); monInk(c, R * .035); c.stroke(); }
+    else { c.beginPath(); c.arc(ex - R * .04, ey - R * .04, R * .035, 0, TAU); c.fillStyle = '#fff'; c.fill(); c.beginPath(); c.moveTo(ex - R * .2, ey - R * .2); c.lineTo(ex + R * .18, ey - R * .1); monInk(c, R * .05); c.stroke(); }
+    monFlash(c, hurt, () => { c.beginPath(); c.ellipse(R * 1.6, 0, R * 2.4, R * 1.1, 0, 0, TAU); });
+    c.restore();
+  }
+  const SHARK_CHUNKS = ['#5a7488', '#6f8a9e', '#dfe6ea', '#f7f3e6', '#8f0d14', '#b3121b'];
+
+  // Every monster the Prize Eater can be. On the website every one can be previewed; in the app the Pro ones need a license.
+  const MONSTERS = {
+    cartoon: { name: 'Cartoon', draw: drawWormCartoon, mood: 'cartoon', chunks: ['#3e5b4f', '#4a6b5d', '#5a8170', '#ece4cf', '#b3121b', '#8d969e'] },
+    scary: { name: 'Scary', draw: drawWormScary, mood: 'scary', chunks: ['#5c3d3d', '#966f6a', '#c29d94', '#e8cec4', '#8f0d14', '#3e2526'] },
+    mimic: { name: 'Mimic', pro: true, draw: drawMimic, mood: 'cartoon', chunks: MIMIC_CHUNKS },
+    kraken: { name: 'Kraken', pro: true, draw: drawKraken, mood: 'scary', chunks: KRAKEN_CHUNKS },
+    shark: { name: 'Shark', pro: true, draw: drawShark, mood: 'scary', chunks: SHARK_CHUNKS }
+  };
+  function monsterId() { return MONSTERS[look] ? look : 'cartoon'; }
+  const cv = document.getElementById('demoCanvas'), c = cv.getContext('2d');
+  const ring = document.getElementById('demoRing'), prog = document.getElementById('demoProg'), num = document.getElementById('demoNum'), res = document.getElementById('demoResult');
+  const SECS = 15, C = 326.73, NAME = 'MossyOtter';
+  const GORE = ['#8f0d14', '#b3121b', '#d8232c', '#5e070c', '#a50f19'];
+  let W = 0, H = 0, d = 1, t0 = performance.now(), mode = 'wait', modeT = 0, p = 0, lastSec = -1;
+  let fx = { fired: false, boomed: false, chomped: false, gore: [], chunks: [], eatX0: null };
+  const last = { hx: 0, hy: 0 };
+  function fit() { const r = cv.getBoundingClientRect(); d = Math.min(2, devicePixelRatio || 1); const w = Math.max(1, Math.round(r.width * d)), h = Math.max(1, Math.round(r.height * d)); if (w !== W || h !== H) { W = cv.width = w; H = cv.height = h; } }
+  function reset() { mode = 'wait'; t0 = performance.now(); p = 0; lastSec = -1; fx = { fired: false, boomed: false, chomped: false, gore: [], chunks: [], eatX0: null }; res.hidden = true; ring.className = 'ring'; num.textContent = SECS; }
+  function claim() { if (mode !== 'wait') return; mode = 'claim'; modeT = performance.now(); ring.className = 'ring done'; num.textContent = 'REAL'; prog.style.strokeDashoffset = 0; }
+  document.getElementById('demoSend').addEventListener('click', claim);
+  document.querySelectorAll('[data-look]').forEach(b => b.addEventListener('click', () => {
+    look = b.dataset.look; scaryTrail = [];
+    document.querySelectorAll('[data-look]').forEach(x => x.setAttribute('aria-pressed', x.dataset.look === look ? 'true' : 'false'));
+  }));
+
+  function spawnGore(nx, ny, tw, th, font) {
+    for (let i = 0; i < 80; i++) {
+      const ang = Math.PI + (Math.random() - .5) * Math.PI * 1.7, sp = (Math.random() * .028 + .005) * W;
+      fx.gore.push({ kind: 'blob', x: nx + (Math.random() - .5) * tw * .7, y: ny + (Math.random() - .5) * th, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp - H * .012,
+        r: H * (.006 + Math.random() * .022), col: GORE[i % GORE.length], rot: Math.random() * 6, vr: (Math.random() - .5) * .3, stuck: false });
+    }
+    c.font = font; let cx = nx - tw / 2;
+    [...NAME].forEach(ch => { const w = c.measureText(ch).width;
+      fx.gore.push({ kind: 'char', ch, font, x: cx + w / 2, y: ny, vx: (Math.random() - .75) * W * .02, vy: -(Math.random() * H * .028 + H * .008), rot: 0, vr: (Math.random() - .5) * .28, r: w, stuck: false });
+      cx += w; });
+  }
+  function spawnChunks(hx, hy, R) {
+    const cols = MONSTERS[monsterId()].chunks;
+    for (let i = 0; i < 70; i++) fx.chunks.push({ kind: 'blob', x: hx + Math.random() * R * 3, y: hy + (Math.random() - .5) * R * 1.7, vx: (Math.random() - .55) * W * .03, vy: -(Math.random() * H * .03 + H * .004),
+      r: R * (.04 + Math.random() * .15), col: cols[i % cols.length], rot: Math.random() * 6, vr: (Math.random() - .5) * .3, stuck: false });
+  }
+  function stepParts(arr) {
+    const floor = H * .95;
+    for (let i = arr.length - 1; i >= 0; i--) {
+      const q = arr[i];
+      if (!q.stuck) {
+        q.vx *= .99; q.vy += H * .0011; q.x += q.vx; q.y += q.vy; q.rot += q.vr;
+        if (q.kind === 'blob' && q.y > floor && q.vy > 0) { q.stuck = true; q.y = floor + Math.random() * H * .03; q.vx = 0; }
+        if (q.y > H + 200) { arr.splice(i, 1); continue; }
+      }
+      c.save(); c.translate(q.x, q.y);
+      if (q.kind === 'char') {
+        c.rotate(q.rot); c.font = q.font; c.textAlign = 'center'; c.textBaseline = 'middle';
+        c.lineJoin = 'round'; c.lineWidth = q.r * .14; c.strokeStyle = '#0b0c0e'; c.strokeText(q.ch, 0, 0); c.fillStyle = '#ebe5d6'; c.fillText(q.ch, 0, 0);
+      } else {
+        if (!q.stuck) c.rotate(q.rot);
+        c.beginPath(); c.ellipse(0, 0, q.r * (q.stuck ? 1.5 : 1), q.r * (q.stuck ? .35 : .72), 0, 0, Math.PI * 2); c.fillStyle = q.col; c.fill();
+        c.beginPath(); c.ellipse(-q.r * .3, -q.r * .2, q.r * .25, q.r * .14, 0, 0, Math.PI * 2); c.fillStyle = 'rgba(255,255,255,.18)'; c.fill();
+      }
+      c.restore();
+    }
+  }
+
+  let visible = true;
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(cv);
+
+  function frame(now) {
+    requestAnimationFrame(frame);
+    if (!visible || document.hidden) { if (mode === 'wait') t0 += 16; return; }
+    fit();
+    const ts = now / 1000;
+    if (mode === 'wait') {
+      const left = Math.max(0, SECS - (now - t0) / 1000); p = reduce ? .45 : 1 - left / SECS;
+      const s = Math.ceil(left);
+      if (s !== lastSec) { lastSec = s; num.textContent = s; ring.classList.toggle('hot', s <= 5); }
+      prog.style.strokeDashoffset = C * p;
+      if (left <= 0) { mode = 'eat'; modeT = now; }
+    }
+    const mt = (now - modeT) / 1000;
+    c.clearRect(0, 0, W, H);
+
+    // the winner's name, hanging from two ropes
+    const nameFs = Math.min(H * .17, (W * .36) / Math.max(4, NAME.length) * 1.85);
+    const font = `italic 900 ${nameFs}px "Big Shoulders Display", Impact, sans-serif`;
+    c.font = font;
+    const tw = c.measureText(NAME).width, th = nameFs * .82;
+    const ax = W * .32, restY = H * .44;
+    const swing = mode === 'wait' ? Math.sin(ts * (1.5 + p * 2.5)) * (.012 + p * .03) : 0;
+    const shake = mode === 'wait' ? Math.sin(ts * (17 + p * 26)) * d * (.6 + p * 4) : 0;
+    const nx = ax + Math.sin(swing) * restY + shake, ny = Math.cos(swing) * restY;
+    const offs = [-tw * .24, tw * .24], rw = Math.max(4 * d, nameFs * .1);
+    const nameGone = mode === 'eat' && mt > .45;
+    if (mode === 'claim' && mt > .2) {
+      const k = clamp01((mt - .2) / .6);
+      offs.forEach(o => drawRope(c, ax + o, -rw, ax + o + Math.sin(ts * 4 + o) * rw * 3, lerp(ny - th * .5, -rw * 2, easeQuart(k)), rw));
+    } else if (nameGone) {
+      offs.forEach(o => drawRope(c, ax + o, -rw, ax + o + Math.sin(ts * 3 + o) * rw * 2.5, ny - th * 1.1, rw));
+    } else {
+      offs.forEach(o => drawRope(c, ax + o, -rw, nx + o, ny - th * .2, rw));
+    }
+    if (!nameGone) {
+      const glow = mode === 'claim' ? clamp01(mt / .3) : 0;
+      c.save(); c.font = font; c.textAlign = 'center'; c.textBaseline = 'middle';
+      c.lineJoin = 'round'; c.lineWidth = nameFs * .12; c.strokeStyle = '#0b0c0e'; c.strokeText(NAME, nx, ny);
+      if (glow) { c.shadowColor = '#ffb020'; c.shadowBlur = 40 * d * glow; }
+      c.fillStyle = glow ? '#ffd27a' : '#ebe5d6'; c.fillText(NAME, nx, ny); c.restore();
+      const coilA = mode === 'claim' ? 1 - clamp01((mt - .15) / .25) : 1;
+      if (coilA > 0) { c.save(); c.globalAlpha = coilA; offs.forEach(o => drawCoil(c, nx + o, ny, th, rw, mode === 'claim' ? Math.max(0, mt - .15) * H * .6 : 0)); c.restore(); }
+    }
+
+    // the Prize Eater, coming in from the right
+    const R = H * .2;
+    let hx = lerp(W - R * .2, W * .6, p * .8 + easeIn(p) * .2) + Math.sin(ts * 2.2) * R * .06;
+    let hy = H * .45 + Math.sin(ts * 1.1) * H * .02;
+    let mouth = .35 + p * .5 + Math.sin(ts * 5) * .06, hurt = 0, alive = true;
+    if (mode === 'eat') {
+      if (fx.eatX0 === null) fx.eatX0 = last.hx || hx;
+      const lunge = clamp01(mt / .45), back = clamp01((mt - 1.8) / 1.3);
+      hx = lerp(lerp(fx.eatX0, nx + R * .12, easeIn(lunge)), W + R * 2.6, easeIn(back));
+      hy = lerp(last.hy || hy, ny, lunge * (1 - back));
+      mouth = mt < .42 ? .85 + lunge * .15 : (mt < 1.8 ? .12 + Math.abs(Math.sin((mt - .45) * 9)) * .32 : .3);
+      if (!fx.chomped && mt > .45) { fx.chomped = true; spawnGore(nx, ny, tw, th, font); }
+      if (mt > 1.1 && res.hidden) { res.textContent = 'Gobbled'; res.className = 'result bad'; res.hidden = false; }
+      if (mt > 4.2) reset();
+    } else if (mode === 'claim') {
+      hx = last.hx || hx; hy = last.hy || hy;
+      hurt = mt > .5 ? clamp01((mt - .5) / .45) : 0;
+      if (mt > .95 && !fx.boomed) { fx.boomed = true; spawnChunks(hx, hy, R); }
+      if (mt > .95) alive = false;
+      if (mt > 1.3 && res.hidden) { res.textContent = 'Worm down!'; res.className = 'result'; res.hidden = false; }
+      if (mt > 4.6) reset();
+    } else { last.hx = hx; last.hy = hy; }
+    if (alive && hx < W + R * 2.4) drawWorm(c, W, hx, hy, R, mouth, ts, hurt);
+
+    // laser
+    if (mode === 'claim' && mt > .35 && mt < 1.05) {
+      const k = clamp01((mt - .35) / .12), sx = nx + tw / 2, ex = lerp(sx, hx, k), ey = lerp(ny, hy, k), wv = H * (.03 + Math.sin(now / 25) * .008);
+      c.save(); c.lineCap = 'round';
+      [['rgba(255,61,46,.55)', 2.2], ['#ffb020', 1], ['#fffbe8', .35]].forEach(([col, m]) => { c.strokeStyle = col; c.lineWidth = wv * m; c.beginPath(); c.moveTo(sx, ny); c.lineTo(ex, ey); c.stroke(); });
+      c.fillStyle = '#fffbe8'; c.beginPath(); c.arc(sx, ny, wv * .9, 0, Math.PI * 2); c.fill(); c.restore();
+    }
+    if (mode === 'claim' && mt > .95 && mt < 1.45) {
+      const ft = (mt - .95) / .5;
+      c.save(); c.globalAlpha = 1 - ft;
+      const rg = c.createRadialGradient(hx, hy, 0, hx, hy, H * (.15 + ft * .6));
+      rg.addColorStop(0, '#fffbe8'); rg.addColorStop(.4, '#ffb020'); rg.addColorStop(1, 'rgba(255,61,46,0)');
+      c.fillStyle = rg; c.fillRect(0, 0, W, H); c.restore();
+    }
+    stepParts(fx.chunks); stepParts(fx.gore);
+  }
+  requestAnimationFrame(frame);
+
+  // ---- draw demo: the app's own draw animations (Prize Eater, Reel, Wheel, Pull-in) on a loop ----
+  {
+    const $ = (q, r = document) => r.querySelector(q);
+    const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+    const randInt = n => n <= 1 ? 0 : Math.floor(Math.random() * n);
+    const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = randInt(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+    const noop = () => {}, sfx = new Proxy({}, { get: () => noop }), music = { setIntensity: noop, scene: noop };
+    const VIEWERS = ['MossyOtter','pixelbadger_42','LagWizard','quietkettle','NeonTurnip','Captain_Crumb','velvetgoose','SirKnitsALot','frostbyte_tv','OrbitalPancake','tinyanvil','Dusk_Rider88',
+      'PaperCrane07','WobbleGecko','saltwaterjam','Gl1tchGoblin','honey_crane','sleepyTofuTV','RustyYeti19','CosmicLynx47','ByteKettle','TurboWizard'];
+    const S = { line1: 'Steam key giveaway', line2: 'Winner picks any game under $30', entries: VIEWERS.map(n => ({ id: n.toLowerCase(), name: n })) };
+    const sceneEl = document.getElementById('drawScene'), dScreen = document.getElementById('drawScreen');
+    let scene = 'idle', loopRaf = 0;
+    function setScene(name, html) { cancelAnimationFrame(loopRaf); loopRaf = 0; scene = name; sceneEl.className = 's-' + name; sceneEl.innerHTML = html; }
+    // the draw demo's worm keeps its own body, separate from the bot check's
+    let drawTrail = [];
+    function drawWormOwn(...args) { const keep = scaryTrail; scaryTrail = drawTrail; drawWorm(...args); drawTrail = scaryTrail; scaryTrail = keep; }
+    // confetti for the winner reveal
+    const fxc = document.getElementById('drawFx'), fctx = fxc.getContext('2d'), CONF = ['#ffb020', '#ff3d2e', '#ece4cf', '#46d17e', '#8b9098'];
+    let parts = [], fxRun = false;
+    function confetti(n, ox = .5, oy = .45) {
+      if (reduce) return;
+      const r = dScreen.getBoundingClientRect(), dd = Math.min(2, devicePixelRatio || 1);
+      fxc.width = Math.round(r.width * dd); fxc.height = Math.round(r.height * dd);
+      const W = fxc.width, H = fxc.height;
+      for (let i = 0; i < n; i++) parts.push({ x: W * ox + (Math.random() - .5) * W * .15, y: H * oy, vx: (Math.random() - .5) * W * .024, vy: -(Math.random() * H * .03 + H * .01),
+        g: H * .00095, w: (5 + Math.random() * 7) * dd, h: (8 + Math.random() * 8) * dd, r: Math.random() * 6, vr: (Math.random() - .5) * .3, c: CONF[i % CONF.length] });
+      if (!fxRun) { fxRun = true; requestAnimationFrame(stepFx); }
+    }
+    function stepFx() {
+      const W = fxc.width, H = fxc.height; fctx.clearRect(0, 0, W, H);
+      parts = parts.filter(q => q.y < H + 30);
+      for (const q of parts) { q.vx *= .99; q.vy += q.g; q.x += q.vx; q.y += q.vy; q.r += q.vr;
+        fctx.save(); fctx.translate(q.x, q.y); fctx.rotate(q.r); fctx.scale(1, Math.cos(q.r * 2)); fctx.fillStyle = q.c; fctx.fillRect(-q.w / 2, -q.h / 2, q.w, q.h); fctx.restore(); }
+      if (parts.length) requestAnimationFrame(stepFx); else { fxRun = false; fctx.clearRect(0, 0, W, H); }
+    }
+    const prizeHead = (eyebrow, cls = '') => `<div class="top-left ${cls}"><p class="eyebrow">${eyebrow}</p><h3 class="p1">${esc(S.line1 || 'Giveaway')}</h3></div>`;
+    const ANIMS = {
+      reel(w) {
+        return new Promise(res => {
+          const names = S.entries.map(e => e.name), L = 52, W = L - 5, list = [];
+          for (let i = 0; i < L; i++) list.push(names[randInt(names.length)]);
+          list[W] = w.name;
+          setScene('reel', prizeHead('Drawing for', 'center') + `<div class="reel-window"><div class="reel-strip">${list.map(n => `<div class="tile">${esc(n)}</div>`).join('')}</div></div><span class="reel-arrow l"></span><span class="reel-arrow r"></span>`);
+          const win = $('.reel-window', sceneEl), strip = $('.reel-strip', sceneEl);
+          const tileH = strip.firstElementChild.getBoundingClientRect().height, winH = win.getBoundingClientRect().height;
+          const target = W * tileH - (winH / 2 - tileH / 2), dur = reduce ? 1500 : 5600, t0 = performance.now();
+          let last = -1;
+          (function f(now) {
+            const t = clamp01((now - t0) / dur), y = target * easeQuart(t);
+            strip.style.transform = `translateY(${-y}px)`;
+            const idx = Math.floor((y + winH / 2) / tileH); if (idx !== last) { last = idx; sfx.tick(); }
+            if (t < 1) loopRaf = requestAnimationFrame(f);
+            else { strip.children[W].classList.add('hit'); sfx.thunk(); setTimeout(res, 900); }
+          })(t0);
+        });
+      },
+      wheel(w) {
+        return new Promise(res => {
+          const segs = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 23), w]);
+          const n = segs.length, k = segs.indexOf(w);
+          setScene('wheel', prizeHead('Spinning for') + `<div class="wheel-wrap"><canvas></canvas><span class="pointer"></span></div>`);
+          const cv = $('canvas', sceneEl), rect = cv.getBoundingClientRect(), d = Math.min(2, devicePixelRatio || 1);
+          const size = Math.max(50, Math.round(rect.width * d)); cv.width = cv.height = size;
+          const c = cv.getContext('2d'), a = 2 * Math.PI / n, R = size / 2;
+          const pal = ['#ffb020', '#ff3d2e', '#ece4cf', '#3a3f45'], ink = ['#16181b', '#ffffff', '#16181b', '#ece4cf'];
+          const ci = i => (n > 1 && i === n - 1 && i % 4 === 0) ? 2 : i % 4;
+          const fs = Math.max(9 * d, Math.min(R * .072, R * a * .38));
+          function drawW(rot, hi) {
+            c.clearRect(0, 0, size, size); c.save(); c.translate(R, R);
+            c.beginPath(); c.arc(0, 0, R - 2 * d, 0, Math.PI * 2); c.fillStyle = '#0f1113'; c.fill();
+            c.rotate(rot);
+            for (let i = 0; i < n; i++) {
+              c.beginPath(); c.moveTo(0, 0); c.arc(0, 0, R - 10 * d, i * a, (i + 1) * a); c.closePath();
+              c.fillStyle = pal[ci(i)]; c.fill(); c.lineWidth = 2 * d; c.strokeStyle = '#0f1113'; c.stroke();
+              if (hi && i === k) { c.fillStyle = 'rgba(255,255,255,.35)'; c.fill(); }
+              c.save(); c.rotate(i * a + a / 2); c.textAlign = 'right'; c.textBaseline = 'middle';
+              c.font = `italic 900 ${fs * 1.25}px "Big Shoulders Display", Impact, sans-serif`; c.fillStyle = ink[ci(i)];
+              const nm = segs[i].name.length > 15 ? segs[i].name.slice(0, 14) + '…' : segs[i].name;
+              c.fillText(nm, R - 22 * d, 0); c.restore();
+            }
+            c.restore();
+            for (let i = 0; i < 60; i++) { const t = i / 60 * Math.PI * 2, r1 = R - 7 * d, r2 = R - (i % 5 ? 3 : 1) * d; c.beginPath(); c.moveTo(R + Math.cos(t) * r1, R + Math.sin(t) * r1); c.lineTo(R + Math.cos(t) * r2, R + Math.sin(t) * r2); c.lineWidth = (i % 5 ? 1.2 : 2.4) * d; c.strokeStyle = i % 5 ? '#5c6168' : '#ebe5d6'; c.stroke(); }
+            c.beginPath(); c.arc(R, R, R * .13, 0, Math.PI * 2); c.fillStyle = '#222529'; c.fill(); c.lineWidth = 3 * d; c.strokeStyle = '#0a0b0d'; c.stroke();
+            c.beginPath(); c.arc(R, R, R * .045, 0, Math.PI * 2); c.fillStyle = '#ff3d2e'; c.fill();
+          }
+          const TAU = Math.PI * 2, jitter = (Math.random() - .5) * a * .6;
+          let base = (-Math.PI / 2 - (k + .5) * a - jitter) % TAU; if (base < 0) base += TAU;
+          const final = base + TAU * (reduce ? 2 : 8), dur = reduce ? 1800 : 7000, t0 = performance.now();
+          const idxAt = rot => Math.floor((((-Math.PI / 2 - rot) % TAU) + TAU) % TAU / a);
+          let last = -1;
+          (function f(now) {
+            const t = clamp01((now - t0) / dur), rot = final * easeQuart(t);
+            drawW(rot, false);
+            const i = idxAt(rot); if (i !== last) { last = i; sfx.tick(); }
+            if (t < 1) loopRaf = requestAnimationFrame(f);
+            else { drawW(final, true); sfx.thunk(); setTimeout(res, 1000); }
+          })(t0);
+        });
+      },
+      pull(w) {
+        return new Promise(res => {
+          const all = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 29), w]);
+          setScene('pull', prizeHead('Pulling a winner for', 'center') + '<div class="field-area"></div>');
+          const field = $('.field-area', sceneEl), W = field.clientWidth, H = field.clientHeight;
+          const cols = Math.min(6, all.length), rows = Math.ceil(all.length / cols), chips = new Map();
+          all.forEach((e, i) => {
+            const outer = document.createElement('span'), inner = document.createElement('span');
+            outer.className = 'chip'; inner.className = 'chip-in'; inner.textContent = e.name; outer.appendChild(inner); field.appendChild(outer);
+            const ow = outer.offsetWidth, oh = outer.offsetHeight, c = i % cols, r = Math.floor(i / cols);
+            const tx = (c + .5) / cols * W - ow / 2 + (Math.random() - .5) * W * .03, ty = H * .3 + (r + .5) / rows * H * .62 - oh / 2 + (Math.random() - .5) * H * .04;
+            const ang = Math.random() * Math.PI * 2, far = Math.max(W, H);
+            outer.style.transition = 'none'; outer.style.transform = `translate(${W / 2 + Math.cos(ang) * far}px,${H / 2 + Math.sin(ang) * far}px)`;
+            chips.set(e.id, { outer, inner, tx, ty });
+          });
+          void field.offsetWidth;
+          all.forEach((e, i) => { const ch = chips.get(e.id); ch.outer.style.transition = ''; ch.outer.style.transitionDelay = (reduce ? 0 : i * 35) + 'ms'; ch.outer.style.transform = `translate(${Math.max(4, Math.min(W - ch.outer.offsetWidth - 4, ch.tx))}px,${ch.ty}px)`; setTimeout(sfx.tick, i * 35); });
+          const order = shuffle(all.filter(e => e.id !== w.id));
+          let i = 0;
+          function next() {
+            if (i >= order.length) return finish();
+            chips.get(order[i].id).inner.classList.add('out'); sfx.tick(); i++;
+            setTimeout(next, Math.max(reduce ? 20 : 60, (reduce ? 60 : 300) * Math.pow(.9, i)));
+          }
+          function finish() {
+            const ch = chips.get(w.id);
+            ch.outer.style.transitionDelay = '0ms'; ch.outer.style.zIndex = 5;
+            ch.outer.style.transform = `translate(${W / 2 - ch.outer.offsetWidth / 2}px,${H * .58 - ch.outer.offsetHeight / 2}px)`;
+            ch.inner.classList.add('win');
+            setTimeout(() => { sfx.thunk(); res(); }, reduce ? 400 : 1300);
+          }
+          setTimeout(next, reduce ? 500 : 1500 + all.length * 35);
+        });
+      }
+    };
+    ANIMS.eater = function (w) {
+      return new Promise(res => {
+        const all = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 23), w]);
+        setScene('eater', prizeHead('The Prize Eater picks for') + '<canvas class="beast"></canvas>');
+        const cv = $('canvas.beast', sceneEl), c = cv.getContext('2d');
+        const rect = cv.getBoundingClientRect(), d = Math.min(2, devicePixelRatio || 1);
+        const W = cv.width = Math.max(1, Math.round(rect.width * d)), H = cv.height = Math.max(1, Math.round(rect.height * d));
+        const n = all.length, cols = n > 16 ? 4 : n > 8 ? 3 : n > 1 ? 2 : 1, rows = Math.ceil(n / cols);
+        const X0 = W * .04, X1 = W * .96, Y0 = H * .3, Y1 = H * .93;
+        const labels = all.map(e => e.name.length > 16 ? e.name.slice(0, 15) + '…' : e.name);
+        const fontAt = f => `italic 800 ${f}px "Big Shoulders Display", Impact, sans-serif`;
+        let fs = Math.min(H * .058, (Y1 - Y0) / rows * .5);
+        c.font = fontAt(fs);
+        const widest = Math.max(...labels.map(l => c.measureText(l).width)) + fs * 1.6;
+        const colW = (X1 - X0) / cols;
+        if (widest > colW * .92) fs *= colW * .92 / widest;
+        const font = fontAt(fs);
+        c.font = font;
+        const chips = all.map((e, i) => {
+          const col = i % cols, row = Math.floor(i / cols);
+          const label = e.name.length > 16 ? e.name.slice(0, 15) + '…' : e.name;
+          return { e, label, x: X0 + (col + .5) / cols * (X1 - X0), y: Y0 + (row + .5) / rows * (Y1 - Y0), tw: c.measureText(label).width, alive: true, seed: Math.random() * 6 };
+        });
+        const winChip = chips.find(ch => ch.e.id === w.id);
+        const victims = shuffle(chips.filter(ch => ch !== winChip));
+        const R = H * .13;
+        const GORE = ['#8f0d14', '#b3121b', '#d8232c', '#5e070c', '#a50f19'];
+        const gore = [];
+        let hx = W + R * 2.5, hy = H * .62, mouth = .3;
+        let phase = victims.length ? 'hunt' : 'leave', idx = 0, legT0 = performance.now(), legDur = 900, from = { x: hx, y: hy };
+        let vx = -1, vy = 0, lastNow = performance.now();
+        const legLen = k => Math.max(reduce ? 120 : 210, (reduce ? 300 : 780) * Math.pow(.88, k));
+        if (phase === 'hunt') legDur = legLen(0);
+
+        function chipPath(x, y, tw, h, sk) {
+          c.beginPath(); c.moveTo(x - tw / 2 - h * .45 + sk, y - h / 2); c.lineTo(x + tw / 2 + h * .45 + sk, y - h / 2);
+          c.lineTo(x + tw / 2 + h * .45 - sk, y + h / 2); c.lineTo(x - tw / 2 - h * .45 - sk, y + h / 2); c.closePath();
+        }
+        function drawChip(ch, ts, scale, lit) {
+          const near = Math.max(0, 1 - Math.hypot(ch.x - hx, ch.y - hy) / (R * 4));
+          const jx = Math.sin(ts * 30 + ch.seed) * fs * .08 * near, h = fs * 1.5;
+          c.save(); c.translate(ch.x + jx, ch.y); c.scale(scale, scale);
+          if (lit) { c.shadowColor = '#ffb020'; c.shadowBlur = 40 * d * lit; }
+          chipPath(0, 0, ch.tw, h, h * .18); c.fillStyle = lit ? '#ffb020' : '#ece4cf'; c.fill(); c.shadowBlur = 0;
+          c.font = font; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = lit ? '#1c1405' : '#16181b'; c.fillText(ch.label, 0, h * .04);
+          c.restore();
+        }
+        function splat(ch) {
+          for (let i = 0; i < 26; i++) {
+            const a = Math.random() * Math.PI * 2, sp = (Math.random() * .016 + .004) * W;
+            gore.push({ x: ch.x + (Math.random() - .5) * ch.tw, y: ch.y, vx: Math.cos(a) * sp, vy: Math.sin(a) * sp - H * .01, r: H * (.004 + Math.random() * .014), col: GORE[i % GORE.length], rot: Math.random() * 6, stuck: false });
+          }
+        }
+        function frame(now) {
+          if (scene !== 'eater') return;
+          const ts = now / 1000;
+          const dt = Math.min(.05, (now - lastNow) / 1000); lastNow = now;
+          if (phase === 'hunt') {
+            // steer toward the next name with momentum, so the worm swims in curves
+            const ch = victims[idx], tx = ch.x + ch.tw * .25, ty = ch.y;
+            const dx = tx - hx, dy = ty - hy, dist = Math.hypot(dx, dy) || 1;
+            const near = 1 - clamp01(dist / (R * 3));
+            const speed = W * (reduce ? 1.6 : .8 + Math.min(idx, 20) * .06) * (.5 + .5 * clamp01(dist / (R * 2)));
+            // turn toward the target, but never tighter than the worm is thick, so its body can't coil up
+            const want = Math.atan2(dy, dx), cur = Math.atan2(vy, vx);
+            let turn = Math.atan2(Math.sin(want - cur), Math.cos(want - cur));
+            const maxTurn = speed * dt / (R * 2.2);
+            turn = Math.max(-maxTurn, Math.min(maxTurn, turn * Math.min(1, dt * (7 + idx * .35) * (1 + near * 2.5))));
+            vx = Math.cos(cur + turn); vy = Math.sin(cur + turn);
+            // slow down to turn when the next name is off to the side or behind, so it never circles it
+            const ahead = Math.cos(want - cur - turn), go = speed * (.82 + .18 * Math.max(0, ahead)); // turn radius stays >= 1.8x its thickness
+            hx += vx * go * dt; hy += vy * go * dt;
+            hx = Math.max(R * .5, Math.min(W - R * .3, hx)); hy = Math.max(H * .22, Math.min(H * .96, hy));
+            mouth = .3 + .7 * near;
+            if (dist < R * 1.1 || now - legT0 > 1000) {
+              ch.alive = false; splat(ch); sfx.chomp(); mouth = .1; idx++; music.setIntensity(idx / victims.length);
+              from = { x: hx, y: hy }; legT0 = now;
+              if (idx < victims.length) legDur = legLen(idx); else { phase = 'leave'; legDur = reduce ? 300 : 900; }
+            }
+          } else if (phase === 'leave') {
+            const t = clamp01((now - legT0) / legDur);
+            hx = lerp(from.x, W + R * 3, t * t); hy = lerp(from.y, H * .6, t); mouth = .3 + Math.abs(Math.sin(ts * 9)) * .3;
+            if (t >= 1) { phase = 'win'; legT0 = now; winChip.sx = winChip.x; winChip.sy = winChip.y; sfx.thunk(); }
+          }
+          c.clearRect(0, 0, W, H);
+          const floor = H * .97;
+          for (const q of gore) {
+            if (!q.stuck) { q.vx *= .99; q.vy += H * .0011; q.x += q.vx; q.y += q.vy; q.rot += .2; if (q.y > floor && q.vy > 0) { q.stuck = true; q.y = floor + Math.random() * H * .02; } }
+            c.save(); c.translate(q.x, q.y); if (!q.stuck) c.rotate(q.rot);
+            c.beginPath(); c.ellipse(0, 0, q.r * (q.stuck ? 1.5 : 1), q.r * (q.stuck ? .35 : .72), 0, 0, Math.PI * 2); c.fillStyle = q.col; c.fill(); c.restore();
+          }
+          if (phase === 'win') {
+            const t = clamp01((now - legT0) / (reduce ? 300 : 900)), e = 1 - Math.pow(1 - t, 3);
+            winChip.x = lerp(winChip.sx, W / 2, e); winChip.y = lerp(winChip.sy, H * .6, e);
+            drawChip(winChip, ts, 1 + e * 1.6, e);
+            if (t >= 1) { setTimeout(res, 500); return; }
+          } else {
+            chips.forEach(ch => { if (ch.alive) drawChip(ch, ts, 1, 0); });
+            if (hx < W + R * 2.4) drawWormOwn(c, W, hx, hy, R, mouth, ts, 0);
+          }
+          loopRaf = requestAnimationFrame(frame);
+        }
+        loopRaf = requestAnimationFrame(frame);
+      });
+    };
+    // ---- Marble race, Battle royale, Claw machine ----
+    // The winner (w) is already picked; each animation is choreographed by src/core.js to end on them.
+    function stageCanvas(name, head) {
+      setScene(name, head + '<canvas class="beast"></canvas>');
+      const cv = $('canvas.beast', sceneEl), rect = cv.getBoundingClientRect(), d = Math.min(2, devicePixelRatio || 1);
+      const W = cv.width = Math.max(1, Math.round(rect.width * d)), H = cv.height = Math.max(1, Math.round(rect.height * d));
+      return { cv, c: cv.getContext('2d'), W, H, d };
+    }
+    const RACE_COLS = ['#ff3d2e', '#ffb020', '#46d17e', '#3fa9ff', '#e58ad0', '#9b7bff', '#ff8a3d', '#2fd3c8', '#f2e15b', '#ff5e8e', '#7fd65f', '#c9c2b2'];
+    const shortName = (s, n) => s.length > n ? s.slice(0, n - 1) + '…' : s;
+    function nameTag(c, x, y, text, fs, fill = '#ece4cf', ink = '#16181b') {
+      c.font = `italic 800 ${fs}px "Big Shoulders Display", Impact, sans-serif`;
+      const tw = c.measureText(text).width, h = fs * 1.35, sk = h * .2;
+      c.beginPath(); c.moveTo(x - tw / 2 - fs * .45 + sk, y - h / 2); c.lineTo(x + tw / 2 + fs * .45 + sk, y - h / 2); c.lineTo(x + tw / 2 + fs * .45 - sk, y + h / 2); c.lineTo(x - tw / 2 - fs * .45 - sk, y + h / 2); c.closePath();
+      c.fillStyle = fill; c.fill(); c.fillStyle = ink; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(text, x, y + fs * .04);
+    }
+    // Random marble track. Returns points in race order, the turn radius and a color theme.
+    const TRACK_THEMES = [
+      { road: '#2b3036', railHi: '#c9ced4', railLo: '#3a3f46' },
+      { road: '#6b4a32', railHi: '#e2c48f', railLo: '#4a3320' },
+      { road: '#24465a', railHi: '#b9e1f5', railLo: '#1d3442' },
+      { road: '#33452a', railHi: '#d6e3b8', railLo: '#26331f' }
+    ];
+    function marbleTrack(W, H, rnd = Math.random) {
+      const pts = [], push = (x, y) => pts.push({ x, y }), top = H * .34, bot = H * .95, theme = TRACK_THEMES[Math.floor(rnd() * TRACK_THEMES.length)];
+      if (rnd() < .3) {
+        // loop: once around a wobbly oval, start and finish side by side at the bottom
+        const cx = W * .5, cy = (top + bot) / 2, rx = W * .38, ry = (bot - top) / 2 - H * .07, ph = rnd() * 6, lobes = 2 + Math.floor(rnd() * 3), dir = rnd() < .5 ? 1 : -1;
+        for (let k = 0; k <= 240; k++) { const a = Math.PI / 2 + dir * (.06 + k / 240 * .88) * Math.PI * 2, f = 1 + Math.sin(a * lobes + ph) * .1; push(cx + Math.cos(a) * rx * f, cy + Math.sin(a) * ry * f); }
+        return { pts, rr: H * .1, theme };
+      }
+      const rows = rnd() < .55 ? 3 : 2, rr = (bot - top) / (rows * 2), m = rr + Math.min(rr * 1.3, H * .2) / 2 + W * .015, xa = m + rnd() * W * .03, xb = W - m - rnd() * W * .03;
+      const waves = Math.floor(rnd() * 3), amp = waves ? rr * (.2 + rnd() * .2) : 0, flip = rnd() < .5, ph = rnd() < .5 ? 1 : -1;
+      for (let r = 0; r < rows; r++) {
+        const y = top + rr + r * 2 * rr, ltr = (r % 2 === 0) !== flip, x0 = ltr ? xa : xb, x1 = ltr ? xb : xa, s = ltr ? ph : -ph; // rows stay parallel
+        for (let k = r ? 1 : 0; k <= 60; k++) push(lerp(x0, x1, k / 60), y + Math.sin(Math.PI * waves * 2 * k / 60) * amp * s);
+        if (r < rows - 1) for (let k = 1; k <= 30; k++) { const a = -Math.PI / 2 + Math.PI * k / 30; push(x1 + (ltr ? 1 : -1) * rr * Math.cos(a), y + rr + rr * Math.sin(a)); }
+      }
+      return { pts, rr, theme };
+    }
+    // mix a #rrggbb color toward white (t > 0) or black (t < 0)
+    function shadeHex(hex, t) {
+      const n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255, to = t > 0 ? 255 : 0, k = Math.abs(t);
+      return `rgb(${Math.round(r + (to - r) * k)},${Math.round(g + (to - g) * k)},${Math.round(b + (to - b) * k)})`;
+    }
+    // soft contact shadow under a ball or capsule
+    function ballShadow(c, x, y, r, a = .55) {
+      const sx = x + r * .22, sy = y + r * .78, g = c.createRadialGradient(sx, sy, 0, sx, sy, r * 1.25);
+      g.addColorStop(0, `rgba(0,0,0,${a})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+      c.fillStyle = g; c.beginPath(); c.ellipse(sx, sy, r * 1.25, r * .62, 0, 0, Math.PI * 2); c.fill();
+    }
+    // a glass marble with a cat's-eye core that turns as it rolls
+    function marble(c, x, y, r, col, rot = 0) {
+      const TAU = Math.PI * 2;
+      c.save(); c.beginPath(); c.arc(x, y, r, 0, TAU); c.clip();
+      const g = c.createRadialGradient(x - r * .35, y - r * .4, r * .05, x, y, r * 1.05);
+      g.addColorStop(0, shadeHex(col, .6)); g.addColorStop(.35, shadeHex(col, .1)); g.addColorStop(.8, shadeHex(col, -.45)); g.addColorStop(1, shadeHex(col, -.75));
+      c.fillStyle = g; c.fillRect(x - r, y - r, r * 2, r * 2);
+      c.translate(x, y); c.rotate(rot);
+      c.globalAlpha = .7; c.fillStyle = shadeHex(col, .75);
+      c.beginPath(); c.moveTo(-r, 0); c.bezierCurveTo(-r * .3, -r * .55, r * .3, r * .55, r, 0); c.bezierCurveTo(r * .3, r * .2, -r * .3, -r * .2, -r, 0); c.fill();
+      c.rotate(Math.PI / 2); c.globalAlpha = .45; c.fillStyle = shadeHex(col, -.55);
+      c.beginPath(); c.moveTo(-r, 0); c.bezierCurveTo(-r * .3, -r * .35, r * .3, r * .35, r, 0); c.bezierCurveTo(r * .3, r * .12, -r * .3, -r * .12, -r, 0); c.fill();
+      c.setTransform(1, 0, 0, 1, 0, 0); c.globalAlpha = 1;
+      // light passing through the glass lands on the far side
+      const ca = c.createRadialGradient(x + r * .35, y + r * .45, 0, x + r * .35, y + r * .45, r * .6);
+      ca.addColorStop(0, 'rgba(255,255,255,.35)'); ca.addColorStop(1, 'rgba(255,255,255,0)'); c.fillStyle = ca; c.fillRect(x - r, y - r, r * 2, r * 2);
+      // darker rim
+      const rim = c.createRadialGradient(x, y, r * .7, x, y, r); rim.addColorStop(0, 'rgba(0,0,0,0)'); rim.addColorStop(1, 'rgba(0,0,0,.45)');
+      c.fillStyle = rim; c.fillRect(x - r, y - r, r * 2, r * 2);
+      c.restore();
+      // highlights: a soft window reflection and a sharp hot spot
+      c.beginPath(); c.ellipse(x - r * .3, y - r * .42, r * .42, r * .22, -.6, 0, TAU); c.fillStyle = 'rgba(255,255,255,.35)'; c.fill();
+      c.beginPath(); c.arc(x - r * .38, y - r * .45, r * .11, 0, TAU); c.fillStyle = 'rgba(255,255,255,.95)'; c.fill();
+    }
+    // The track is drawn once to its own canvas: shadow, steel rails, a rounded channel, start gate, finish banner.
+    function marbleTrackArt(W, H, pts, TW, theme, at) {
+      const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
+      const path = () => { c.beginPath(); pts.forEach((p, k) => c[k ? 'lineTo' : 'moveTo'](p.x, p.y)); };
+      c.lineCap = 'round'; c.lineJoin = 'round';
+      // light pool on the table
+      const lp = c.createRadialGradient(W * .5, H * .62, H * .05, W * .5, H * .62, W * .6); lp.addColorStop(0, 'rgba(255,240,210,.07)'); lp.addColorStop(1, 'rgba(0,0,0,0)');
+      c.fillStyle = lp; c.fillRect(0, 0, W, H);
+      c.save(); c.shadowColor = 'rgba(0,0,0,.7)'; c.shadowBlur = TW * .45; c.shadowOffsetY = TW * .18;
+      path(); c.lineWidth = TW + TW * .28; c.strokeStyle = '#0b0c0e'; c.stroke(); c.restore();
+      // steel rails: dark base, bright edge, dark gap
+      path(); c.lineWidth = TW + TW * .26; c.strokeStyle = theme.railLo; c.stroke();
+      path(); c.lineWidth = TW + TW * .18; c.strokeStyle = theme.railHi; c.stroke();
+      path(); c.lineWidth = TW + TW * .08; c.strokeStyle = theme.railLo; c.stroke();
+      // channel: darker at the walls, lighter down the middle
+      for (let s = 0; s < 10; s++) { const k = s / 9; path(); c.lineWidth = TW * (1 - k * .75); c.strokeStyle = shadeHex(theme.road, -.5 + Math.sqrt(k) * .58); c.stroke(); }
+      path(); c.lineWidth = Math.max(1, TW * .015); c.setLineDash([TW * .22, TW * .3]); c.strokeStyle = 'rgba(255,255,255,.08)'; c.stroke(); c.setLineDash([]);
+      // start gate and finish banner across the track
+      const gate = (q, draw) => { c.save(); c.translate(q.x, q.y); c.rotate(Math.atan2(q.ny, q.nx)); draw(); c.restore(); };
+      const st = at(0), fin = at(1), half = TW * .63;
+      gate(st, () => { c.fillStyle = 'rgba(0,0,0,.5)'; c.fillRect(-half, -TW * .05 + TW * .06, half * 2, TW * .1); c.fillStyle = '#d9d4c7'; c.fillRect(-half, -TW * .05, half * 2, TW * .1); });
+      gate(fin, () => {
+        const sq = TW / 7, cols = 2;
+        c.fillStyle = 'rgba(0,0,0,.5)'; c.fillRect(-half, -sq + sq * .5, half * 2, sq * cols);
+        for (let i = 0; i * sq < half * 2; i++) for (let j = 0; j < cols; j++) { c.fillStyle = (i + j) % 2 ? '#f1ece0' : '#141618'; c.fillRect(-half + i * sq, -sq + j * sq, Math.min(sq, half * 2 - i * sq), sq); }
+        [-1, 1].forEach(sd => { const gx = sd * (half + TW * .05); const pg = c.createRadialGradient(gx - TW * .03, -TW * .03, 0, gx, 0, TW * .09); pg.addColorStop(0, '#ffffff'); pg.addColorStop(1, '#8d939b'); c.fillStyle = pg; c.beginPath(); c.arc(gx, 0, TW * .08, 0, Math.PI * 2); c.fill(); });
+      });
+      return cv;
+    }
+
+    ANIMS.marble = function (w) {
+      return new Promise(res => {
+        const racers = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 11), w]), n = racers.length, wi = racers.indexOf(w);
+        const { c, W, H } = stageCanvas('marble', prizeHead('Marble race for'));
+        const D = reduce ? 3.2 : 9.5, plan = PECore.marblePlan(n, wi, D, PECore.seeded(randInt(2 ** 31) + 1));
+        // a new track every race: a winding snake (2 or 3 rows, wavy or straight, either direction) or a bumpy loop
+        const { pts, rr, theme } = marbleTrack(W, H);
+        const cum = [0]; for (let k = 1; k < pts.length; k++) cum.push(cum[k - 1] + Math.hypot(pts[k].x - pts[k - 1].x, pts[k].y - pts[k - 1].y));
+        const L = cum[cum.length - 1], TW = Math.min(rr * 1.3, H * .2), mr = TW * .2;
+        function at(p) {
+          const s = clamp01(p) * L; let lo = 0, hi = cum.length - 1;
+          while (hi - lo > 1) { const mid = (lo + hi) >> 1; if (cum[mid] < s) lo = mid; else hi = mid; }
+          const a = pts[lo], b = pts[hi], k = (s - cum[lo]) / Math.max(1e-6, cum[hi] - cum[lo]), dx = b.x - a.x, dy = b.y - a.y, l = Math.hypot(dx, dy) || 1;
+          return { x: lerp(a.x, b.x, k), y: lerp(a.y, b.y, k), nx: -dy / l, ny: dx / l };
+        }
+        const fin = at(1), t0 = performance.now() + (reduce ? 200 : 900), art = marbleTrackArt(W, H, pts, TW, theme, at);
+        let lastLead = -1, crossed = false, ended = false;
+        (function frame(now) {
+          if (scene !== 'marble') return;
+          const t = Math.max(0, (now - t0) / 1000);
+          c.clearRect(0, 0, W, H);
+          c.drawImage(art, 0, 0);
+          // marbles, back of the pack first so leaders draw on top
+          const order = PECore.marbleOrder(plan, t);
+          if (t > 0 && order[0] !== lastLead) { lastLead = order[0]; sfx.tick(); }
+          const spots = order.slice().reverse().map(i => {
+            const r = plan[i], p = PECore.marbleProgress(r, t), q = at(p), lane = (r.lane - .5) * TW * .52 + Math.sin(t * 2 + i) * TW * .04;
+            return { i, p, lane, x: q.x + q.nx * lane, y: q.y + q.ny * lane, v: p - PECore.marbleProgress(r, Math.max(0, t - .05)) };
+          });
+          spots.forEach(s => ballShadow(c, s.x, s.y, mr));
+          spots.forEach(s => {
+            const col = RACE_COLS[s.i % RACE_COLS.length];
+            // a faint streak behind fast marbles
+            if (!reduce && s.v > .0015) for (let g = 3; g >= 1; g--) { const q = at(s.p - s.v * g * .9); c.beginPath(); c.arc(q.x + q.nx * s.lane, q.y + q.ny * s.lane, mr * (1 - g * .12), 0, Math.PI * 2); c.fillStyle = col; c.globalAlpha = .1 / g; c.fill(); }
+            c.globalAlpha = 1;
+            marble(c, s.x, s.y, mr, col, s.p * L / mr * (s.i % 2 ? 1 : -1));
+          });
+          // names on the top three
+          { const i = order[0], r = plan[i], q = at(PECore.marbleProgress(r, t)), lane = (r.lane - .5) * TW * .52;
+            nameTag(c, q.x + q.nx * lane, q.y + q.ny * lane - mr * 2.2, shortName(racers[i].name, 16), H * .032, '#ffb020'); }
+          // live standings, top right
+          c.textAlign = 'right'; c.textBaseline = 'top'; c.font = `700 ${H * .03}px "Barlow Condensed", sans-serif`;
+          order.slice(0, 4).forEach((i, k) => { c.fillStyle = k ? 'rgba(236,228,207,.75)' : '#ffb020'; c.fillText(`${k + 1}  ${shortName(racers[i].name, 16)}`, W * .96, H * .05 + k * H * .045); });
+          if (t <= 0) { c.textAlign = 'center'; c.textBaseline = 'middle'; c.font = `italic 900 ${H * .16}px "Big Shoulders Display", Impact, sans-serif`; c.fillStyle = '#ffb020'; c.fillText('GO!', W / 2, H * .62); }
+          if (!crossed && t >= D) { crossed = true; sfx.thunk(); confetti(60, fin.x / W, fin.y / H); }
+          if (crossed && t >= D + (reduce ? .5 : 1.4) && !ended) { ended = true; setTimeout(res, 300); return; }
+          loopRaf = requestAnimationFrame(frame);
+        })(performance.now());
+      });
+    };
+
+    function royaleNoise(seed) {
+      const h = (x, y) => { let n = (x * 374761393 + y * 668265263 + seed * 2246822519) | 0; n = Math.imul(n ^ (n >>> 13), 1274126177); return ((n ^ (n >>> 16)) >>> 0) / 4294967296; };
+      const sm = t => t * t * (3 - 2 * t);
+      const v = (x, y) => { const xi = Math.floor(x), yi = Math.floor(y), xf = sm(x - xi), yf = sm(y - yi);
+        return lerp(lerp(h(xi, yi), h(xi + 1, yi), xf), lerp(h(xi, yi + 1), h(xi + 1, yi + 1), xf), yf); };
+      return (x, y, oct = 4) => { let a = .5, f = 1, s = 0, t = 0; for (let o = 0; o < oct; o++) { s += v(x * f, y * f) * a; t += a; a *= .5; f *= 2.03; } return s / t; };
+    }
+    function royaleMap(W0, H0, cx0, cy0, RX0, RY0, rnd) {
+      const MS = 1.5, W = W0 * MS, H = H0 * MS, cx = cx0 * MS, cy = cy0 * MS, RX = RX0 * MS, RY = RY0 * MS;
+      const seed = Math.floor(rnd() * 1e6), N = royaleNoise(seed), N2 = royaleNoise(seed + 7);
+      const land = (x, y) => { const u = (x - cx) / RX, v = (y - cy) / RY, a = Math.atan2(v, u); return 1.08 - Math.hypot(u, v) + (N(Math.cos(a) * 1.3 + 20, Math.sin(a) * 1.3 + 20, 2) - .5) * .5 + (N(x / W * 5, y / H * 5, 4) - .5) * .3; };
+      // painterly base at low resolution, scaled up smoothly
+      const gw = 640, gh = Math.round(640 * H / W), lo = document.createElement('canvas'); lo.width = gw; lo.height = gh;
+      const lc = lo.getContext('2d'), img = lc.createImageData(gw, gh), d = img.data;
+      const mix = (a, b, t) => a.map((v, i) => v + (b[i] - v) * Math.max(0, Math.min(1, t)));
+      for (let j = 0; j < gh; j++) for (let i = 0; i < gw; i++) {
+        const x = i / gw * W, y = j / gh * H, L = land(x, y), n = N2(x / W * 9, y / H * 9, 4);
+        let col;
+        if (L < -.06) col = mix([14, 52, 70], [10, 38, 54], -L * 2 + n * .3);
+        else if (L < 0) col = mix([33, 104, 112], [14, 52, 70], -L / .06);
+        else if (L < .035) col = mix([214, 196, 140], [190, 170, 118], n);
+        else {
+          const forest = N(x / W * 7 + 10, y / H * 7, 4), dry = N2(x / W * 3 + 4, y / H * 3, 3);
+          col = mix([92, 136, 64], [70, 112, 52], n * 1.4);
+          col = mix(col, [132, 140, 78], (dry - .55) * 3);
+          col = mix(col, [38, 74, 40], (forest - .56) * 5);
+        }
+        const k = (j * gw + i) * 4, sh = .92 + n * .16; d[k] = col[0] * sh; d[k + 1] = col[1] * sh; d[k + 2] = col[2] * sh; d[k + 3] = 255;
+      }
+      lc.putImageData(img, 0, 0);
+      const cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+      const c = cv.getContext('2d'); c.imageSmoothingEnabled = true; c.imageSmoothingQuality = 'high'; c.drawImage(lo, 0, 0, W, H);
+      const onLand = (x, y, m = .08) => land(x, y) > m;
+      const S = Math.min(W, H) / 900;
+      // surf line around the coast
+      c.save(); c.globalAlpha = .18; c.strokeStyle = '#e8f4f2'; c.lineWidth = 2 * S;
+      for (let k = 0; k < 900; k++) { const a = k / 900 * Math.PI * 2, r = 1.12 + (N(Math.cos(a) * 2 + 3, Math.sin(a) * 2 + 3, 3) - .5) * .32; const x = cx + Math.cos(a) * RX * r, y = cy + Math.sin(a) * RY * r; if (k % 3 === 0) { c.beginPath(); c.arc(x, y, 1.6 * S, 0, 7); c.stroke(); } }
+      c.restore();
+      // roads: two winding dirt roads across the island
+      const road = (pts) => {
+        const path = () => { c.beginPath(); c.moveTo(pts[0][0], pts[0][1]); for (let k = 1; k < pts.length - 1; k++) { const mx = (pts[k][0] + pts[k + 1][0]) / 2, my = (pts[k][1] + pts[k + 1][1]) / 2; c.quadraticCurveTo(pts[k][0], pts[k][1], mx, my); } c.lineTo(pts.at(-1)[0], pts.at(-1)[1]); };
+        c.save(); c.lineCap = 'round'; c.lineJoin = 'round';
+        path(); c.strokeStyle = 'rgba(40,34,22,.45)'; c.lineWidth = 14 * S; c.stroke();
+        path(); c.strokeStyle = '#a99468'; c.lineWidth = 10 * S; c.stroke();
+        path(); c.strokeStyle = 'rgba(255,240,200,.25)'; c.lineWidth = 1.5 * S; c.setLineDash([10 * S, 12 * S]); c.stroke(); c.restore();
+      };
+      const ring = (a0, a1, r0, r1, wob) => { const pts = []; for (let k = 0; k <= 8; k++) { const t = k / 8, a = lerp(a0, a1, t), r = lerp(r0, r1, t) + Math.sin(t * 7 + wob) * .07; pts.push([cx + Math.cos(a) * RX * r, cy + Math.sin(a) * RY * r]); } return pts; };
+      road(ring(-2.6, .4, .85, .78, rnd() * 6)); road(ring(1.2, 3.6, .8, .25, rnd() * 6));
+      // towns: clusters of roofs with soft shadows
+      const towns = [];
+      for (let k = 0; k < 40 && towns.length < 6; k++) { const a = rnd() * Math.PI * 2, r = .2 + rnd() * .62, x = cx + Math.cos(a) * RX * r, y = cy + Math.sin(a) * RY * r; if (onLand(x, y, .14) && towns.every(t => Math.hypot(t.x - x, t.y - y) > RX * .32)) towns.push({ x, y }); }
+      const roofs = [['#8a5a44', '#a06b52'], ['#5d6874', '#717d8a'], ['#7a6a52', '#93805f'], ['#6b4a3e', '#82594a']];
+      towns.forEach(t => {
+        const nb = 4 + Math.floor(rnd() * 5);
+        for (let b = 0; b < nb; b++) {
+          const x = t.x + (rnd() - .5) * RX * .18, y = t.y + (rnd() - .5) * RY * .2, w = (14 + rnd() * 16) * S, h = (10 + rnd() * 12) * S, ang = (rnd() - .5) * .5, [r1, r2] = roofs[Math.floor(rnd() * roofs.length)];
+          if (!onLand(x, y, .1)) continue;
+          c.save(); c.translate(x, y); c.rotate(ang);
+          c.fillStyle = 'rgba(0,0,0,.35)'; c.fillRect(-w / 2 + 4 * S, -h / 2 + 5 * S, w, h);
+          c.fillStyle = r1; c.fillRect(-w / 2, -h / 2, w, h / 2); c.fillStyle = r2; c.fillRect(-w / 2, 0, w, h / 2);
+          c.strokeStyle = 'rgba(20,14,10,.6)'; c.lineWidth = 1 * S; c.strokeRect(-w / 2, -h / 2, w, h); c.restore();
+        }
+      });
+      // trees: shadow, crown, highlight; denser in forest patches
+      for (let k = 0; k < 900; k++) {
+        const x = cx + (rnd() * 2 - 1) * RX * 1.05, y = cy + (rnd() * 2 - 1) * RY * 1.05; if (!onLand(x, y, .07)) continue;
+        const forest = N(x / W * 7 + 10, y / H * 7, 4); if (rnd() > (forest - .45) * 2.4) continue;
+        if (towns.some(t => Math.hypot(t.x - x, (t.y - y) * RX / RY) < RX * .12)) continue;
+        const r = (4 + rnd() * 5) * S;
+        c.beginPath(); c.arc(x + r * .5, y + r * .6, r, 0, 7); c.fillStyle = 'rgba(0,0,0,.28)'; c.fill();
+        c.beginPath(); c.arc(x, y, r, 0, 7); c.fillStyle = ['#2c5a2e', '#335f30', '#274f2a'][k % 3]; c.fill();
+        c.beginPath(); c.arc(x - r * .3, y - r * .3, r * .45, 0, 7); c.fillStyle = 'rgba(160,200,110,.25)'; c.fill();
+      }
+      // rocks
+      for (let k = 0; k < 40; k++) { const x = cx + (rnd() * 2 - 1) * RX, y = cy + (rnd() * 2 - 1) * RY; if (!onLand(x, y, .1)) continue; const r = (3 + rnd() * 5) * S;
+        c.beginPath(); c.ellipse(x + 2 * S, y + 2 * S, r * 1.2, r, 0, 0, 7); c.fillStyle = 'rgba(0,0,0,.3)'; c.fill();
+        c.beginPath(); c.ellipse(x, y, r * 1.2, r, rnd(), 0, 7); c.fillStyle = '#8d8f88'; c.fill(); c.beginPath(); c.ellipse(x - r * .3, y - r * .3, r * .5, r * .3, 0, 0, 7); c.fillStyle = 'rgba(255,255,255,.25)'; c.fill(); }
+      // gentle vignette
+      const vg = c.createRadialGradient(cx, cy, Math.min(RX, RY) * .6, cx, cy, Math.max(W, H) * .75); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,.45)');
+      c.fillStyle = vg; c.fillRect(0, 0, W, H);
+      return cv;
+    }
+    function stormTexture(seed) {
+      const N = royaleNoise(seed), s = 256, cv = document.createElement('canvas'); cv.width = cv.height = s;
+      const c = cv.getContext('2d'), img = c.createImageData(s, s), d = img.data;
+      for (let j = 0; j < s; j++) for (let i = 0; i < s; i++) {
+        // tileable: sample noise on a torus
+        const a = i / s * Math.PI * 2, b = j / s * Math.PI * 2, n = N(Math.cos(a) * 1.6 + 5, Math.sin(a) * 1.6 + Math.cos(b) * 1.6 + 5, 5) * .6 + N(Math.sin(b) * 2.2 + 9, Math.cos(a) * 2.2 + 9, 4) * .4;
+        const k = (j * s + i) * 4, v = Math.max(0, Math.min(1, (n - .35) * 2.2));
+        d[k] = 120 + v * 90; d[k + 1] = 60 + v * 70; d[k + 2] = 190 + v * 60; d[k + 3] = 90 + v * 140;
+      }
+      c.putImageData(img, 0, 0); return cv;
+    }
+
+    ANIMS.royale = function (w) {
+      return new Promise(res => {
+        const all = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 39), w]), n = all.length, wi = all.indexOf(w);
+        const { c, W, H } = stageCanvas('royale', prizeHead('Battle royale for'));
+        const seed = randInt(2 ** 31) + 1, rnd = PECore.seeded(seed ^ 0x5bd1e995);
+        const DROP = reduce ? .2 : 1.6, D = reduce ? 3.5 : 10, plan = PECore.royalePlan(n, wi, D, PECore.seeded(seed));
+        const cx = W * .5, cy = H * .6, RX = W * .4, RY = H * .37, map = royaleMap(W, H, cx, cy, RX, RY, rnd), cloud = c.createPattern(stormTexture(seed), 'repeat');
+        const S1 = Math.min(W, H) / 900, AX = W * .5, AY = H * .6;
+        const ppl = all.map((e, i) => ({ e, i, land: DROP * (.25 + rnd() * .75), wob: rnd() * 6, face: 0, dead: false, deadAt: 0, how: '', killer: -1, run: i === wi || rnd() < .6 ? 1 : .35 }));
+        const feed = [], fx = [], cam = { x: cx, y: cy, z: 1 };
+        const t0 = performance.now(); let ended = false, banner = 0, lastSfx = 0;
+        const zoneAt = e => { const ec = Math.min(1, e * 1.4); return { u: plan.center.x * ec, v: plan.center.y * ec }; };
+        const unit = (i, e) => {
+          // drift toward a spot inside the current safe zone; fast runners keep up, slow ones lag into the storm
+          const p = plan.pos[i], c0 = plan.center, z = zoneAt(e), R = PECore.royaleRadius(e * D, D), k = (e * e * (3 - 2 * e)) * ppl[i].run;
+          const tu = z.u + (p.x - c0.x) * R * .75, tv = z.v + (p.y - c0.y) * R * .75;
+          return { u: lerp(p.x, tu, k), v: lerp(p.y, tv, k) };
+        };
+        const world = (u, v) => ({ x: cx + u * RX, y: cy + v * RY });
+        const scr = (x, y) => ({ x: (x - cam.x) * cam.z + AX, y: (y - cam.y) * cam.z + AY });
+        const posOf = (p, now, e) => { if (p.dead && p.at) return p.at; const q = unit(p.i, e), j = .004 + .012 * PECore.royaleRadius(e * D, D) / 1.41; return world(q.u + Math.sin(now / 900 + p.wob) * j, q.v + Math.cos(now / 1100 + p.wob) * j * 1.3); };
+        function feedRow(text, kind) { feed.unshift({ text, kind, at: performance.now() }); if (feed.length > 5) feed.pop(); }
+        (function frame(now) {
+          if (scene !== 'royale') return;
+          const t = (now - t0) / 1000, tg = t - DROP, e = clamp01(tg / D), R = PECore.royaleRadius(Math.max(0, tg), D);
+          const sm = x => x * x * (3 - 2 * x), ec = Math.min(1, e * 1.4);
+          const zone = zoneAt(e), zw = world(zone.u, zone.v);
+          const Rn = PECore.royaleRadius(Math.min(D, Math.max(0, tg) + 2.5), D), ecn = Math.min(1, clamp01((tg + 2.5) / D) * 1.4), zn = world(plan.center.x * ecn, plan.center.y * ecn);
+          // camera eases toward the zone and zooms as it shrinks
+          const zt = Math.max(1, Math.min(1.8, (W * .34) / Math.max(1, R * RX))), ct = sm(e);
+          let fx0 = lerp(cx, zw.x, ct), fy0 = lerp(cy, zw.y, ct); if (banner) { const wp = posOf(ppl[wi], now, e); fx0 = wp.x; fy0 = wp.y; }
+          cam.z += (zt - cam.z) * .04; cam.x += (fx0 - cam.x) * .05; cam.y += (fy0 - cam.y) * .05;
+          c.clearRect(0, 0, W, H); c.fillStyle = '#0a2633'; c.fillRect(0, 0, W, H);
+          c.save(); c.translate(AX, AY); c.scale(cam.z, cam.z); c.translate(-cam.x, -cam.y);
+          c.drawImage(map, 0, 0, W, H);
+          // storm: moving clouds everywhere outside the safe zone, a glowing wall at its edge
+          if (tg > -.4) {
+            const fade = clamp01((tg + .4) / .6);
+            c.save(); c.globalAlpha = fade;
+            c.beginPath(); c.rect(-W, -H, W * 3, H * 3); c.ellipse(zw.x, zw.y, RX * R, RY * R, 0, 0, Math.PI * 2, true);
+            c.fillStyle = 'rgba(60,30,120,.3)'; c.fill();
+            c.save(); c.clip(); c.translate((now / 60) % 256, (now / 90) % 256); c.globalAlpha = .42 * fade; c.fillStyle = cloud; c.fillRect(-W - 256, -H - 256, W * 3 + 512, H * 3 + 512); c.restore();
+            c.beginPath(); c.ellipse(zw.x, zw.y, RX * R, RY * R, 0, 0, Math.PI * 2);
+            c.lineWidth = 6 / cam.z * S1 * 2; c.strokeStyle = 'rgba(214,170,255,.9)'; c.shadowColor = '#b46bff'; c.shadowBlur = 24; c.stroke(); c.shadowBlur = 0;
+            // next zone
+            if (tg < D - 1) { c.setLineDash([10 / cam.z, 8 / cam.z]); c.beginPath(); c.ellipse(zn.x, zn.y, RX * Rn, RY * Rn, 0, 0, Math.PI * 2); c.lineWidth = 2 / cam.z; c.strokeStyle = 'rgba(255,255,255,.75)'; c.stroke(); c.setLineDash([]); }
+            c.restore();
+          }
+          c.restore();
+          // lightning flashes inside the storm
+          if (tg > 0 && Math.random() < .03) { const a = Math.random() * Math.PI * 2, rr = R * 1.08 + Math.random() * .5, bp = scr(zw.x + Math.cos(a) * RX * rr, zw.y + Math.sin(a) * RY * rr); if (bp.x > 0 && bp.x < W && bp.y > H * .25 && bp.y < H) fx.push({ kind: 'bolt', x: bp.x, y: bp.y, at: now }); }
+          // players
+          const alive = ppl.filter(p => !p.dead);
+          for (const p of ppl) {
+            if (p.dead || tg < 0 || tg < plan.out[p.i]) continue;
+            // knocked out: storm if outside the zone, otherwise by the nearest rival
+            const me = posOf(p, now, e), du = ((me.x - zw.x) / RX) ** 2 / (R * R) + ((me.y - zw.y) / RY) ** 2 / (R * R);
+            let killer = -1;
+            if (du < 1) { let best = Infinity; for (const q of ppl) { if (q === p || q.dead) continue; const qp = posOf(q, now, e), dd = Math.hypot(qp.x - me.x, qp.y - me.y); if (dd < best) { best = dd; killer = q.i; } } }
+            p.at = me; p.dead = true; p.deadAt = now; p.killer = killer; p.how = killer < 0 ? 'storm' : 'shot';
+            if (killer >= 0) { const kp = posOf(ppl[killer], now, e); fx.push({ kind: 'tracer', x0: kp.x, y0: kp.y, x1: me.x, y1: me.y, at: now }); }
+            fx.push({ kind: killer < 0 ? 'zap' : 'hit', x: me.x, y: me.y, at: now });
+            feedRow(killer < 0 ? `${shortName(p.e.name, 14)} was caught by the storm` : `${shortName(ppl[killer].e.name, 14)}  ⌖  ${shortName(p.e.name, 14)}`, killer < 0 ? 'storm' : 'shot');
+            if (now - lastSfx > 80) { lastSfx = now; sfx.tick(); }
+          }
+          const showNames = alive.length <= 18;
+          for (const p of ppl) {
+            const wp = posOf(p, now, e), s = scr(wp.x, wp.y), col = RACE_COLS[p.i % RACE_COLS.length];
+            if (p.dead) {
+              const k = clamp01((now - p.deadAt) / 600);
+              c.save(); c.globalAlpha = .55 - k * .25; c.strokeStyle = '#1a1214'; c.lineWidth = 2.5 * S1 * 1.6; const r = 5 * S1 * 1.6;
+              c.beginPath(); c.moveTo(s.x - r, s.y - r); c.lineTo(s.x + r, s.y + r); c.moveTo(s.x + r, s.y - r); c.lineTo(s.x - r, s.y + r); c.stroke(); c.restore();
+              continue;
+            }
+            if (tg < 0 && t < p.land) {
+              // parachuting in
+              const k = clamp01(t / p.land), sc = 2.2 - k * 1.2, cr = 9 * S1 * 1.6 * sc;
+              c.save(); c.globalAlpha = .4 + k * .6;
+              c.beginPath(); c.ellipse(s.x, s.y + 10 * S1 * (1 - k), cr * .9, cr * .5, 0, 0, Math.PI * 2); c.fillStyle = 'rgba(0,0,0,.25)'; c.fill();
+              c.beginPath(); c.arc(s.x, s.y - cr * .6, cr, Math.PI, 0); c.fillStyle = col; c.fill(); c.strokeStyle = 'rgba(0,0,0,.5)'; c.lineWidth = 1.5; c.stroke();
+              c.beginPath(); c.moveTo(s.x - cr, s.y - cr * .6); c.lineTo(s.x, s.y); c.lineTo(s.x + cr, s.y - cr * .6); c.strokeStyle = 'rgba(255,255,255,.6)'; c.lineWidth = 1; c.stroke();
+              c.restore(); continue;
+            }
+            // facing: toward the zone, with a little wander
+            const tgtA = Math.atan2(zw.y - wp.y, zw.x - wp.x) + Math.sin(now / 700 + p.wob) * .6; p.face += Math.atan2(Math.sin(tgtA - p.face), Math.cos(tgtA - p.face)) * .08;
+            const r = 6.5 * S1 * 1.6 * Math.min(1.4, .8 + cam.z * .25), win = p.i === wi && alive.length === 1;
+            c.save(); c.translate(s.x, s.y);
+            if (win) { const pu = (now / 700) % 1; c.beginPath(); c.arc(0, 0, r * (1.4 + pu * 2.2), 0, Math.PI * 2); c.strokeStyle = `rgba(255,176,32,${1 - pu})`; c.lineWidth = 3; c.stroke(); }
+            c.beginPath(); c.ellipse(r * .25, r * .35, r * 1.05, r * .9, 0, 0, Math.PI * 2); c.fillStyle = 'rgba(0,0,0,.4)'; c.fill();
+            c.rotate(p.face);
+            c.beginPath(); c.moveTo(r * 1.9, 0); c.lineTo(r * .6, -r * .55); c.lineTo(r * .6, r * .55); c.closePath(); c.fillStyle = 'rgba(255,255,255,.85)'; c.fill();
+            c.beginPath(); c.arc(0, 0, r, 0, Math.PI * 2); c.fillStyle = win ? '#ffb020' : col; c.fill(); c.lineWidth = Math.max(1.5, r * .22); c.strokeStyle = '#101214'; c.stroke();
+            c.beginPath(); c.arc(-r * .25, -r * .3, r * .35, 0, Math.PI * 2); c.fillStyle = 'rgba(255,255,255,.35)'; c.fill();
+            c.restore();
+            if (showNames || p.i === wi && alive.length <= 3) {
+              const fs = Math.round(H * .021), label = shortName(p.e.name, 14);
+              c.font = `600 ${fs}px "Barlow", system-ui, sans-serif`; const tw = c.measureText(label).width;
+              c.fillStyle = win ? 'rgba(255,176,32,.95)' : 'rgba(10,12,14,.72)'; c.beginPath();
+              const bx = s.x - tw / 2 - fs * .45, by = s.y - r - fs * 1.9, bw = tw + fs * .9, bh = fs * 1.35;
+              if (c.roundRect) c.roundRect(bx, by, bw, bh, fs * .3); else c.rect(bx, by, bw, bh); c.fill();
+              c.fillStyle = win ? '#1c1405' : '#f2eee4'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(label, s.x, by + bh / 2 + 1);
+            }
+          }
+          // effects
+          for (let k = fx.length - 1; k >= 0; k--) {
+            const f = fx[k], a = (now - f.at) / 1000;
+            if (f.kind === 'tracer') { if (a > .18) { fx.splice(k, 1); continue; } const p0 = scr(f.x0, f.y0), p1 = scr(f.x1, f.y1), q = clamp01(a / .08);
+              c.save(); c.strokeStyle = `rgba(255,230,150,${1 - a / .18})`; c.lineWidth = 2.5; c.shadowColor = '#ffd27a'; c.shadowBlur = 8; c.beginPath(); c.moveTo(p0.x, p0.y); c.lineTo(lerp(p0.x, p1.x, q), lerp(p0.y, p1.y, q)); c.stroke(); c.restore(); }
+            else if (f.kind === 'hit' || f.kind === 'zap') { if (a > .55) { fx.splice(k, 1); continue; } const p = scr(f.x, f.y), k2 = a / .55, col = f.kind === 'zap' ? '196,140,255' : '255,214,120';
+              c.save(); c.globalAlpha = 1 - k2; c.beginPath(); c.arc(p.x, p.y, (6 + k2 * 26) * S1 * 1.6, 0, Math.PI * 2); c.strokeStyle = `rgb(${col})`; c.lineWidth = 3 * (1 - k2) + 1; c.stroke();
+              for (let s2 = 0; s2 < 8; s2++) { const an = s2 / 8 * Math.PI * 2 + f.at, d2 = (5 + k2 * 22) * S1 * 1.6; c.fillStyle = `rgb(${col})`; c.fillRect(p.x + Math.cos(an) * d2 - 1.5, p.y + Math.sin(an) * d2 - 1.5, 3, 3); } c.restore(); }
+            else if (f.kind === 'bolt') { if (a > .25) { fx.splice(k, 1); continue; } c.save(); c.globalAlpha = (1 - a / .25) * .9; c.strokeStyle = '#efe2ff'; c.lineWidth = 2; c.shadowColor = '#c38bff'; c.shadowBlur = 14; c.beginPath(); c.moveTo(f.x, f.y - H * .25);
+              let yy = f.y - H * .25, xx = f.x; while (yy < f.y) { yy += H * .035; xx += (Math.random() - .5) * W * .025; c.lineTo(xx, yy); } c.stroke(); c.restore(); }
+          }
+          // plane crossing during the drop
+          if (tg < 0 && !reduce) {
+            const k = clamp01(t / DROP), px = lerp(-W * .1, W * 1.1, k), py = lerp(H * .42, H * .78, k), ang = Math.atan2(H * .36, W * 1.2);
+            c.save(); c.translate(px, py); c.rotate(ang); const L = 34 * S1 * 1.6;
+            c.fillStyle = 'rgba(0,0,0,.25)'; c.beginPath(); c.ellipse(10, 18, L, L * .2, 0, 0, Math.PI * 2); c.fill();
+            c.fillStyle = '#d9d4c7'; c.beginPath(); c.ellipse(0, 0, L, L * .16, 0, 0, Math.PI * 2); c.fill();
+            c.beginPath(); c.moveTo(-L * .1, 0); c.lineTo(-L * .35, -L * .8); c.lineTo(L * .1, 0); c.lineTo(-L * .35, L * .8); c.closePath(); c.fill();
+            c.beginPath(); c.moveTo(-L * .85, 0); c.lineTo(-L, -L * .3); c.lineTo(-L * .75, 0); c.lineTo(-L, L * .3); c.closePath(); c.fill();
+            c.restore();
+          }
+          // HUD: alive, storm bar, kill feed
+          const hud = H * .028, hx = W * .965;
+          c.textAlign = 'right'; c.textBaseline = 'top';
+          c.fillStyle = 'rgba(10,12,14,.72)'; const pillW = hud * 7.2; if (c.roundRect) { c.beginPath(); c.roundRect(hx - pillW, H * .045, pillW, hud * 2.2, hud * .4); c.fill(); } else c.fillRect(hx - pillW, H * .045, pillW, hud * 2.2);
+          c.font = `italic 900 ${hud * 1.6}px "Big Shoulders Display", Impact, sans-serif`; c.fillStyle = alive.length <= 1 ? '#ffb020' : '#f2eee4'; c.fillText(String(alive.length), hx - hud * 3.6, H * .045 + hud * .3);
+          c.font = `700 ${hud * .8}px "Barlow Condensed", sans-serif`; c.fillStyle = 'rgba(242,238,228,.75)'; c.fillText('ALIVE', hx - hud * .5, H * .045 + hud * .8);
+          const barW = pillW, by = H * .045 + hud * 2.6; c.fillStyle = 'rgba(10,12,14,.72)'; c.fillRect(hx - barW, by, barW, hud * .45);
+          c.fillStyle = '#b46bff'; c.fillRect(hx - barW, by, barW * clamp01(tg / D), hud * .45);
+          c.font = `700 ${hud * .7}px "Barlow Condensed", sans-serif`; c.fillStyle = 'rgba(242,238,228,.7)'; c.fillText(tg < 0 ? 'DROPPING IN' : tg < D ? 'STORM CLOSING' : 'FINAL CIRCLE', hx, by + hud * .7);
+          feed.forEach((f, k) => {
+            const age = (now - f.at) / 1000; if (age > 3.2) return;
+            const y = by + hud * 2 + k * hud * 1.55, a = Math.min(1, 3.2 - age) * Math.min(1, age * 6);
+            c.save(); c.globalAlpha = a; c.font = `600 ${hud * .85}px "Barlow", system-ui, sans-serif`;
+            const tw = c.measureText(f.text).width; c.fillStyle = 'rgba(10,12,14,.7)'; c.fillRect(hx - tw - hud * .8, y, tw + hud * .8, hud * 1.3);
+            c.fillStyle = f.kind === 'storm' ? '#d6b0ff' : '#f2eee4'; c.textBaseline = 'middle'; c.fillText(f.text, hx - hud * .4, y + hud * .67); c.restore();
+          });
+          if (alive.length === 1 && tg >= D) {
+            if (!banner) { banner = now; sfx.thunk(); }
+            const k = clamp01((now - banner) / 350);
+            c.save(); c.globalAlpha = k; c.textAlign = 'center'; c.textBaseline = 'middle';
+            c.fillStyle = 'rgba(10,12,14,.7)'; c.fillRect(0, H * .84 - H * .065, W, H * .13);
+            c.font = `italic 900 ${H * .075}px "Big Shoulders Display", Impact, sans-serif`; c.fillStyle = '#ffb020'; c.fillText('LAST ONE STANDING', W / 2, H * .84);
+            c.restore();
+            if (now - banner > (reduce ? 300 : 1300) && !ended) { ended = true; res(); return; }
+          }
+          loopRaf = requestAnimationFrame(frame);
+        })(performance.now());
+      });
+    };
+
+    // ---------- claw machine ----------
+    // a gacha capsule: tinted see-through top, cream base, seam, name sticker
+    function capsule(c, x, y, r, col, rot, label) {
+      const TAU = Math.PI * 2;
+      c.save(); c.translate(x, y); c.rotate(rot);
+      // base
+      let g = c.createRadialGradient(-r * .3, r * .1, r * .1, 0, 0, r * 1.05); g.addColorStop(0, '#fbf7ec'); g.addColorStop(.7, '#d9d2c1'); g.addColorStop(1, '#8e8778');
+      c.beginPath(); c.arc(0, 0, r, 0, Math.PI); c.closePath(); c.fillStyle = g; c.fill();
+      // tinted dome
+      g = c.createRadialGradient(-r * .35, -r * .5, r * .05, 0, -r * .1, r * 1.05); g.addColorStop(0, shadeHex(col, .55)); g.addColorStop(.55, col); g.addColorStop(1, shadeHex(col, -.55));
+      c.beginPath(); c.arc(0, 0, r, Math.PI, TAU); c.closePath(); c.fillStyle = g; c.globalAlpha = .95; c.fill(); c.globalAlpha = 1;
+      // inside of the dome
+      c.beginPath(); c.ellipse(0, -r * .05, r * .78, r * .2, 0, Math.PI, TAU); c.fillStyle = 'rgba(0,0,0,.18)'; c.fill();
+      // seam
+      c.fillStyle = shadeHex(col, -.4); c.fillRect(-r, -r * .06, r * 2, r * .12);
+      c.fillStyle = 'rgba(255,255,255,.35)'; c.fillRect(-r * .98, -r * .06, r * 1.96, r * .03);
+      // sticker
+      const fs = r * .36, txt = shortName(label, 12); c.font = `700 ${fs}px "Barlow Condensed", "Barlow", sans-serif`;
+      const tw = Math.min(r * 1.45, c.measureText(txt).width), sw = tw + r * .24, sh = fs * 1.25, sy = r * .48;
+      c.fillStyle = 'rgba(255,255,255,.92)'; if (c.roundRect) { c.beginPath(); c.roundRect(-sw / 2, sy - sh / 2, sw, sh, sh * .25); c.fill(); } else c.fillRect(-sw / 2, sy - sh / 2, sw, sh);
+      c.fillStyle = '#1a1c20'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(txt, 0, sy + fs * .05, r * 1.45);
+      // rim and highlights
+      c.beginPath(); c.arc(0, 0, r, 0, TAU); c.lineWidth = Math.max(1, r * .04); c.strokeStyle = 'rgba(0,0,0,.45)'; c.stroke();
+      c.beginPath(); c.ellipse(-r * .38, -r * .52, r * .34, r * .16, -.55, 0, TAU); c.fillStyle = 'rgba(255,255,255,.55)'; c.fill();
+      c.beginPath(); c.arc(-r * .5, -r * .5, r * .07, 0, TAU); c.fillStyle = '#fff'; c.fill();
+      c.restore();
+    }
+    const metal = (c, x0, y0, x1, y1, stops) => { const g = c.createLinearGradient(x0, y0, x1, y1); stops.forEach(([o, col]) => g.addColorStop(o, col)); return g; };
+    const STEEL = [[0, '#5b6168'], [.25, '#d7dbe0'], [.5, '#8a9098'], [.75, '#c3c8ce'], [1, '#4b5056']];
+
+    ANIMS.claw = function (w) {
+      return new Promise(res => {
+        const caps = shuffle([...shuffle(S.entries.filter(e => e.id !== w.id)).slice(0, 15), w]), n = caps.length;
+        const { c, W, H } = stageCanvas('claw', prizeHead('The claw picks for'));
+        const tl = PECore.clawTimeline(reduce ? .4 : 1), endT = tl[tl.length - 1].end, TAU = Math.PI * 2;
+        const railY = H * .3, floorY = H * .95, bx0 = W * .2, bx1 = W * .965, chX0 = W * .035, chX1 = W * .165, chTop = H * .62;
+        const cr = Math.min(W * .04, H * .068), homeX = (chX0 + chX1) / 2, chuteX = homeX, topY = railY + H * .07;
+        // capsule pile: a mound of rows, a little jumbled
+        const rows = [7, 6, 3], pile = [], midX = (bx0 + bx1) / 2 + W * .02; let k = 0;
+        rows.forEach((cnt, r) => { for (let q = 0; q < cnt && k < n; q++, k++) pile.push({ e: caps[k], col: RACE_COLS[k % RACE_COLS.length], rot: (Math.random() - .5) * .6,
+          x: midX + (q - (cnt - 1) / 2) * cr * 2.06 + (Math.random() - .5) * cr * .25, y: floorY - cr * 1.02 - r * cr * 1.74 + (Math.random() - .5) * cr * .12 }); });
+        const target = pile.find(p => p.e.id === w.id), decoy = pile.filter(p => p !== target)[randInt(Math.max(1, pile.length - 1))] || target;
+        const grabY = target.y - cr * 1.15;
+        // static art: back wall, floor, chute, and the glass front
+        const back = document.createElement('canvas'); back.width = W; back.height = H; const b = back.getContext('2d');
+        b.fillStyle = metal(b, 0, railY, 0, floorY, [[0, '#191c22'], [.7, '#101216'], [1, '#08090b']]); b.fillRect(bx0, railY, bx1 - bx0, floorY - railY);
+        for (let x = bx0 + W * .02; x < bx1; x += W * .028) { b.fillStyle = 'rgba(255,255,255,.018)'; b.fillRect(x, railY, W * .012, floorY - railY); }
+        const glow = b.createRadialGradient(midX, railY + H * .05, 0, midX, railY + H * .05, W * .5); glow.addColorStop(0, 'rgba(255,200,120,.16)'); glow.addColorStop(1, 'rgba(255,200,120,0)');
+        b.fillStyle = glow; b.fillRect(bx0, railY, bx1 - bx0, floorY - railY);
+        b.fillStyle = metal(b, 0, floorY - cr * .5, 0, floorY, [[0, '#2a2e35'], [1, '#121418']]); b.fillRect(bx0, floorY - cr * .5, bx1 - bx0, cr * .5);
+        // chute: dark well behind clear acrylic, lit sign above
+        b.fillStyle = metal(b, 0, chTop, 0, floorY, [[0, '#121418'], [1, '#050607']]); b.fillRect(chX0, chTop, chX1 - chX0, floorY - chTop);
+        b.save(); b.shadowColor = '#ffb020'; b.shadowBlur = H * .03; b.font = `italic 900 ${H * .042}px "Big Shoulders Display", Impact, sans-serif`; b.fillStyle = '#ffcf6a'; b.textAlign = 'center'; b.textBaseline = 'middle'; b.fillText('PRIZE', homeX, chTop - H * .04); b.restore();
+        const front = document.createElement('canvas'); front.width = W; front.height = H; const f = front.getContext('2d');
+        f.fillStyle = 'rgba(190,220,255,.07)'; f.fillRect(chX0, chTop, chX1 - chX0, floorY - chTop);
+        f.strokeStyle = 'rgba(220,235,255,.35)'; f.lineWidth = 2; f.strokeRect(chX0 + 1, chTop + 1, chX1 - chX0 - 2, floorY - chTop - 2);
+        // glass reflections
+        f.save(); f.beginPath(); f.rect(bx0, railY, bx1 - bx0, floorY - railY); f.clip();
+        [[.18, .07], [.31, .03], [.62, .05]].forEach(([p, a]) => { const x = bx0 + (bx1 - bx0) * p; f.fillStyle = `rgba(255,255,255,${a})`; f.beginPath(); f.moveTo(x, railY); f.lineTo(x + W * .07, railY); f.lineTo(x - W * .1, floorY); f.lineTo(x - W * .17, floorY); f.closePath(); f.fill(); });
+        f.restore();
+        // cabinet posts and base trim
+        [bx0 - W * .012, bx1].forEach(x => { f.fillStyle = metal(f, x, 0, x + W * .012, 0, STEEL); f.fillRect(x, railY - H * .02, W * .012, floorY - railY + H * .02); });
+        f.fillStyle = metal(f, 0, floorY, 0, H, [[0, '#3b4047'], [1, '#15171a']]); f.fillRect(chX0 - W * .01, floorY, bx1 - chX0 + W * .022, H - floorY);
+        let held = false, dropped = false, ended = false, lastPhase = '', dropY = 0, dropV = 0, bounced = false;
+        const t0 = performance.now();
+        function claw(x, y, open, holding) {
+          // cable and floor shadow first
+          const sh = clamp01((y - railY) / (floorY - railY)), shg = c.createRadialGradient(x, floorY - cr * .35, 0, x, floorY - cr * .35, cr * (2.2 - sh));
+          shg.addColorStop(0, `rgba(0,0,0,${.15 + sh * .35})`); shg.addColorStop(1, 'rgba(0,0,0,0)'); c.fillStyle = shg; c.fillRect(x - cr * 3, floorY - cr * 1.5, cr * 6, cr * 2.4);
+          c.fillStyle = metal(c, x - 2, 0, x + 2, 0, [[0, '#6c7279'], [.5, '#e5e8ec'], [1, '#6c7279']]); c.fillRect(x - 1.6, railY + H * .02, 3.2, y - railY - H * .02);
+          const ang = .5 + open * .5, backLen = cr * (1.35 - open * .45);
+          // back prong, behind the capsule
+          c.save(); c.translate(x, y + cr * .2); c.fillStyle = metal(c, -cr * .1, 0, cr * .1, 0, [[0, '#3f444a'], [.5, '#9aa0a8'], [1, '#3f444a']]);
+          c.beginPath(); c.moveTo(-cr * .09, 0); c.lineTo(cr * .09, 0); c.lineTo(cr * .05, backLen); c.lineTo(-cr * .05, backLen); c.closePath(); c.fill(); c.restore();
+          if (holding) capsule(c, x, y + cr * 1.15, cr, target.col, 0, target.e.name);
+          // side prongs: arm, knuckle, curved finger
+          [-1, 1].forEach(sd => {
+            c.save(); c.translate(x + sd * cr * .35, y + cr * .2); c.rotate(-sd * ang);
+            const L1 = cr * 1.0, L2 = cr * .78, wd = cr * .13;
+            c.fillStyle = metal(c, -wd, 0, wd, 0, STEEL);
+            c.beginPath(); c.moveTo(-wd, 0); c.lineTo(wd, 0); c.lineTo(wd * .8, L1); c.lineTo(-wd * .8, L1); c.closePath(); c.fill();
+            c.translate(0, L1); c.rotate(sd * 1.1);
+            c.beginPath(); c.moveTo(-wd * .8, 0); c.lineTo(wd * .8, 0); c.quadraticCurveTo(wd * .6, L2 * .6, -sd * wd * 1.2, L2); c.lineTo(-sd * wd * 2.2, L2 * .92); c.quadraticCurveTo(-wd * .7 * sd, L2 * .5, -wd * .8, 0); c.closePath(); c.fill();
+            c.beginPath(); c.arc(0, 0, wd * 1.05, 0, TAU); c.fillStyle = metal(c, -wd, -wd, wd, wd, [[0, '#f2f4f6'], [1, '#50555c']]); c.fill();
+            c.restore();
+          });
+          // hub
+          c.fillStyle = metal(c, x - cr * .45, 0, x + cr * .45, 0, STEEL);
+          if (c.roundRect) { c.beginPath(); c.roundRect(x - cr * .45, y - cr * .32, cr * .9, cr * .6, cr * .12); c.fill(); } else c.fillRect(x - cr * .45, y - cr * .32, cr * .9, cr * .6);
+          c.fillStyle = 'rgba(0,0,0,.35)'; c.fillRect(x - cr * .45, y + cr * .12, cr * .9, cr * .08);
+          c.fillStyle = '#ff3d2e'; c.beginPath(); c.arc(x, y - cr * .08, cr * .07, 0, TAU); c.fill();
+        }
+        (function frame(now) {
+          if (scene !== 'claw') return;
+          const t = (now - t0) / 1000, ph = PECore.clawPhase(tl, t), e = easeQuart(ph.k);
+          if (ph.name !== lastPhase) { lastPhase = ph.name; if (ph.name === 'grab') sfx.thunk(); if (ph.name === 'release') sfx.pop(); if (ph.name === 'toWinner') sfx.tick(); }
+          let x = homeX, y = topY, open = 1;
+          if (ph.name === 'toDecoy') x = lerp(homeX, decoy.x, e);
+          else if (ph.name === 'tease') { x = decoy.x + Math.sin(ph.k * Math.PI * 4) * cr * .15; }
+          else if (ph.name === 'toWinner') x = lerp(decoy.x, target.x, e);
+          else if (ph.name === 'drop') { x = target.x; y = lerp(topY, grabY, e); }
+          else if (ph.name === 'grab') { x = target.x; y = grabY; open = 1 - ph.k; held = ph.k > .6; }
+          else if (ph.name === 'lift') { x = target.x + Math.sin(ph.k * Math.PI * 5) * cr * .2 * (1 - ph.k); y = lerp(grabY, topY, e); open = 0; held = true; }
+          else if (ph.name === 'toChute') { x = lerp(target.x, chuteX, e); open = 0; }
+          else if (ph.name === 'release') { x = chuteX; open = ph.k; if (!dropped && ph.k > .3) { dropped = true; held = false; } }
+          else if (ph.name === 'done') { x = chuteX; }
+          c.clearRect(0, 0, W, H);
+          c.drawImage(back, 0, 0);
+          const inPile = p => p !== target || (!held && !dropped);
+          pile.forEach(p => { if (inPile(p)) ballShadow(c, p.x, p.y, cr, .45); });
+          pile.forEach(p => { if (inPile(p)) capsule(c, p.x, p.y, cr, p.col, p.rot, p.e.name); });
+          if (dropped) {
+            dropV += H * .0016; dropY += dropV; const yMax = floorY - cr * 1.02 - (topY + cr * 1.15);
+            if (dropY > yMax) { dropY = yMax; if (!bounced) { bounced = true; dropV = -dropV * .3; sfx.pop(); } else dropV = 0; }
+            capsule(c, chuteX, topY + cr * 1.15 + dropY, cr, target.col, bounced ? .25 : 0, target.e.name);
+          }
+          // gantry rail and carriage
+          c.fillStyle = metal(c, 0, railY - H * .03, 0, railY + H * .015, [[0, '#2b2f35'], [.3, '#c7ccd2'], [.55, '#6b7178'], [1, '#22252a']]); c.fillRect(chX0 - W * .01, railY - H * .03, bx1 - chX0 + W * .022, H * .045);
+          for (let bx = chX0 + W * .02; bx < bx1; bx += W * .06) { c.fillStyle = 'rgba(0,0,0,.4)'; c.beginPath(); c.arc(bx, railY - H * .008, H * .004, 0, TAU); c.fill(); }
+          const cw = cr * 1.5; c.fillStyle = metal(c, 0, railY - H * .04, 0, railY + H * .03, [[0, '#e1e4e8'], [.5, '#8d939a'], [1, '#3c4046']]);
+          if (c.roundRect) { c.beginPath(); c.roundRect(x - cw / 2, railY - H * .04, cw, H * .07, H * .008); c.fill(); } else c.fillRect(x - cw / 2, railY - H * .04, cw, H * .07);
+          // chasing lights along the top
+          const nb = 26; for (let i = 0; i < nb; i++) { const lx = chX0 + (bx1 - chX0) * (i + .5) / nb, on = (i + Math.floor(now / 140)) % 3 === 0;
+            c.beginPath(); c.arc(lx, railY - H * .055, H * .007, 0, TAU); c.fillStyle = on ? '#ffd27a' : '#5a4320'; c.shadowColor = '#ffb020'; c.shadowBlur = on ? H * .02 : 0; c.fill(); c.shadowBlur = 0; }
+          claw(x, y, open, held);
+          c.drawImage(front, 0, 0);
+          if (t >= endT && !ended) { ended = true; setTimeout(res, 200); return; }
+          loopRaf = requestAnimationFrame(frame);
+        })(performance.now());
+      });
+    };
+
+    function reveal(w, label = 'Winner') {
+      const nm = w.name, fs = Math.min(13, 125 / Math.max(6, nm.length));
+      setScene('reveal', `<div class="reveal"><p class="eyebrow">${esc(label)}</p><h3 class="wname" style="font-size:${fs.toFixed(2)}cqw">${[...nm].map((ch, i) => `<span style="animation-delay:${i * 45}ms">${esc(ch)}</span>`).join('')}</h3><p class="p1">${esc(S.line1 || '')}</p>${S.line2 ? `<p class="p2">${esc(S.line2)}</p>` : ''}</div>`);
+      sfx.fanfare(); confetti(170);
+    }
+
+    function guessRevealAnim(list, range, secret, best) {
+      return new Promise(res => {
+        const { c, W, H } = stageCanvas('guess', prizeHead('Guess the number', 'center'));
+        const x0 = W * .08, x1 = W * .92, ly = H * .7, X = v => lerp(x0, x1, (v - range.min) / (range.max - range.min));
+        const dur = reduce ? 1 : 2.6, t0 = performance.now(); let last = null, landed = false, ended = false;
+        const stacks = new Map(); list.forEach(x => stacks.set(x.g, (stacks.get(x.g) || 0) + 1));
+        (function frame(now) {
+          if (scene !== 'guess') return;
+          const t = (now - t0) / 1000, k = easeQuart(clamp01(t / dur)), v = Math.round(lerp(range.min, secret, k));
+          if (v !== last) { last = v; if (!landed) sfx.tick(); }
+          c.clearRect(0, 0, W, H);
+          c.strokeStyle = '#8b9098'; c.lineWidth = 4; c.beginPath(); c.moveTo(x0, ly); c.lineTo(x1, ly); c.stroke();
+          c.font = `700 ${H * .03}px "Barlow Condensed", sans-serif`; c.fillStyle = 'rgba(236,228,207,.7)'; c.textAlign = 'center'; c.textBaseline = 'top';
+          c.fillText(String(range.min), x0, ly + 12); c.fillText(String(range.max), x1, ly + 12);
+          const seen = new Map();
+          list.forEach(x => {
+            const n = seen.get(x.g) || 0; seen.set(x.g, n + 1);
+            const px = X(x.g), py = ly - H * .03 - n * H * .028, win = landed && x.id === best.id;
+            c.beginPath(); c.arc(px, py, H * (win ? .016 : .011), 0, Math.PI * 2); c.fillStyle = win ? '#ffb020' : 'rgba(236,228,207,.65)'; c.fill();
+          });
+          // pointer rolling toward the secret number
+          const px = X(v);
+          c.fillStyle = '#ff3d2e'; c.beginPath(); c.moveTo(px, ly - 6); c.lineTo(px - H * .025, ly - H * .2); c.lineTo(px + H * .025, ly - H * .2); c.closePath(); c.fill();
+          c.font = `italic 900 ${H * .1}px "Big Shoulders Display", Impact, sans-serif`; c.textBaseline = 'bottom'; c.fillStyle = landed ? '#ffb020' : '#ece4cf';
+          c.fillText(String(v), Math.max(W * .1, Math.min(W * .9, px)), ly - H * .21);
+          if (!landed && t >= dur) { landed = true; sfx.thunk(); }
+          if (landed) {
+            const bx = X(best.g); c.strokeStyle = '#ffb020'; c.lineWidth = 3; c.beginPath(); c.arc(bx, ly - H * .03, H * .03, 0, Math.PI * 2); c.stroke();
+            nameTag(c, bx, ly + H * .1, `${shortName(best.name, 16)} · ${best.g}`, H * .035, '#ffb020');
+          }
+          if (landed && t >= dur + (reduce ? .4 : 1.6) && !ended) { ended = true; res(); return; }
+          loopRaf = requestAnimationFrame(frame);
+        })(performance.now());
+      });
+    }
+    const CHAT_NAMES = VIEWERS;
+    function playFirst(w) {
+      return new Promise(res => {
+        const code = PECore.makeCode(randInt);
+        setScene('game', `<div class="game"><p class="eyebrow">First to type wins</p><h3 class="p1">${esc(S.line1)}</h3><div class="code">${esc(code)}</div><p class="sub">Type it in chat. First one wins.</p></div><div class="guess-feed" id="dFeed"></div>`);
+        const near = [code.slice(0, -1), code.toLowerCase() + '!', 'what was it??', 'so close', 'is it ' + code.toLowerCase()];
+        let k = 0;
+        const iv = setInterval(() => {
+          const f = document.getElementById('dFeed'); if (!f || scene !== 'game') { clearInterval(iv); return; }
+          const done = k++ >= 6, el = document.createElement('span');
+          el.textContent = done ? `${w.name}: ${code.toLowerCase()}` : `${CHAT_NAMES[randInt(CHAT_NAMES.length)]}: ${near[randInt(near.length)]}`;
+          f.prepend(el); while (f.children.length > 6) f.lastChild.remove();
+          if (done) { clearInterval(iv); setTimeout(() => { reveal(w, 'Fastest fingers'); res('revealed'); }, 700); }
+        }, reduce ? 150 : 520);
+      });
+    }
+    function playGuess() {
+      return new Promise(res => {
+        const range = { min: 1, max: 100 }, secret = 1 + randInt(100), list = [];
+        setScene('game', `<div class="game"><p class="eyebrow">Guess the number</p><h3 class="p1">${esc(S.line1)}</h3><div class="big">1 – 100</div><p class="sub">Type a number in chat. Closest guess wins.</p></div><div class="game-count"><b id="dN">0</b><span>guesses</span></div><div class="guess-feed" id="dFeed"></div>`);
+        const people = shuffle(S.entries).slice(0, 14); let k = 0;
+        const iv = setInterval(async () => {
+          const f = document.getElementById('dFeed'); if (!f || scene !== 'game') { clearInterval(iv); return; }
+          if (k >= people.length) {
+            clearInterval(iv);
+            const best = PECore.guessWinner(list, secret);
+            await guessRevealAnim(list, range, secret, best);
+            if (scene === 'guess') reveal(best, best.d === 0 ? 'Exact guess!' : 'Closest guess');
+            res('revealed'); return;
+          }
+          const u = people[k], g = 1 + randInt(100); list.push({ ...u, g, t: k++ });
+          const el = document.createElement('span'); el.textContent = `${u.name}: ${g}`; f.prepend(el); while (f.children.length > 6) f.lastChild.remove();
+          document.getElementById('dN').textContent = list.length;
+        }, reduce ? 90 : 330);
+      });
+    }
+    let current = 'eater', token = 0, onScreen = false;
+    if ('IntersectionObserver' in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; }).observe(dScreen); else onScreen = true;
+    async function runDraws() {
+      const my = ++token;
+      setScene('idle', '');
+      while (my === token) {
+        if (!onScreen || document.hidden) { await sleep(300); continue; }
+        const w = S.entries[randInt(S.entries.length)];
+        const how = current === 'first' ? await playFirst(w) : current === 'guess' ? await playGuess() : await ANIMS[current](w);
+        if (my !== token) return;
+        if (how !== 'revealed') reveal(w);
+        await sleep(3400);
+      }
+    }
+    document.querySelectorAll('.pick').forEach(btn => btn.addEventListener('click', () => {
+      current = btn.dataset.anim;
+      document.querySelectorAll('.pick').forEach(x => x.setAttribute('aria-pressed', x === btn ? 'true' : 'false'));
+      parts = []; runDraws();
+    }));
+    runDraws();
+  }
+})();
+</script>
+<script>
+// Download buttons point at the build for the visitor's system. Without JavaScript they stay on Windows.
+(() => {
+  const R = 'https://github.com/f00d4tehg0dz/prize-eater-releases/releases/latest/download/', ua = navigator.userAgent, uad = navigator.userAgentData;
+  const plat = (uad && uad.platform) || navigator.platform || '', touch = navigator.maxTouchPoints > 1;
+  const os = /mac/i.test(plat) && !touch ? 'mac' : /linux/i.test(plat) && !/android/i.test(ua) ? 'linux' : /win/i.test(plat) ? 'win' : '';
+  const DL = { win: ['Download for Windows', 'PrizeEater-Setup.exe'], mac: ['Download for Mac', 'PrizeEater-mac-arm64.dmg'], linux: ['Download for Linux', 'PrizeEater-linux-x64.deb'] };
+  if (!DL[os]) return;
+  const set = file => document.querySelectorAll('[data-dl]').forEach(a => { a.href = R + file; if (a.dataset.dl === 'label') a.textContent = DL[os][0]; });
+  set(DL[os][1]);
+  // Safari can't tell Apple Silicon from Intel, so Macs default to Apple Silicon; Chrome and Edge can tell
+  if (os === 'mac' && uad && uad.getHighEntropyValues) uad.getHighEntropyValues(['architecture']).then(v => { if (v.architecture === 'x86') set('PrizeEater-mac-x64.dmg'); }).catch(() => {});
+})();
+</script>
+</body>
+</html>
